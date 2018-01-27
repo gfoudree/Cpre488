@@ -1,0 +1,95 @@
+
+*** Running vivado
+    with args -log MP0_design_1_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MP0_design_1_xbar_0.tcl
+
+
+
+****** Vivado v2017.1_sdx (64-bit)
+  **** SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+  **** IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1460] Use of init.tcl in C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+source MP0_design_1_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 338.590 ; gain = 82.281
+INFO: [Synth 8-638] synthesizing module 'MP0_design_1_xbar_0' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_xbar_0/synth/MP0_design_1_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_axi_crossbar' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_crossbar_sasd' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_addr_decoder' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (2#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (2#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized3' (2#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized4' (2#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_addr_decoder' (3#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (4#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (4#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_decerr_slave' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_decerr_slave' (5#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_addr_arbiter_sasd' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (5#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_addr_arbiter_sasd' (6#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_splitter' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_splitter' (7#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_splitter__parameterized0' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_splitter__parameterized0' (7#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (7#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized3' (7#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' (8#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized4' [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized4' (8#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_crossbar_sasd' (9#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_axi_crossbar' (10#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'MP0_design_1_xbar_0' (11#1) [u:/CPR E 488 git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_xbar_0/synth/MP0_design_1_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 460.563 ; gain = 204.254
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:24 . Memory (MB): peak = 460.563 ; gain = 204.254
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.142 . Memory (MB): peak = 711.129 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 711.129 ; gain = 454.820
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 711.129 ; gain = 454.820
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:37 . Memory (MB): peak = 711.129 ; gain = 454.820
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:38 . Memory (MB): peak = 711.129 ; gain = 454.820
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:41 . Memory (MB): peak = 711.129 ; gain = 454.820
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:54 . Memory (MB): peak = 711.129 ; gain = 454.820
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:56 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    35|
+|3     |LUT3 |    16|
+|4     |LUT4 |   164|
+|5     |LUT5 |    90|
+|6     |LUT6 |   272|
+|7     |FDRE |   243|
+|8     |FDSE |     1|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:57 . Memory (MB): peak = 747.430 ; gain = 491.121
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:01:00 . Memory (MB): peak = 747.430 ; gain = 491.121

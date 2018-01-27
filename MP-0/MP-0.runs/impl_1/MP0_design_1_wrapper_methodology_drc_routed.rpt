@@ -1,0 +1,324 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Fri Jan 26 18:09:27 2018
+| Host         : CO2041-04 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file MP0_design_1_wrapper_methodology_drc_routed.rpt -rpx MP0_design_1_wrapper_methodology_drc_routed.rpx
+| Design       : MP0_design_1_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 51
++-----------+----------+---------------------------------------------------+------------+
+| Rule      | Severity | Description                                       | Violations |
++-----------+----------+---------------------------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay                     | 35         |
+| XDCB-1    | Warning  | Runtime intensive exceptions                      | 1          |
+| XDCB-5    | Warning  | Runtime inefficient way to find pin objects       | 2          |
+| XDCC-2    | Warning  | Scoped Non-Timing constraint/property overwritten | 13         |
++-----------+----------+---------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[5] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[6] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[7] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[5] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[6] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on leds_8bits_tri_o[7] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[0] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[10] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[11] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[1] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[2] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[3] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[4] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[5] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[6] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#31 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[7] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#32 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[8] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#33 Warning
+Missing input or output delay  
+An output delay is missing on vga_out[9] relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#34 Warning
+Missing input or output delay  
+An output delay is missing on vid_hsync_out relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+TIMING-18#35 Warning
+Missing input or output delay  
+An output delay is missing on vid_vsync_out relative to clock(s) clk_fpga_1 
+Related violations: <none>
+
+XDCB-1#1 Warning
+Runtime intensive exceptions  
+The following constraint contains more than 1000 objects. To preserve runtime and memory performance, it is recommended to include minimum number of objects. Check whether this list can be simplified.
+-to = expands to 1808 design objects. 
+set_max_delay -datapath_only -from [get_clocks -of [get_ports -scoped_to_current_instance s_axi_aclk]] -to [all_registers -clock [get_clocks -of [get_...
+c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_v_tc_0_0/MP0_design_1_v_tc_0_0_clocks.xdc (Line: 6)
+Related violations: <none>
+
+XDCB-5#1 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ */COUPLER_INST/FIFO_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/*rstblk*/*PRE*}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '14' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_v_axi4s_vid_out_0_0/MP0_design_1_v_axi4s_vid_out_0_0_clocks.xdc (Line: 14)
+Related violations: <none>
+
+XDCB-5#2 Warning
+Runtime inefficient way to find pin objects  
+The option '-to : [get_pins -hierarchical -filter {NAME =~ */COUPLER_INST/FIFO_INST/FIFO_INST/inst_fifo_gen/gconvfifo.rf/grf.rf/*rstblk*/*PRE*}]' of constraint 'set_false_path' uses inefficient query to find pin objects (see constraint position '15' in the Timing Constraint window in Vivado IDE). To reduce runtime, it is recommended to get the pins through the cell objects. Please refer to Using Constraints Guide (Constraints Efficiency). An example of optimal query is: get_pins -filter {REF_PIN_NAME=~yy*} -of_objects [get_cells -hierarchical xx*].
+Current XDC: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_v_axi4s_vid_out_0_0/MP0_design_1_v_axi4s_vid_out_0_0_clocks.xdc (Line: 15)
+Related violations: <none>
+
+XDCC-2#1 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[0] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 48)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_1_0/MP0_design_1_axi_gpio_1_0_board.xdc (Line: 3)
+Related violations: <none>
+
+XDCC-2#2 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[1] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 48)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_1_0/MP0_design_1_axi_gpio_1_0_board.xdc (Line: 5)
+Related violations: <none>
+
+XDCC-2#3 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[2] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 48)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_1_0/MP0_design_1_axi_gpio_1_0_board.xdc (Line: 7)
+Related violations: <none>
+
+XDCC-2#4 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[3] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 48)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_1_0/MP0_design_1_axi_gpio_1_0_board.xdc (Line: 9)
+Related violations: <none>
+
+XDCC-2#5 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[4] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 48)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_1_0/MP0_design_1_axi_gpio_1_0_board.xdc (Line: 11)
+Related violations: <none>
+
+XDCC-2#6 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[0] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 3)
+Related violations: <none>
+
+XDCC-2#7 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[1] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 5)
+Related violations: <none>
+
+XDCC-2#8 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[2] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 7)
+Related violations: <none>
+
+XDCC-2#9 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[3] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 9)
+Related violations: <none>
+
+XDCC-2#10 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[4] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 11)
+Related violations: <none>
+
+XDCC-2#11 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[5] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 13)
+Related violations: <none>
+
+XDCC-2#12 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[6] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 53)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 15)
+Related violations: <none>
+
+XDCC-2#13 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[7] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: C:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/constrs_1/new/debug.xdc (Line: 48)
+Previous Source: c:/Users/njknuth/CPR_E_488_git/MP-0/MP-0.srcs/sources_1/bd/MP0_design_1/ip/MP0_design_1_axi_gpio_2_0/MP0_design_1_axi_gpio_2_0_board.xdc (Line: 17)
+Related violations: <none>
+
+

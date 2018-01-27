@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Jan 26 09:31:52 2018
+# Process ID: 13176
+# Current directory: U:/CPR_E_488_git/MP-0/MP-0.runs/MP0_design_1_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log MP0_design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MP0_design_1_processing_system7_0_0.tcl
+# Log file: U:/CPR_E_488_git/MP-0/MP-0.runs/MP0_design_1_processing_system7_0_0_synth_1/MP0_design_1_processing_system7_0_0.vds
+# Journal file: U:/CPR_E_488_git/MP-0/MP-0.runs/MP0_design_1_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MP0_design_1_processing_system7_0_0.tcl -notrace
