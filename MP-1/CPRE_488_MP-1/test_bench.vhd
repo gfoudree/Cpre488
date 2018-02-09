@@ -37,7 +37,14 @@ end test_bench;
 
 architecture Behavioral of test_bench is
 
+    component axi_ppm_v1_0_S00_AXI
+    port
+    (
+        
+    )
+
 begin
+    
 
 
 end Behavioral;
