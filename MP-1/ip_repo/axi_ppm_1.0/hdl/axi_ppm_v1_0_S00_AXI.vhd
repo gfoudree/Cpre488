@@ -553,7 +553,8 @@ begin
         if(S_AXI_ARESETN = '0') then 
             PS <= A; 
             reg_addr <= x"4";
-            ppm_capture_count <= x"0";
+            ppm_capture_count <= x"00000000";
+            slv_reg1 <= x"00000000";
         elsif(rising_edge(PPM_CLK)) then 
             PS <= NS;
             if(ppm_capture_count_en = '1') then
@@ -595,8 +596,11 @@ begin
                                 slv_reg9 <= ppm_capture_count;
                                 reg_addr <= x"4";
                                 ppm_capture_idle <= '1';
+                                slv_reg1 <= std_logic_vector(unsigned(slv_reg1) + 1);
+                            when others =>
+                                
                         end case;
-                        ppm_capture_count <= x"0";
+                        ppm_capture_count <= x"00000000";
                     else
                         ppm_capture_idle <= '0';
                     end if;

@@ -1,0 +1,20 @@
+//my.files.iastate.edu/Users/njknuth/Desktop/Cpre488/MP-1/ModelSim/ppm_capture.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/njknuth/Desktop/Cpre488/MP-1/ModelSim/ppm_capture.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ppm_capture
+-- Compiling architecture arc of ppm_capture
+
+} {} {}} //my.files.iastate.edu/Users/njknuth/Desktop/Cpre488/MP-1/ModelSim/ppm_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/njknuth/Desktop/Cpre488/MP-1/ModelSim/ppm_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity ppm_tb
+-- Compiling architecture tb1 of ppm_tb
+
+} {} {}}

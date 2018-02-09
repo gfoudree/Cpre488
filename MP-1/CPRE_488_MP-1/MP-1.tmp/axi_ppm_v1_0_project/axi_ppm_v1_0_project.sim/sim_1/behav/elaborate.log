@@ -1,0 +1,8 @@
+Vivado Simulator 2017.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.1/bin/unwrapped/win64.o/xelab.exe -wto 6b01809f9eb84c46a6488d7b6e3ed7cc --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot axi_ppm_v1_0_behav xil_defaultlib.axi_ppm_v1_0 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-704] formal ppm_in has no actual or default value [u:/desktop/cpre488/mp-1/ip_repo/axi_ppm_1.0/hdl/axi_ppm_v1_0_S00_AXI.vhd:19]
+ERROR: [VRFC 10-704] formal ppm_clk has no actual or default value [u:/desktop/cpre488/mp-1/ip_repo/axi_ppm_1.0/hdl/axi_ppm_v1_0_S00_AXI.vhd:20]
+ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit axi_ppm_v1_0 in library work failed.
