@@ -1,6 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  "../../../../../../ip_repo/axi_ppm_1.0/hdl/axi_ppm_v1_0_S00_AXI.vhd"
-vhdl xil_defaultlib  "../../../../../../ip_repo/axi_ppm_1.0/hdl/axi_ppm_v1_0.vhd"
-
-# Do not sort compile order
-nosort

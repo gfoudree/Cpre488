@@ -86,6 +86,23 @@ end axi_ppm_v1_0_S00_AXI;
 
 architecture arch_imp of axi_ppm_v1_0_S00_AXI is
 
+    component ppm_capture
+        port (
+            -- Users to add ports here
+                PPM_IN  : in std_logic;
+                PPM_CLK  : in std_logic;
+            S_AXI_ARESETN : in std_logic;
+            slv_reg0 : in std_logic_vector(31 downto 0);
+            slv_reg1 : inout std_logic_vector(31 downto 0);
+            slv_reg4 : out std_logic_vector(31 downto 0);
+            slv_reg5 : out std_logic_vector(31 downto 0);
+            slv_reg6 : out std_logic_vector(31 downto 0);
+            slv_reg7 : out std_logic_vector(31 downto 0);
+            slv_reg8 : out std_logic_vector(31 downto 0);
+            slv_reg9 : out std_logic_vector(31 downto 0)
+        );
+    end component ppm_capture;
+
 	-- AXI4LITE signals
 	signal axi_awaddr	: std_logic_vector(C_S_AXI_ADDR_WIDTH-1 downto 0);
 	signal axi_awready	: std_logic;
@@ -609,5 +626,21 @@ begin
         end case;
     end process comb_proc;
 	-- User logic ends
+
+    my_ppm_capture : ppm_capture
+    port map
+    (
+      PPM_IN        => PPM_IN,     
+      PPM_CLK       => PPM_CLK,       
+      S_AXI_ARESETN => S_AXI_ARESETN,
+      slv_reg0	=> slv_reg0,
+      slv_reg1	=> slv_reg1,
+      slv_reg4	=> slv_reg4,
+      slv_reg5	=> slv_reg5,
+      slv_reg6	=> slv_reg6,
+      slv_reg7	=> slv_reg7,
+      slv_reg8	=> slv_reg8,
+      slv_reg9	=> slv_reg9
+    );
 
 end arch_imp;
