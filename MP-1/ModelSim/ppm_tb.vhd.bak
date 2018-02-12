@@ -38,13 +38,20 @@ component ppm_capture
         	PPM_CLK  : in std_logic;
 		S_AXI_ARESETN : in std_logic;
 		slv_reg0 : in std_logic_vector(31 downto 0);
-		slv_reg1 : inout std_logic_vector(31 downto 0);
-		slv_reg4 : out std_logic_vector(31 downto 0);
-		slv_reg5 : out std_logic_vector(31 downto 0);
-		slv_reg6 : out std_logic_vector(31 downto 0);
-		slv_reg7 : out std_logic_vector(31 downto 0);
-		slv_reg8 : out std_logic_vector(31 downto 0);
-		slv_reg9 : out std_logic_vector(31 downto 0)
+		slv_reg1_out : out std_logic_vector(31 downto 0);
+		slv_reg4_out : out std_logic_vector(31 downto 0);
+		slv_reg5_out : out std_logic_vector(31 downto 0);
+		slv_reg6_out : out std_logic_vector(31 downto 0);
+		slv_reg7_out : out std_logic_vector(31 downto 0);
+		slv_reg8_out : out std_logic_vector(31 downto 0);
+		slv_reg9_out : out std_logic_vector(31 downto 0);
+		slv_reg1_in : in std_logic_vector(31 downto 0);
+		slv_reg4_in : in std_logic_vector(31 downto 0);
+		slv_reg5_in : in std_logic_vector(31 downto 0);
+		slv_reg6_in : in std_logic_vector(31 downto 0);
+		slv_reg7_in : in std_logic_vector(31 downto 0);
+		slv_reg8_in : in std_logic_vector(31 downto 0);
+		slv_reg9_in : in std_logic_vector(31 downto 0)
 	);
 end component ppm_capture;
 
@@ -61,6 +68,15 @@ type my_input_states is (S0, S1, S2, S3, S4, S5, S6, S7, S8, S9, S10, S11,
 	signal reset : std_logic;
 	signal clk : std_logic;
 	signal input_state    : my_input_states;  -- Direct which input vector to use
+	signal slv_reg1 : std_logic_vector(31 downto 0);
+	signal slv_reg4 : std_logic_vector(31 downto 0);
+	signal slv_reg5 : std_logic_vector(31 downto 0);
+	signal slv_reg6 : std_logic_vector(31 downto 0);
+	signal slv_reg7 : std_logic_vector(31 downto 0);
+	signal slv_reg8 : std_logic_vector(31 downto 0);
+	signal slv_reg9 : std_logic_vector(31 downto 0);
+
+
 
 
 
@@ -167,10 +183,10 @@ begin
 			ppm <= '0';
 			input_state <= S25;
 		when S25 =>
-			ppm <= '1';
+			ppm <= '0';
 			input_state <= S26;
 		when S26 =>
-			ppm <= '0';
+			ppm <= '1';
 			input_state <= S27;
 		when S27 =>
 			ppm <= '0';
@@ -198,6 +214,20 @@ port map
   PPM_CLK       => clk,       
   S_AXI_ARESETN => reset,
   slv_reg0	=> x"00000000"
+  slv_reg1_out => slv_reg1,
+		slv_reg4_out => slv_reg4,
+		slv_reg5_out  => slv_reg5,
+		slv_reg6_out => slv_reg6,
+		slv_reg7_out => slv_reg7,
+		slv_reg8_out  => slv_reg8,
+		slv_reg9_out => slv_reg9,
+		slv_reg1_in => slv_reg1,
+		slv_reg4_in => slv_reg4,
+		slv_reg5_in => slv_reg5,
+		slv_reg6_in => slv_reg6,
+		slv_reg7_in => slv_reg7,
+		slv_reg8_in => slv_reg8,
+		slv_reg9_in => slv_reg9
 );
 
 

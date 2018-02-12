@@ -1,0 +1,8 @@
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd" 
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd" 
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/CPRE_488_MP-1/ppm_generation.vhd" 
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd" 
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/ip/MP_1_Design_1_axi_ppm_0_0/sim/MP_1_Design_1_axi_ppm_0_0.vhd" 
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/ip/MP_1_Design_1_rst_ps7_0_100M_0/sim/MP_1_Design_1_rst_ps7_0_100M_0.vhd" 
+vhdl xil_defaultlib "../../../bd/MP_1_Design_1/hdl/MP_1_Design_1.vhd" 
+nosort

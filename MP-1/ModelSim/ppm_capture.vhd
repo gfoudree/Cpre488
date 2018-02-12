@@ -10,13 +10,20 @@ entity ppm_capture is
         	PPM_CLK  : in std_logic;
 		S_AXI_ARESETN : in std_logic;
 		slv_reg0 : in std_logic_vector(31 downto 0);
-		slv_reg1 : inout std_logic_vector(31 downto 0);
-		slv_reg4 : inout std_logic_vector(31 downto 0);
-		slv_reg5 : inout std_logic_vector(31 downto 0);
-		slv_reg6 : inout std_logic_vector(31 downto 0);
-		slv_reg7 : inout std_logic_vector(31 downto 0);
-		slv_reg8 : inout std_logic_vector(31 downto 0);
-		slv_reg9 : inout std_logic_vector(31 downto 0)
+		slv_reg1_in : in std_logic_vector(31 downto 0);
+		slv_reg4_in : in std_logic_vector(31 downto 0);
+		slv_reg5_in : in std_logic_vector(31 downto 0);
+		slv_reg6_in : in std_logic_vector(31 downto 0);
+		slv_reg7_in : in std_logic_vector(31 downto 0);
+		slv_reg8_in : in std_logic_vector(31 downto 0);
+		slv_reg9_in : in std_logic_vector(31 downto 0);
+		slv_reg1_out : out std_logic_vector(31 downto 0);
+		slv_reg4_out : out std_logic_vector(31 downto 0);
+		slv_reg5_out : out std_logic_vector(31 downto 0);
+		slv_reg6_out : out std_logic_vector(31 downto 0);
+		slv_reg7_out : out std_logic_vector(31 downto 0);
+		slv_reg8_out : out std_logic_vector(31 downto 0);
+		slv_reg9_out : out std_logic_vector(31 downto 0)
 	);
 end ppm_capture;
 
@@ -45,26 +52,26 @@ begin
             PS <= A; 
             reg_addr <= x"4";
             ppm_capture_count <= x"00000002";
-            slv_reg1 <= x"00000000";
-            slv_reg4 <= x"00000000";
-            slv_reg5 <= x"00000000";
-            slv_reg6 <= x"00000000";
-            slv_reg7 <= x"00000000";
-            slv_reg8 <= x"00000000";
-            slv_reg9 <= x"00000000";
+            slv_reg1_out <= x"00000000";
+            slv_reg4_out <= x"00000000";
+            slv_reg5_out <= x"00000000";
+            slv_reg6_out <= x"00000000";
+            slv_reg7_out <= x"00000000";
+            slv_reg8_out <= x"00000000";
+            slv_reg9_out <= x"00000000";
 	   
         elsif(rising_edge(PPM_CLK)) then 
             PS <= NS;
 	    reg_addr <= next_reg_addr;
 	    ppm_capture_count_en <= next_ppm_capture_count_en;
 	    ppm_capture_count_reset <= next_ppm_capture_count_reset;
-	    slv_reg1 <= next_slv_reg1;
-	    slv_reg4 <= next_slv_reg4;
-	    slv_reg5 <= next_slv_reg5;
-	    slv_reg6 <= next_slv_reg6;
-	    slv_reg7 <= next_slv_reg7;
-	    slv_reg8 <= next_slv_reg8;
-	    slv_reg9 <= next_slv_reg9;
+	    slv_reg1_out <= next_slv_reg1;
+	    slv_reg4_out <= next_slv_reg4;
+	    slv_reg5_out <= next_slv_reg5;
+	    slv_reg6_out <= next_slv_reg6;
+	    slv_reg7_out <= next_slv_reg7;
+	    slv_reg8_out <= next_slv_reg8;
+	    slv_reg9_out <= next_slv_reg9;
 	    if(ppm_capture_count_reset = '1') then
 	    	ppm_capture_count <= x"00000002";
 		ppm_capture_count_reset <= '0';
@@ -80,13 +87,13 @@ begin
 	next_reg_addr <= reg_addr;
 	next_ppm_capture_count_en <= ppm_capture_count_en;
 	next_ppm_capture_count_reset <= ppm_capture_count_reset;
-	next_slv_reg1 <= slv_reg1;
-	next_slv_reg4 <= slv_reg4;
-	next_slv_reg5 <= slv_reg5;
-	next_slv_reg6 <= slv_reg6;
-	next_slv_reg7 <= slv_reg7;
-	next_slv_reg8 <= slv_reg8;
-	next_slv_reg9 <= slv_reg9;
+	next_slv_reg1 <= slv_reg1_in;
+	next_slv_reg4 <= slv_reg4_in;
+	next_slv_reg5 <= slv_reg5_in;
+	next_slv_reg6 <= slv_reg6_in;
+	next_slv_reg7 <= slv_reg7_in;
+	next_slv_reg8 <= slv_reg8_in;
+	next_slv_reg9 <= slv_reg9_in;
 
 
         case PS is
@@ -120,7 +127,7 @@ begin
                             when x"9" =>
                                 next_slv_reg9 <= ppm_capture_count;
                                 next_reg_addr <= x"4";
-                                next_slv_reg1 <= std_logic_vector(unsigned(slv_reg1) + 1);
+                                next_slv_reg1 <= std_logic_vector(unsigned(slv_reg1_in) + 1);
 				NS <= A;
 			    when others =>
                         end case;

@@ -1,0 +1,74 @@
+
+*** Running vivado
+    with args -log MP_1_Design_1_axi_ppm_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MP_1_Design_1_axi_ppm_0_0.tcl
+
+
+
+****** Vivado v2017.1_sdx (64-bit)
+  **** SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+  **** IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1460] Use of init.tcl in C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+source MP_1_Design_1_axi_ppm_0_0.tcl -notrace
+Command: synth_design -top MP_1_Design_1_axi_ppm_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2908 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 322.395 ; gain = 74.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MP_1_Design_1_axi_ppm_0_0' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ip/MP_1_Design_1_axi_ppm_0_0/synth/MP_1_Design_1_axi_ppm_0_0.vhd:85]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'axi_ppm_v1_0' declared at 'u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:5' bound to instance 'U0' of component 'axi_ppm_v1_0' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ip/MP_1_Design_1_axi_ppm_0_0/synth/MP_1_Design_1_axi_ppm_0_0.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'axi_ppm_v1_0' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:52]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+WARNING: [Synth 8-5640] Port 'ppm_in' is missing in component declaration [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:55]
+WARNING: [Synth 8-5640] Port 'ppm_clk' is missing in component declaration [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:55]
+WARNING: [Synth 8-5640] Port 'ppm_out' is missing in component declaration [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:55]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-3491] module 'axi_ppm_v1_0_S00_AXI' declared at 'u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:5' bound to instance 'axi_ppm_v1_0_S00_AXI_inst' of component 'axi_ppm_v1_0_S00_AXI' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:88]
+INFO: [Synth 8-638] synthesizing module 'axi_ppm_v1_0_S00_AXI' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:88]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:296]
+INFO: [Synth 8-226] default block is never used [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:534]
+WARNING: [Synth 8-614] signal 'slv_reg0' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-614] signal 'slv_reg4' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-614] signal 'slv_reg5' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-614] signal 'slv_reg6' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-614] signal 'slv_reg7' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-614] signal 'slv_reg8' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-614] signal 'slv_reg9' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:592]
+INFO: [Synth 8-3491] module 'ppm_capture' declared at 'u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:6' bound to instance 'my_ppm_capture' of component 'ppm_capture' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:606]
+INFO: [Synth 8-638] synthesizing module 'ppm_capture' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:30]
+ERROR: [Synth 8-27] else clause after check for clock not supported [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:105]
+WARNING: [Synth 8-614] signal 'reg_addr' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'ppm_capture_count_en' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg1_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg4_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg5_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg6_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg7_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg8_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+WARNING: [Synth 8-614] signal 'slv_reg9_in' is read in the process but is not in the sensitivity list [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:84]
+ERROR: [Synth 8-285] failed synthesizing module 'ppm_capture' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/src/ppm_capture.vhd:30]
+ERROR: [Synth 8-285] failed synthesizing module 'axi_ppm_v1_0_S00_AXI' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0_S00_AXI.vhd:88]
+ERROR: [Synth 8-285] failed synthesizing module 'axi_ppm_v1_0' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ipshared/4d36/hdl/axi_ppm_v1_0.vhd:52]
+ERROR: [Synth 8-285] failed synthesizing module 'MP_1_Design_1_axi_ppm_0_0' [u:/Documents/CprE 488/Labs/Cpre488/MP-1/CPRE_488_MP-1/MP-1.srcs/sources_1/bd/MP_1_Design_1/ip/MP_1_Design_1_axi_ppm_0_0/synth/MP_1_Design_1_axi_ppm_0_0.vhd:85]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 362.727 ; gain = 114.402
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+10 Infos, 19 Warnings, 0 Critical Warnings and 6 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 11 19:58:19 2018...

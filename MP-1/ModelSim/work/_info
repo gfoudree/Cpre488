@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/modeltech64_10.5b/examples
 Eppm_capture
-Z0 w1518198334
+Z0 w1518392296
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,13 +18,13 @@ Z5 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/Mod
 Z6 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_capture.vhd
 l0
 L6
-VTgJ;Bc9IifJUOCZRJRmCh0
-!s100 UTQ::5[?FI1:h[5n57jJY0
+VlCJF>D?l;4C@TSQDEP?Ge3
+!s100 cZ<>:oRfQm^=TefBn6QR12
 Z7 OL;C;10.5b;63
 32
-Z8 !s110 1518198342
+Z8 !s110 1518392714
 !i10b 1
-Z9 !s108 1518198341.000000
+Z9 !s108 1518392714.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_capture.vhd|
 Z11 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_capture.vhd|
 !i113 0
@@ -34,13 +34,13 @@ Aarc
 R1
 R2
 R3
-DEx4 work 11 ppm_capture 0 22 TgJ;Bc9IifJUOCZRJRmCh0
+DEx4 work 11 ppm_capture 0 22 lCJF>D?l;4C@TSQDEP?Ge3
 32
 R8
-l40
-L23
-VcegRo[_HfaQn8lDEAPVYm2
-!s100 o;GPdjG:jiQa>><2PdGCo3
+l47
+L30
+V3Ah1bM3aHhchfBAC4GgJS2
+!s100 ck`aP`k_DU0cjLkF7nQ>T3
 R7
 !i10b 1
 R9
@@ -49,46 +49,130 @@ R11
 !i113 0
 R12
 R13
-Eppm_tb
-Z14 w1518198474
-Z15 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z16 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Eppm_generation
+Z14 w1518390617
+R1
 R2
 R3
 R4
-Z17 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd
-Z18 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd
+Z15 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_generation.vhd
+Z16 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_generation.vhd
+l0
+L6
+VZkhDZWknAEEIK8klzC_dR0
+!s100 M4^f`:O@_cc^lz^J]d=>e2
+R7
+32
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_generation.vhd|
+Z18 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_generation.vhd|
+!i113 0
+R12
+R13
+Aarc
+R1
+R2
+R3
+DEx4 work 14 ppm_generation 0 22 ZkhDZWknAEEIK8klzC_dR0
+l35
+L23
+Voah`GDla2DnESjiR99X[V3
+!s100 `c<Nf?Qo>>Be>7M<R=zVi2
+R7
+32
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 0
+R12
+R13
+Eppm_tb
+Z19 w1518392727
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z21 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R2
+R3
+R4
+Z22 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd
+Z23 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd
 l0
 L19
 VTFiLdUblI9gZbD2g]>?aV0
 !s100 _oFzZTiYcPj6jd8kk`Wjn0
 R7
 32
-Z19 !s110 1518198487
+Z24 !s110 1518392734
 !i10b 1
-Z20 !s108 1518198487.000000
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd|
-Z22 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd|
+Z25 !s108 1518392733.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd|
+Z27 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb.vhd|
 !i113 0
 R12
 R13
 Atb1
-R15
-R16
+R20
+R21
 R2
 R3
 DEx4 work 6 ppm_tb 0 22 TFiLdUblI9gZbD2g]>?aV0
 32
-R19
-l67
+R24
+l83
 L26
-VchU`F_AfKklkj0o>Uj9Yo3
-!s100 ne:C6YdeS3>Z`f>5jSi0z2
+V6j]9E2eTfcIWWK>0d=P=c2
+!s100 fPH__@93SN4SmMNQ@2Z090
 R7
 !i10b 1
+R25
+R26
+R27
+!i113 0
+R12
+R13
+Eppm_tb_gen
+Z28 w1518387853
 R20
 R21
-R22
+R2
+R3
+R4
+Z29 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb_gen.vhd
+Z30 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb_gen.vhd
+l0
+L19
+V<S^9=Rb9T650]X]M7gNAO2
+!s100 dgB_>8:m@h1N?o8Gn3L8E2
+R7
+32
+Z31 !s110 1518392715
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb_gen.vhd|
+Z33 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 488/Labs/Cpre488/MP-1/ModelSim/ppm_tb_gen.vhd|
+!i113 0
+R12
+R13
+Atb1
+R20
+R21
+R2
+R3
+DEx4 work 10 ppm_tb_gen 0 22 <S^9=Rb9T650]X]M7gNAO2
+l66
+L26
+V5N;]^J6d9e;9aNNaH33h73
+!s100 SYo4lf=2TgRZCHYaE:a`n3
+R7
+32
+R31
+!i10b 1
+R9
+R32
+R33
 !i113 0
 R12
 R13
