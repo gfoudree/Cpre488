@@ -124,11 +124,11 @@ int fmc_imageon_enable( camera_config_t *config )
 
 
    // FMC-IMAGEON VITA Camera Receiver Initialization
-//   xil_printf( "FMC-IMAGEON VITA Camera Initialization ...\n\r" );
-//   onsemi_vita_init( &(config->onsemi_vita), "VITA-2000", config->uBaseAddr_VITA_SPI, config->uBaseAddr_VITA_CAM);
-//   config->onsemi_vita.uManualTap = 25;
+   xil_printf( "FMC-IMAGEON VITA Camera Initialization ...\n\r" );
+   onsemi_vita_init( &(config->onsemi_vita), "VITA-2000", config->uBaseAddr_VITA_SPI, config->uBaseAddr_VITA_CAM);
+   config->onsemi_vita.uManualTap = 25;
    // Assuming a 75 MHz AXI-Lite SPI bus
-//   onsemi_vita_spi_config( &(config->onsemi_vita), (75000000/10000000) ); // AXI-Lite SPI Speed (HZ) / 10,000,000 Hz
+   onsemi_vita_spi_config( &(config->onsemi_vita), (75000000/10000000) ); // AXI-Lite SPI Speed (HZ) / 10,000,000 Hz
 
 
 
@@ -299,51 +299,51 @@ int fmc_imageon_disable_tpg( camera_config_t *config ) {
 int fmc_imageon_enable_vita( camera_config_t *config ) {
    int ret;
 
-   // VITA-2000 Initialization
-//   xil_printf( "FMC-IMAGEON VITA Initialization ...\n\r" );
-//   ret = onsemi_vita_sensor_initialize( &(config->onsemi_vita), SENSOR_INIT_ENABLE, config->bVerbose );
-//   if (ret == 0) {
-//      xil_printf("VITA sensor failed to initialize ...\n\r");
-//      return -1;
-//   }
+    //VITA-2000 Initialization
+   xil_printf( "FMC-IMAGEON VITA Initialization ...\n\r" );
+   ret = onsemi_vita_sensor_initialize( &(config->onsemi_vita), SENSOR_INIT_ENABLE, config->bVerbose );
+   if (ret == 0) {
+      xil_printf("VITA sensor failed to initialize ...\n\r");
+      return -1;
+   }
 
-//   onsemi_vita_sensor_initialize( &(config->onsemi_vita), SENSOR_INIT_STREAMON, config->bVerbose);
-//   sleep(1);
+   onsemi_vita_sensor_initialize( &(config->onsemi_vita), SENSOR_INIT_STREAMON, config->bVerbose);
+   sleep(1);
 
-//   xil_printf("FMC-IMAGEON VITA Configuration for 1080P60 timing ...\n\r");
-//   ret = onsemi_vita_sensor_1080P60( &(config->onsemi_vita), config->bVerbose);
-//   if (ret == 0 ) {
-//      xil_printf( "VITA sensor failed to configure for 1080P60 timing ...\n\r" );
-//      return -1;
-//   }
-//   sleep(1);
+   xil_printf("FMC-IMAGEON VITA Configuration for 1080P60 timing ...\n\r");
+   ret = onsemi_vita_sensor_1080P60( &(config->onsemi_vita), config->bVerbose);
+   if (ret == 0 ) {
+      xil_printf( "VITA sensor failed to configure for 1080P60 timing ...\n\r" );
+      return -1;
+   }
+   sleep(1);
 
-//   onsemi_vita_get_status( &(config->onsemi_vita), &(config->vita_status_t1), 0/*config->bVerbose*/);
-//   sleep(1);
-//   onsemi_vita_get_status( &(config->onsemi_vita), &(config->vita_status_t2), 0/*config->bVerbose*/);
+   onsemi_vita_get_status( &(config->onsemi_vita), &(config->vita_status_t1), 0/*config->bVerbose*/);
+   sleep(1);
+   onsemi_vita_get_status( &(config->onsemi_vita), &(config->vita_status_t2), 0/*config->bVerbose*/);
 
-//   int vita_width, vita_height, vita_rate, vita_crc;
-//   vita_width = config->vita_status_t1.cntImagePixels * 4;
-//   vita_height = config->vita_status_t1.cntImageLines;
-//   vita_rate = config->vita_status_t2.cntFrames - config->vita_status_t1.cntFrames;
-//   vita_crc = config->vita_status_t2.crcStatus;
-//   xil_printf("VITA Status = \n\r");
-//   xil_printf("\tImage Width  = %d\n\r", vita_width);
-//   xil_printf("\tImage Height = %d\n\r", vita_height);
-//   xil_printf("\tFrame Rate   = %d frames/sec\n\r", vita_rate);
-//   xil_printf("\tCRC = %d\n\r", vita_crc);
+   int vita_width, vita_height, vita_rate, vita_crc;
+   vita_width = config->vita_status_t1.cntImagePixels * 4;
+   vita_height = config->vita_status_t1.cntImageLines;
+   vita_rate = config->vita_status_t2.cntFrames - config->vita_status_t1.cntFrames;
+   vita_crc = config->vita_status_t2.crcStatus;
+   xil_printf("VITA Status = \n\r");
+   xil_printf("\tImage Width  = %d\n\r", vita_width);
+   xil_printf("\tImage Height = %d\n\r", vita_height);
+   xil_printf("\tFrame Rate   = %d frames/sec\n\r", vita_rate);
+   xil_printf("\tCRC = %d\n\r", vita_crc);
 
-//   if ( config->bVerbose )
-//   {
-//     onsemi_vita_get_status( &(config->onsemi_vita), &(config->vita_status_t2), 1 );
-//   }
+   if ( config->bVerbose )
+   {
+     onsemi_vita_get_status( &(config->onsemi_vita), &(config->vita_status_t2), 1 );
+   }
 
 
-//   if ((vita_width != 1920) || (vita_height != 1080) || (vita_rate == 0)) {
-//	   return 1;
-//   }
-//
-//   return 0;
+   if ((vita_width != 1920) || (vita_height != 1080) || (vita_rate == 0)) {
+	   return 1;
+   }
+
+   return 0;
 }
 
 

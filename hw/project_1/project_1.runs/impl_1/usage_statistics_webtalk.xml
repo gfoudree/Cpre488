@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Fri Mar  2 11:45:28 2018'>
+<webTalkData  fileName='usage_statistics_webtalk.xml'  majorVersion='1' minorVersion='0' timeStamp='Sat Mar  3 14:24:30 2018'>
 <section name="__ROOT__" level="0" order="1" description="">
  <section name="software_version_and_target_device" level="1" order="1" description="">
   <keyValuePair key="beta" value="FALSE" description="" />
   <keyValuePair key="build_version" value="1846317" description="" />
-  <keyValuePair key="date_generated" value="Fri Mar  2 11:45:27 2018" description="" />
+  <keyValuePair key="date_generated" value="Sat Mar  3 14:24:29 2018" description="" />
   <keyValuePair key="os_platform" value="WIN64" description="" />
   <keyValuePair key="product_version" value="Vivado v2017.1 (64-bit)" description="" />
   <keyValuePair key="project_id" value="d27b673ab54d4c319cc279d914bbdf68" description="" />
-  <keyValuePair key="project_iteration" value="2" description="" />
+  <keyValuePair key="project_iteration" value="3" description="" />
   <keyValuePair key="random_id" value="bdfc68116d24528398d83d4607f07c26" description="" />
   <keyValuePair key="registration_id" value="174156856_174156857_210589608_946" description="" />
   <keyValuePair key="route_design" value="TRUE" description="" />
@@ -2256,10 +2256,10 @@
    <keyValuePair key="-verilog_define" value="default::[not_specified]" description="" />
   </section>
   <section name="usage" level="2" order="2" description="">
-   <keyValuePair key="elapsed" value="00:01:28s" description="" />
+   <keyValuePair key="elapsed" value="00:01:27s" description="" />
    <keyValuePair key="hls_ip" value="0" description="" />
-   <keyValuePair key="memory_gain" value="424.988MB" description="" />
-   <keyValuePair key="memory_peak" value="785.621MB" description="" />
+   <keyValuePair key="memory_gain" value="424.957MB" description="" />
+   <keyValuePair key="memory_peak" value="785.672MB" description="" />
   </section>
  </section>
  <section name="unisim_transformation" level="1" order="11" description="">
@@ -2348,21 +2348,21 @@
  <section name="vivado_usage" level="1" order="12" description="">
   <section name="gui_resources" level="2" order="1" description="">
    <keyValuePair key="basedialog_cancel" value="6" description="" />
-   <keyValuePair key="basedialog_ok" value="22" description="" />
+   <keyValuePair key="basedialog_ok" value="24" description="" />
    <keyValuePair key="clkconfigtreetablepanel_clk_config_tree_table" value="5" description="" />
    <keyValuePair key="cmdmsgdialog_messages" value="2" description="" />
    <keyValuePair key="cmdmsgdialog_ok" value="3" description="" />
    <keyValuePair key="coretreetablepanel_core_tree_table" value="7" description="" />
    <keyValuePair key="expruntreepanel_exp_run_tree_table" value="7" description="" />
    <keyValuePair key="filesetpanel_file_set_panel_tree" value="8" description="" />
-   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="7" description="" />
+   <keyValuePair key="flownavigatortreepanel_flow_navigator_tree" value="10" description="" />
    <keyValuePair key="gettingstartedview_open_project" value="2" description="" />
    <keyValuePair key="hcodeeditor_search_text_combo_box" value="1" description="" />
    <keyValuePair key="hpopuptitle_close" value="2" description="" />
    <keyValuePair key="launchpanel_dont_show_this_dialog_again" value="1" description="" />
    <keyValuePair key="mainmenumgr_edit" value="14" description="" />
-   <keyValuePair key="mainmenumgr_export" value="6" description="" />
-   <keyValuePair key="mainmenumgr_file" value="10" description="" />
+   <keyValuePair key="mainmenumgr_export" value="7" description="" />
+   <keyValuePair key="mainmenumgr_file" value="14" description="" />
    <keyValuePair key="mainmenumgr_floorplanning" value="2" description="" />
    <keyValuePair key="mainmenumgr_flow" value="14" description="" />
    <keyValuePair key="mainmenumgr_help" value="4" description="" />
@@ -2370,8 +2370,8 @@
    <keyValuePair key="mainmenumgr_io_planning" value="2" description="" />
    <keyValuePair key="mainmenumgr_open" value="1" description="" />
    <keyValuePair key="mainmenumgr_open_block_design" value="1" description="" />
-   <keyValuePair key="mainmenumgr_open_recent_file" value="2" description="" />
-   <keyValuePair key="mainmenumgr_open_recent_project" value="4" description="" />
+   <keyValuePair key="mainmenumgr_open_recent_file" value="4" description="" />
+   <keyValuePair key="mainmenumgr_open_recent_project" value="6" description="" />
    <keyValuePair key="mainmenumgr_report" value="2" description="" />
    <keyValuePair key="mainmenumgr_settings" value="1" description="" />
    <keyValuePair key="mainmenumgr_timing" value="2" description="" />
@@ -2388,7 +2388,7 @@
    <keyValuePair key="pacommandnames_disconnect_rsb_pin" value="4" description="" />
    <keyValuePair key="pacommandnames_export_hardware" value="1" description="" />
    <keyValuePair key="pacommandnames_ip_settings" value="1" description="" />
-   <keyValuePair key="pacommandnames_launch_hardware" value="3" description="" />
+   <keyValuePair key="pacommandnames_launch_hardware" value="5" description="" />
    <keyValuePair key="pacommandnames_simulation_run" value="1" description="" />
    <keyValuePair key="pacommandnames_zoom_fit" value="1" description="" />
    <keyValuePair key="pacommandnames_zoom_in" value="3" description="" />
@@ -2402,6 +2402,7 @@
    <keyValuePair key="saveprojectutils_save" value="1" description="" />
    <keyValuePair key="selectmenu_highlight" value="6" description="" />
    <keyValuePair key="stalemoreaction_out_of_date_details" value="1" description="" />
+   <keyValuePair key="syntheticagettingstartedview_recent_projects" value="2" description="" />
    <keyValuePair key="systembuildermenu_ip_documentation" value="3" description="" />
    <keyValuePair key="systembuildermenu_save_as_pdf_file" value="2" description="" />
    <keyValuePair key="systembuilderview_add_ip" value="6" description="" />
@@ -2418,10 +2419,10 @@
    <keyValuePair key="editredo" value="2" description="" />
    <keyValuePair key="editundo" value="6" description="" />
    <keyValuePair key="newexporthardware" value="1" description="" />
-   <keyValuePair key="newlaunchhardware" value="3" description="" />
-   <keyValuePair key="openblockdesign" value="2" description="" />
+   <keyValuePair key="newlaunchhardware" value="5" description="" />
+   <keyValuePair key="openblockdesign" value="3" description="" />
    <keyValuePair key="openproject" value="2" description="" />
-   <keyValuePair key="runbitgen" value="3" description="" />
+   <keyValuePair key="runbitgen" value="4" description="" />
    <keyValuePair key="showview" value="1" description="" />
    <keyValuePair key="toolssettings" value="1" description="" />
    <keyValuePair key="viewtaskimplementation" value="1" description="" />
@@ -2429,7 +2430,7 @@
    <keyValuePair key="zoomin" value="7" description="" />
   </section>
   <section name="other_data" level="2" order="3" description="">
-   <keyValuePair key="guimode" value="1" description="" />
+   <keyValuePair key="guimode" value="3" description="" />
    <keyValuePair key="tclmode" value="1" description="" />
   </section>
   <section name="project_data" level="2" order="4" description="">

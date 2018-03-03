@@ -18,6 +18,151 @@
 
 #include "camera_app.h"
 
+#define ROW_SIZE 1080
+#define COL_SIZE 1920
+#define true 1
+#define false 0
+typedef int bool;
+
+void demosaicing(uint16_t* bw, uint32_t color[ROW_SIZE][COL_SIZE], int rowSize, int colSize)
+{
+	for (int r = 0; r < ROW_SIZE; r++)
+	{
+		for (int c = 0; c < COL_SIZE; c++)
+		{
+			//bggr
+			bool isBlueRow = (r % 2 == 0);
+			bool isGreenPixel;
+			if (isBlueRow)
+			{
+				isGreenPixel = (c % 2 != 0);
+			}
+			else
+			{
+				isGreenPixel = (c % 2 == 0);
+			}
+
+			//calculate color
+			color[r][c] = 0;
+
+			//four combination for neighboring 3x3 pixels
+			if (isBlueRow && isGreenPixel)
+			{
+				//red
+				color[r][c] |= ((bw[(r - 1) * COL_SIZE + c + 1] + bw[(r + 1) * COL_SIZE + c]) / 2) << 16;
+
+				//green
+				color[r][c] |= ((bw[r * COL_SIZE + c] +
+					bw[(r - 1) * COL_SIZE + c - 1] +
+					bw[(r + 1) * COL_SIZE + c + 1] +
+					bw[(r + 1) * COL_SIZE + c - 1] +
+					bw[(r - 1) * COL_SIZE + c + 1]) / 5) << 8;
+
+				//blue
+				color[r][c] |= ((bw[r * COL_SIZE + c - 1] + bw[r * COL_SIZE + c + 1]) / 2);
+			}
+			else if (isBlueRow && !isGreenPixel)
+			{
+				//red
+				color[r][c] |= ((bw[(r - 1) * COL_SIZE + c - 1] +
+					bw[(r + 1) * COL_SIZE + c + 1] +
+					bw[(r + 1) * COL_SIZE + c - 1] +
+					bw[(r - 1) * COL_SIZE + c + 1]) / 4) << 16;
+
+				//green
+				color[r][c] |= ((bw[r * COL_SIZE + c - 1] +
+					bw[r * COL_SIZE + c + 1] +
+					bw[(r - 1) * COL_SIZE + c] +
+					bw[(r + 1) * COL_SIZE + c]) / 4) << 8;
+
+				//blue
+				color[r][c] |= bw[r * COL_SIZE + c];
+			}
+			else if (!isBlueRow && isGreenPixel)
+			{
+				//red
+				color[r][c] |= ((bw[r * COL_SIZE + c + 1] + bw[r * COL_SIZE + c - 1]) / 2) << 16;
+
+				//green
+				color[r][c] |= ((bw[r * COL_SIZE + c] +
+					bw[(r - 1) * COL_SIZE + c - 1] +
+					bw[(r + 1) * COL_SIZE + c + 1] +
+					bw[(r + 1) * COL_SIZE + c - 1] +
+					bw[(r - 1) * COL_SIZE + c + 1]) / 5) << 8;
+
+				//blue
+				color[r][c] |= ((bw[(r - 1) * COL_SIZE + c] + bw[(r + 1) * COL_SIZE + c]) / 2);
+			}
+			else if (!isBlueRow && !isGreenPixel)
+			{
+				//red
+				color[r][c] |= bw[r * COL_SIZE + c] << 16;
+
+				//green
+				color[r][c] |= ((bw[r * COL_SIZE + c - 1] +
+					bw[r * COL_SIZE + c + 1] +
+					bw[(r - 1) * COL_SIZE + c] +
+					bw[(r + 1) * COL_SIZE + c]) / 4) << 8;
+
+				//blue
+				color[r][c] |= ((bw[(r - 1) * COL_SIZE + c - 1] +
+					bw[(r + 1) * COL_SIZE + c + 1] +
+					bw[(r + 1) * COL_SIZE + c - 1] +
+					bw[(r - 1) * COL_SIZE + c + 1]) / 4);
+			}
+		}
+	}
+}
+
+void rgbToYCbCr444(uint32_t data[ROW_SIZE][COL_SIZE], int rowSize, int colSize)
+{
+	for (int r = 0; r < rowSize; r++)
+	{
+		for (int c = 0; c < colSize; c++)
+		{
+			uint8_t red = (data[r][c] >> 0) & 0xFF;
+			uint8_t green = (data[r][c] >> 8) & 0xFF;
+			uint8_t blue = (data[r][c] >> 16) & 0xFF;
+
+			//TODO verify this is the correct conversion
+			//HDTV Computer
+//			uint8_t Y = (uint8_t)((0.183 * red) + (0.614 * green) + (0.062 * blue) + 16);
+//			uint8_t Cb = (uint8_t)((-0.101 * red) + (-0.338 * green) + (0.439 * blue) + 128);
+//			uint8_t Cr = (uint8_t)((0.439 * red) + (-0.399 * green) + (-0.040 * blue) + 128);
+
+			//SDTV Computer
+			uint8_t Y = (uint8_t)((0.257 * red) + (0.504 * green) + (0.098 * blue) + 16);
+			uint8_t Cb = (uint8_t)((-0.148 * red) + (-0.291 * green) + (0.439 * blue) + 128);
+			uint8_t Cr = (uint8_t)((0.439 * red) + (-0.368 * green) + (-0.071 * blue) + 128);
+
+			data[r][c] = (Y << 16) | (Cb << 8) | Cr;
+		}
+	}
+}
+
+void YCbCr444to422(uint32_t data[ROW_SIZE][COL_SIZE], uint16_t* out, int rowSize, int colSize)
+{
+	for (int r = 0; r < rowSize; r++)
+	{
+		for (int c = 0; c < colSize; c++)
+		{
+			uint8_t Y = (data[r][c] >> 16) & 0xFF;
+			uint8_t Cb = (data[r][c] >> 8) & 0xFF;
+			uint8_t Cr = (data[r][c] >> 0) & 0xFF;
+
+			if(c % 2 == 0)
+			{
+				out[r* COL_SIZE + c] = (Cb << 8) | Y;
+			}
+			else
+			{
+				out[r* COL_SIZE + c] = (Cr << 8) | Y;
+			}
+			//data format: Cr,Y,Cb,Y
+		}
+	}
+}
+
 
 camera_config_t camera_config;
 
@@ -96,9 +241,32 @@ void camera_loop(camera_config_t *config) {
 
 	// Run for 1000 frames before going back to HW mode
 	for (j = 0; j < 1000; j++) {
-		for (i = 0; i < 1920*1080; i++) {
-	       pMM2S_Mem[i] = pS2MM_Mem[1920*1080-i-1];
+		uint32_t color[ROW_SIZE][COL_SIZE];
+
+
+		demosaicing(pS2MM_Mem, color, ROW_SIZE, COL_SIZE);
+//		for(int l = 0; l < ROW_SIZE; l++)
+//		{
+//			for(int n = 0; n < COL_SIZE; n++)
+//			{
+//				color[l][n] = (255 << 0);
+//			}
+////			tt[l] = 0xF0525A52;
+//		}
+
+		rgbToYCbCr444(color, ROW_SIZE, COL_SIZE);
+		YCbCr444to422(color, pMM2S_Mem, ROW_SIZE, COL_SIZE);
+
+		uint32_t * tt = pMM2S_Mem;
+
+
+
+		for (i = 0; i < (1920*1080) >> 2; i++) {
+	       //pMM2S_Mem[i] = pS2MM_Mem[1920*1080-i-1];
+//			pMM2S_Mem[i] = color[i];
+			tt[i] = 0x36912291;
 		}
+
 	}
 
 
