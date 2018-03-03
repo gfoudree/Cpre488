@@ -1,0 +1,457 @@
+
+*** Running vivado
+    with args -log design_1_avnet_hdmi_out_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_avnet_hdmi_out_0_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_avnet_hdmi_out_0_0.tcl -notrace
+Command: synth_design -top design_1_avnet_hdmi_out_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3480 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 380.105 ; gain = 82.676
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_avnet_hdmi_out_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_avnet_hdmi_out_0_0/synth/design_1_avnet_hdmi_out_0_0.vhd:76]
+	Parameter C_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_FAMILY bound to: zynq - type: string 
+INFO: [Synth 8-3491] module 'avnet_hdmi_out' declared at 'u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:76' bound to instance 'U0' of component 'avnet_hdmi_out' [u:/Desktop/MP-2/hw/design_1/ip/design_1_avnet_hdmi_out_0_0/synth/design_1_avnet_hdmi_out_0_0.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'avnet_hdmi_out' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:106]
+	Parameter C_DATA_WIDTH bound to: 16 - type: integer 
+	Parameter C_FAMILY bound to: zynq - type: string 
+INFO: [Synth 8-5534] Detected attribute (* iob = "TRUE" *) [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:161]
+INFO: [Synth 8-5534] Detected attribute (* iob = "TRUE" *) [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:162]
+INFO: [Synth 8-5534] Detected attribute (* iob = "TRUE" *) [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:163]
+INFO: [Synth 8-3491] module 'adv7511_embed_syncs' declared at 'u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:40' bound to instance 'embed_syncs_l' of component 'adv7511_embed_syncs' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:206]
+INFO: [Synth 8-638] synthesizing module 'adv7511_embed_syncs' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:55]
+WARNING: [Synth 8-6014] Unused sequential element de_d_reg was removed.  [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:97]
+WARNING: [Synth 8-6014] Unused sequential element vblank_df_reg was removed.  [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:112]
+WARNING: [Synth 8-6014] Unused sequential element hblank_df_reg was removed.  [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:113]
+WARNING: [Synth 8-6014] Unused sequential element de_df_reg was removed.  [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:114]
+WARNING: [Synth 8-3936] Found unconnected internal register 'vblank_d_reg' and it is trimmed from '6' to '5' bits. [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'adv7511_embed_syncs' (1#1) [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:55]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: ASYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'ODDR_hdmio_clk_o' to cell 'ODDR' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:328]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b1 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: ASYNC - type: string 
+INFO: [Synth 8-113] binding component instance 'ODDR_hdmio_clk_t' to cell 'ODDR' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:342]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_spdif' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:364]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_video' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:372]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DRIVE bound to: 12 - type: integer 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-113] binding component instance 'OBUFT_hdmio_clk' to cell 'OBUFT' [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:380]
+INFO: [Synth 8-256] done synthesizing module 'avnet_hdmi_out' (2#1) [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'design_1_avnet_hdmi_out_0_0' (3#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_avnet_hdmi_out_0_0/synth/design_1_avnet_hdmi_out_0_0.vhd:76]
+WARNING: [Synth 8-3331] design adv7511_embed_syncs has unconnected port reset
+WARNING: [Synth 8-3331] design adv7511_embed_syncs has unconnected port de_i
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 420.184 ; gain = 122.754
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 420.184 ; gain = 122.754
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 729.078 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'vblank_d_reg' and it is trimmed from '5' to '4' bits. [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:93]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:23 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               40 Bit    Registers := 1     
+	               16 Bit    Registers := 11    
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 5     
+	   5 Input     16 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module adv7511_embed_syncs 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 7     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 4     
+	   5 Input     16 Bit        Muxes := 2     
+Module avnet_hdmi_out 
+Detailed RTL Component Info : 
++---Registers : 
+	               40 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element U0/de_d_reg was removed.  [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:191]
+WARNING: [Synth 8-6014] Unused sequential element U0/debug_o_reg was removed.  [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/avnet_hdmi_out.vhd:396]
+INFO: [Synth 8-3936] Found unconnected internal register 'U0/embed_syncs_l/vblank_d_reg' and it is trimmed from '4' to '3' bits. [u:/Desktop/MP-2/hw/design_1/ipshared/0f40/hdl/vhdl/adv7511_embed_syncs.vhd:93]
+WARNING: [Synth 8-3331] design design_1_avnet_hdmi_out_0_0 has unconnected port reset
+WARNING: [Synth 8-3331] design design_1_avnet_hdmi_out_0_0 has unconnected port embed_syncs
+WARNING: [Synth 8-3331] design design_1_avnet_hdmi_out_0_0 has unconnected port video_de
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[0]' (FD) to 'U0/hdmio_video_t_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[1]' (FD) to 'U0/hdmio_video_t_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[2]' (FD) to 'U0/hdmio_video_t_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[3]' (FD) to 'U0/hdmio_video_t_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[4]' (FD) to 'U0/hdmio_video_t_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[5]' (FD) to 'U0/hdmio_video_t_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[6]' (FD) to 'U0/hdmio_video_t_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[7]' (FD) to 'U0/hdmio_video_t_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[8]' (FD) to 'U0/hdmio_video_t_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[9]' (FD) to 'U0/hdmio_video_t_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[10]' (FD) to 'U0/hdmio_video_t_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[11]' (FD) to 'U0/hdmio_video_t_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[12]' (FD) to 'U0/hdmio_video_t_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[13]' (FD) to 'U0/hdmio_video_t_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[14]' (FD) to 'U0/hdmio_video_t_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/hdmio_video_t_reg[15]' (FD) to 'U0/hdmio_spdif_t_reg'
+INFO: [Synth 8-3332] Sequential element (U0/embed_syncs_l/vblank_d_reg[3]) is unused and will be removed from module design_1_avnet_hdmi_out_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[0]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[1]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[2]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[3]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[4]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[5]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[6]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[7]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[8]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[9]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[10]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[11]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[12]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[13]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[14]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_video_o_reg[15]  to handle IOB=TRUE attribute
+INFO: [Synth 8-4163] Replicating register \U0/hdmio_spdif_o_reg  to handle IOB=TRUE attribute
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:38 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++----------------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name                 | RTL Name                               | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++----------------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|design_1_avnet_hdmi_out_0_0 | U0/embed_syncs_l/video_data_d6_reg[15] | 4      | 14    | NO           | NO                 | YES               | 14     | 0       | 
+|design_1_avnet_hdmi_out_0_0 | U0/embed_syncs_l/video_data_d6_reg[14] | 5      | 2     | NO           | NO                 | YES               | 2      | 0       | 
+|design_1_avnet_hdmi_out_0_0 | U0/hdmio_video_o_reg[15]               | 3      | 2     | NO           | NO                 | YES               | 2      | 0       | 
++----------------------------+----------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |LUT1   |     1|
+|2     |LUT3   |     1|
+|3     |LUT5   |     8|
+|4     |LUT6   |    30|
+|5     |ODDR   |     2|
+|6     |SRL16E |    18|
+|7     |FDRE   |    90|
+|8     |FDSE   |    28|
+|9     |OBUFT  |    18|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+--------------------+------+
+|      |Instance          |Module              |Cells |
++------+------------------+--------------------+------+
+|1     |top               |                    |   196|
+|2     |  U0              |avnet_hdmi_out      |   196|
+|3     |    embed_syncs_l |adv7511_embed_syncs |   121|
++------+------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 729.078 ; gain = 431.648
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:29 . Memory (MB): peak = 729.078 ; gain = 122.754
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 729.078 ; gain = 431.648
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 2 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+78 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 729.078 ; gain = 431.648
+INFO: [Common 17-1381] The checkpoint 'U:/Desktop/MP-2/hw/project_1/project_1.runs/design_1_avnet_hdmi_out_0_0_synth_1/design_1_avnet_hdmi_out_0_0.dcp' has been generated.

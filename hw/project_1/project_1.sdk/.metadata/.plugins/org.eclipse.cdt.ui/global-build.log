@@ -1,0 +1,132 @@
+11:56:01 **** Incremental Build of configuration Debug for project MP2-TPG ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/camera_app.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/camera_app.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MP2-TPG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/camera_app.d" -MT"src/camera_app.o" -o "src/camera_app.o" "../src/camera_app.c"
+In file included from ../src/camera_app.h:23:0,
+                 from ../src/camera_app.c:19:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/camera_app.h:27:0,
+                 from ../src/camera_app.c:19:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/camera_app.h:29:0,
+                 from ../src/camera_app.c:19:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/camera_app.h:29,
+                 from ../src/camera_app.c:19:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/camera_app.h:30:0,
+                 from ../src/camera_app.c:19:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+'Finished building: ../src/camera_app.c'
+' '
+'Building file: ../src/fmc_imageon_utils.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/fmc_imageon_utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MP2-TPG_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/fmc_imageon_utils.d" -MT"src/fmc_imageon_utils.o" -o "src/fmc_imageon_utils.o" "../src/fmc_imageon_utils.c"
+In file included from ../src/camera_app.h:23:0,
+                 from ../src/fmc_imageon_utils.c:18:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/xbasic_types.h:115:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^~~~~~~
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/xbasic_types.h:116:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^~~~~~~
+In file included from ../src/camera_app.h:27:0,
+                 from ../src/fmc_imageon_utils.c:18:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/camera_app.h:29:0,
+                 from ../src/fmc_imageon_utils.c:18:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_imageon.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_imageon.h:78:0,
+                 from ../src/camera_app.h:29,
+                 from ../src/fmc_imageon_utils.c:18:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/fmc_iic.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+In file included from ../src/camera_app.h:30:0,
+                 from ../src/fmc_imageon_utils.c:18:
+../../MP2-TPG_bsp/ps7_cortexa9_0/include/onsemi_vita_sw.h:3:1: warning: multi-line comment [-Wcomment]
+ //     /     \
+ ^
+../src/fmc_imageon_utils.c: In function 'fmc_imageon_enable_tpg':
+../src/fmc_imageon_utils.c:233:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_CR       = config->uBaseAddr_TPG_PatternGenerator + 0;    // TPG Control
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:234:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_Act_H    = config->uBaseAddr_TPG_PatternGenerator + 0x10; // Active Height
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:235:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_Act_W    = config->uBaseAddr_TPG_PatternGenerator + 0x18; // Active Width
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:236:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_BGP      = config->uBaseAddr_TPG_PatternGenerator + 0x20; // Background Pattern
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:237:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_FGP      = config->uBaseAddr_TPG_PatternGenerator + 0x28; // Foreground Pattern
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:238:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_MS       = config->uBaseAddr_TPG_PatternGenerator + 0x38; // Motion Speed
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:239:42: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_CF       = config->uBaseAddr_TPG_PatternGenerator + 0x40; // TPG Color Format
+                                          ^~~~~~
+../src/fmc_imageon_utils.c:230:12: warning: unused variable 'CurrentSpeed' [-Wunused-variable]
+    Xuint32 CurrentSpeed;
+            ^~~~~~~~~~~~
+../src/fmc_imageon_utils.c:229:12: warning: unused variable 'Reg32Value' [-Wunused-variable]
+    Xuint32 Reg32Value;
+            ^~~~~~~~~~
+../src/fmc_imageon_utils.c: In function 'fmc_imageon_disable_tpg':
+../src/fmc_imageon_utils.c:289:37: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+    volatile unsigned int *TPG_CR  = config->uBaseAddr_TPG_PatternGenerator + 0;    // TPG Control
+                                     ^~~~~~
+../src/fmc_imageon_utils.c: In function 'fmc_imageon_enable_vita':
+../src/fmc_imageon_utils.c:300:8: warning: unused variable 'ret' [-Wunused-variable]
+    int ret;
+        ^~~
+../src/fmc_imageon_utils.c:347:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/fmc_imageon_utils.c'
+' '
+'Building target: MP2-TPG.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../MP2-TPG_bsp/ps7_cortexa9_0/lib -o "MP2-TPG.elf"  ./src/camera_app.o ./src/fmc_imageon_utils.o ./src/platform.o ./src/video_detector.o ./src/video_frame_buffer.o ./src/video_generator.o ./src/video_resolution.o ./src/xtpg_app.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MP2-TPG.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size MP2-TPG.elf  |tee "MP2-TPG.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81004	   2116	  26000	 109120	  1aa40	MP2-TPG.elf
+'Finished building: MP2-TPG.elf.size'
+' '
+11:56:47 **** Incremental Build of configuration Debug for project MP2-TPG ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:56:57 **** Incremental Build of configuration Debug for project MP2-TPG ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

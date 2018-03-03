@@ -1,0 +1,58 @@
+
+*** Running vivado
+    with args -log design_1_axis_subset_converter_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axis_subset_converter_0_0.tcl
+
+
+****** Vivado v2017.1 (64-bit)
+  **** SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+  **** IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_axis_subset_converter_0_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 381.648 ; gain = 83.215
+INFO: [Synth 8-638] synthesizing module 'design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/synth/design_1_axis_subset_converter_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'top_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/top_design_1_axis_subset_converter_0_0.v:60]
+INFO: [Synth 8-638] synthesizing module 'axis_subset_converter_v1_1_12_core' [u:/Desktop/MP-2/hw/design_1/ipshared/a890/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'axis_subset_converter_v1_1_12_core' (1#1) [u:/Desktop/MP-2/hw/design_1/ipshared/a890/hdl/axis_subset_converter_v1_1_vl_rfs.v:62]
+INFO: [Synth 8-638] synthesizing module 'tdata_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tdata_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tdata_design_1_axis_subset_converter_0_0' (2#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tdata_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tuser_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tuser_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tuser_design_1_axis_subset_converter_0_0' (3#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tuser_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tid_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tid_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tid_design_1_axis_subset_converter_0_0' (4#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tid_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tdest_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tdest_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tdest_design_1_axis_subset_converter_0_0' (5#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tdest_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tstrb_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tstrb_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tstrb_design_1_axis_subset_converter_0_0' (6#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tstrb_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tkeep_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tkeep_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tkeep_design_1_axis_subset_converter_0_0' (7#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tkeep_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-638] synthesizing module 'tlast_design_1_axis_subset_converter_0_0' [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tlast_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'tlast_design_1_axis_subset_converter_0_0' (8#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/tlast_design_1_axis_subset_converter_0_0.v:48]
+INFO: [Synth 8-256] done synthesizing module 'top_design_1_axis_subset_converter_0_0' (9#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/hdl/top_design_1_axis_subset_converter_0_0.v:60]
+INFO: [Synth 8-256] done synthesizing module 'design_1_axis_subset_converter_0_0' (10#1) [u:/Desktop/MP-2/hw/design_1/ip/design_1_axis_subset_converter_0_0/synth/design_1_axis_subset_converter_0_0.v:58]
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 421.973 ; gain = 123.539
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 421.973 ; gain = 123.539
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.163 . Memory (MB): peak = 645.160 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 645.160 ; gain = 346.727
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 645.160 ; gain = 346.727
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 645.160 ; gain = 346.727
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 645.160 ; gain = 346.727
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 645.160 ; gain = 346.727
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 684.414 ; gain = 385.980
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 684.414 ; gain = 385.980
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 694.559 ; gain = 396.125
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+
+Report Cell Usage: 
++-+-----+------+
+| |Cell |Count |
++-+-----+------+
++-+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 694.559 ; gain = 396.125
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 712.148 ; gain = 414.727
