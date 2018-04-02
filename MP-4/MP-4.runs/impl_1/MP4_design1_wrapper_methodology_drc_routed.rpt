@@ -1,0 +1,192 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Fri Mar 30 10:20:28 2018
+| Host         : CO2041-04 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file MP4_design1_wrapper_methodology_drc_routed.rpt -rpx MP4_design1_wrapper_methodology_drc_routed.rpx
+| Design       : MP4_design1_wrapper
+| Device       : xc7z020clg484-1
+| Speed File   : -1
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 26
++-----------+----------+---------------------------------------------------+------------+
+| Rule      | Severity | Description                                       | Violations |
++-----------+----------+---------------------------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay                     | 13         |
+| XDCC-2    | Warning  | Scoped Non-Timing constraint/property overwritten | 13         |
++-----------+----------+---------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on btns_5bits_tri_i[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[0] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[1] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[2] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[3] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[4] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[5] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[6] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An input delay is missing on sws_8bits_tri_i[7] relative to clock(s) clk_fpga_0 
+Related violations: <none>
+
+XDCC-2#1 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[0] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 34)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc (Line: 3)
+Related violations: <none>
+
+XDCC-2#2 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[1] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 34)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc (Line: 5)
+Related violations: <none>
+
+XDCC-2#3 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[2] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 34)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc (Line: 7)
+Related violations: <none>
+
+XDCC-2#4 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[3] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 34)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc (Line: 9)
+Related violations: <none>
+
+XDCC-2#5 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on btns_5bits_tri_i[4] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 34)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc (Line: 11)
+Related violations: <none>
+
+XDCC-2#6 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[0] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 3)
+Related violations: <none>
+
+XDCC-2#7 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[1] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 5)
+Related violations: <none>
+
+XDCC-2#8 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[2] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 7)
+Related violations: <none>
+
+XDCC-2#9 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[3] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 9)
+Related violations: <none>
+
+XDCC-2#10 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[4] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 11)
+Related violations: <none>
+
+XDCC-2#11 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[5] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 13)
+Related violations: <none>
+
+XDCC-2#12 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[6] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 39)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 15)
+Related violations: <none>
+
+XDCC-2#13 Warning
+Scoped Non-Timing constraint/property overwritten  
+A new XDC property IOSTANDARD on sws_8bits_tri_i[7] overrides a previous scoped property. It is not recommended to override a scoped (typically an IP) property and could result in unexpected behaviours.
+New Source: U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc (Line: 34)
+Previous Source: u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc (Line: 17)
+Related violations: <none>
+
+

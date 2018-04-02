@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Fri Mar 30 10:18:40 2018
+# Process ID: 10928
+# Current directory: U:/Documents/MP-4/MP-4.runs/impl_1
+# Command line: vivado.exe -log MP4_design1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MP4_design1_wrapper.tcl -notrace
+# Log file: U:/Documents/MP-4/MP-4.runs/impl_1/MP4_design1_wrapper.vdi
+# Journal file: U:/Documents/MP-4/MP-4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MP4_design1_wrapper.tcl -notrace
