@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-// Date        : Fri Mar 30 09:23:00 2018
-// Host        : CO2041-04 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_xbar_0/MP4_design1_xbar_0_stub.v
+// Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+// Date        : Tue Apr  3 11:19:47 2018
+// Host        : CO2041-14 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub -rename_top MP4_design1_xbar_0 -prefix
+//               MP4_design1_xbar_0_ MP4_design1_xbar_0_stub.v
 // Design      : MP4_design1_xbar_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1

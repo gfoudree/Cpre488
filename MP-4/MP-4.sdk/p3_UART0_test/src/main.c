@@ -51,32 +51,99 @@
 #include "xparameters.h"
 #include "xuartps_hw.h"
 #include "xuartps.h"
+#include "sleep.h"
 
+#define TIME_OUT_US (1000000 / 10)
 
-int dump_config(XUartPs* inst)
+int uart_get(XUartPs* inst, u8* data, u32 numBytes)
+{
+	u32 recBytes = 0;
+	u32 toCount = 0;
+	while(recBytes < numBytes)
+	{
+		u32 bytes = XUartPs_Recv(inst, (u8*)(&data[recBytes]), numBytes - recBytes);
+		recBytes += bytes;
+
+		//check for timeout
+		if(bytes == 0)
+		{
+			++toCount;
+			if(toCount >= TIME_OUT_US)
+			{
+				//timed out
+				return recBytes;
+			}
+		}
+		else
+		{
+			toCount = 0;
+		}
+		usleep(10);
+	}
+
+	//success
+	return recBytes;
+}
+
+int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+{
+	u32 sentBytes = 0;
+	while(sentBytes < numBytes)
+	{
+		sentBytes += XUartPs_Send(inst, (u8*)(&data[sentBytes]), numBytes - sentBytes);
+	}
+
+	//success
+	return 0;
+}
+
+void bt_configure(XUartPs* inst)
+{
+	u8 buff[6];
+
+	xil_printf("Send CMD: SM,3<cr>...\r\n");
+    uart_put(inst, (u8*)"SM,3\r", 5);
+    u32 num = uart_get(inst, buff, 5);
+	buff[num] = '\0';
+	xil_printf((char*)buff);
+
+	xil_printf("Send CMD: SR,81ebb68b7913<cr>...\r\n");
+    uart_put(inst, (u8*)"SR,81ebb68b7913\r", 16);
+    num = uart_get(inst, buff, 5);
+	buff[num] = '\0';
+	xil_printf((char*)buff);
+
+	xil_printf("Send CMD: SP,0000<cr>...\r\n");
+    uart_put(inst, (u8*)"SP,0000\r", 8);
+    num = uart_get(inst, buff, 5);
+	buff[num] = '\0';
+	xil_printf((char*)buff);
+}
+
+void dump_config(XUartPs* inst)
 {
 	//enable timeout
-	XUartPs_SetRecvTimeout(inst, 5);
+//	XUartPs_SetRecvTimeout(inst, 500);
 
 	u8 buff[500];
 
-    XUartPs_Send(inst, (u8*)"D", 1);
-    u32 num = XUartPs_Recv(inst, buff, 500);
+    uart_put(inst, (u8*)"D\r", 2);
+    u32 num = uart_get(inst, buff, 500);
     buff[num] = '\0';
     xil_printf((char*)buff);
+    xil_printf("\r\n");
 
-    XUartPs_Send(inst, (u8*)"E", 1);
-    num = XUartPs_Recv(inst, buff, 500);
+    uart_put(inst, (u8*)"O\r", 2);
+    num = uart_get(inst, buff, 500);
     buff[num] = '\0';
     xil_printf((char*)buff);
+    xil_printf("\r\n");
 
-    XUartPs_Send(inst, (u8*)"O", 1);
-    num = XUartPs_Recv(inst, buff, 500);
+    uart_put(inst, (u8*)"E\r", 2);
+    num = uart_get(inst, buff, 500);
     buff[num] = '\0';
     xil_printf((char*)buff);
-
-    //disable timeout
-    XUartPs_SetRecvTimeout(inst, 0);
+    xil_printf("\r\n");
 }
 
 int main()
@@ -88,19 +155,29 @@ int main()
 
     XUartPs_CfgInitialize(&uartInst, config, XPAR_PS7_UART_0_BASEADDR);
 
-    xil_printf("Dumping...");
+    u8 buff[5];
+
+	//enter command mode
+	uart_put(&uartInst, (u8*)"$$$", 3);
+	u32 num = uart_get(&uartInst, buff, 3);
+    buff[num] = '\0';
+    xil_printf((char*)buff);
+    xil_printf("\r\n");
+
+    xil_printf("Before...\r\n");
     dump_config(&uartInst);
 
-    XUartPs_Send(&uartInst, (u8*)"$$$", 3);
-    XUartPs_Send(&uartInst, (u8*)"SM,3", 4);
-    XUartPs_Send(&uartInst, (u8*)"SR,81ebb68b7913", 15);
-    XUartPs_Send(&uartInst, (u8*)"SP,0000", 7);
-    XUartPs_Send(&uartInst, (u8*)"---\r", 4);
+    bt_configure(&uartInst);
 
+    xil_printf("After...\r\n");
+    dump_config(&uartInst);
 
-
-
-    print("Hello World\n\r");
+	//exit command mode
+	uart_put(&uartInst, (u8*)"---\r", 4);
+	num = uart_get(&uartInst, buff, 4);
+    buff[num] = '\0';
+    xil_printf((char*)buff);
+    xil_printf("\r\n");
 
     cleanup_platform();
     return 0;

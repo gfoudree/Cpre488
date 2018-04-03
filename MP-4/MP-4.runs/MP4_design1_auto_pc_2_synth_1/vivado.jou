@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1_sdx (64-bit)
+# SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+# IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+# Start of session at: Tue Apr  3 11:24:12 2018
+# Process ID: 10844
+# Current directory: C:/Cpre488/MP-4/MP-4.runs/MP4_design1_auto_pc_2_synth_1
+# Command line: vivado.exe -log MP4_design1_auto_pc_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MP4_design1_auto_pc_2.tcl
+# Log file: C:/Cpre488/MP-4/MP-4.runs/MP4_design1_auto_pc_2_synth_1/MP4_design1_auto_pc_2.vds
+# Journal file: C:/Cpre488/MP-4/MP-4.runs/MP4_design1_auto_pc_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source MP4_design1_auto_pc_2.tcl -notrace

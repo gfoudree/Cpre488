@@ -1,9 +1,9 @@
 -makelib ies/xil_defaultlib -sv \
-  "C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
-  "C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
+  "C:/Xilinx/SDx/2017.1/Vivado/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
+  "C:/Xilinx/SDx/2017.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
 -endlib
 -makelib ies/xpm \
-  "C:/Xilinx/Vivado/2017.1/data/ip/xpm/xpm_VCOMP.vhd" \
+  "C:/Xilinx/SDx/2017.1/Vivado/data/ip/xpm/xpm_VCOMP.vhd" \
 -endlib
 -makelib ies/axi_infrastructure_v1_1_0 \
   "../../../../MP-4.srcs/sources_1/bd/MP4_design1/ipshared/7e3a/hdl/axi_infrastructure_v1_1_vl_rfs.v" \
@@ -49,8 +49,8 @@
 -makelib ies/xil_defaultlib \
   "../../../bd/MP4_design1/ip/MP4_design1_axi_bram_ctrl_0_1/sim/MP4_design1_axi_bram_ctrl_0_1.vhd" \
 -endlib
--makelib ies/proc_sys_reset_v5_0_11 \
-  "../../../../MP-4.srcs/sources_1/bd/MP4_design1/ipshared/5db7/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
+-makelib ies/proc_sys_reset_v5_0_10 \
+  "../../../../MP-4.srcs/sources_1/bd/MP4_design1/ipshared/04b4/hdl/proc_sys_reset_v5_0_vh_rfs.vhd" \
 -endlib
 -makelib ies/xil_defaultlib \
   "../../../bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/sim/MP4_design1_rst_ps7_0_100M_2.vhd" \
@@ -82,6 +82,9 @@
 -makelib ies/xil_defaultlib \
   "../../../bd/MP4_design1/ip/MP4_design1_xbar_0/sim/MP4_design1_xbar_0.v" \
 -endlib
+-makelib ies/xil_defaultlib \
+  "../../../bd/MP4_design1/hdl/MP4_design1.vhd" \
+-endlib
 -makelib ies/axi_protocol_converter_v2_1_12 \
   "../../../../MP-4.srcs/sources_1/bd/MP4_design1/ipshared/138d/hdl/axi_protocol_converter_v2_1_vl_rfs.v" \
 -endlib
@@ -89,9 +92,6 @@
   "../../../bd/MP4_design1/ip/MP4_design1_auto_pc_1/sim/MP4_design1_auto_pc_1.v" \
   "../../../bd/MP4_design1/ip/MP4_design1_auto_pc_0/sim/MP4_design1_auto_pc_0.v" \
   "../../../bd/MP4_design1/ip/MP4_design1_auto_pc_2/sim/MP4_design1_auto_pc_2.v" \
--endlib
--makelib ies/xil_defaultlib \
-  "../../../bd/MP4_design1/hdl/MP4_design1.vhd" \
 -endlib
 -makelib ies/xil_defaultlib \
   glbl.v

@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-// Date        : Fri Mar 30 09:22:08 2018
-// Host        : CO2041-04 running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+// Date        : Tue Apr  3 11:24:48 2018
+// Host        : CO2041-14 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
-//               u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2_sim_netlist.v
+//               C:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2_sim_netlist.v
 // Design      : MP4_design1_rst_ps7_0_100M_2
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,7 +12,7 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "MP4_design1_rst_ps7_0_100M_2,proc_sys_reset,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "proc_sys_reset,Vivado 2017.1" *) 
+(* CHECK_LICENSE_TYPE = "MP4_design1_rst_ps7_0_100M_2,proc_sys_reset,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "proc_sys_reset,Vivado 2017.1_sdx" *) 
 (* NotValidForBitStream *)
 module MP4_design1_rst_ps7_0_100M_2
    (slowest_sync_clk,

@@ -1,10 +1,10 @@
 -- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
--- Date        : Fri Mar 30 09:24:48 2018
--- Host        : CO2041-04 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim -rename_top MP4_design1_auto_pc_2 -prefix
---               MP4_design1_auto_pc_2_ MP4_design1_auto_pc_2_sim_netlist.vhdl
+-- Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+-- Date        : Tue Apr  3 11:25:15 2018
+-- Host        : CO2041-14 running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim
+--               c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_2/MP4_design1_auto_pc_2_sim_netlist.vhdl
 -- Design      : MP4_design1_auto_pc_2
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -143,6 +143,8 @@ entity MP4_design1_auto_pc_2_axi_protocol_converter_v2_1_12_axi_protocol_convert
   attribute C_TRANSLATION_MODE of MP4_design1_auto_pc_2_axi_protocol_converter_v2_1_12_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of MP4_design1_auto_pc_2_axi_protocol_converter_v2_1_12_axi_protocol_converter : entity is "yes";
+  attribute ORIG_REF_NAME : string;
+  attribute ORIG_REF_NAME of MP4_design1_auto_pc_2_axi_protocol_converter_v2_1_12_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_12_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of MP4_design1_auto_pc_2_axi_protocol_converter_v2_1_12_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;
@@ -418,7 +420,7 @@ entity MP4_design1_auto_pc_2 is
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of MP4_design1_auto_pc_2 : entity is "yes";
   attribute X_CORE_INFO : string;
-  attribute X_CORE_INFO of MP4_design1_auto_pc_2 : entity is "axi_protocol_converter_v2_1_12_axi_protocol_converter,Vivado 2017.1";
+  attribute X_CORE_INFO of MP4_design1_auto_pc_2 : entity is "axi_protocol_converter_v2_1_12_axi_protocol_converter,Vivado 2017.1_sdx";
 end MP4_design1_auto_pc_2;
 
 architecture STRUCTURE of MP4_design1_auto_pc_2 is

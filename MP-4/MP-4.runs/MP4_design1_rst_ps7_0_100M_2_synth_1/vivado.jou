@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2017.1 (64-bit)
-# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
-# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
-# Start of session at: Fri Mar 30 09:21:05 2018
-# Process ID: 4616
-# Current directory: U:/Documents/MP-4/MP-4.runs/MP4_design1_rst_ps7_0_100M_2_synth_1
+# Vivado v2017.1_sdx (64-bit)
+# SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+# IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+# Start of session at: Tue Apr  3 11:24:12 2018
+# Process ID: 12876
+# Current directory: C:/Cpre488/MP-4/MP-4.runs/MP4_design1_rst_ps7_0_100M_2_synth_1
 # Command line: vivado.exe -log MP4_design1_rst_ps7_0_100M_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MP4_design1_rst_ps7_0_100M_2.tcl
-# Log file: U:/Documents/MP-4/MP-4.runs/MP4_design1_rst_ps7_0_100M_2_synth_1/MP4_design1_rst_ps7_0_100M_2.vds
-# Journal file: U:/Documents/MP-4/MP-4.runs/MP4_design1_rst_ps7_0_100M_2_synth_1\vivado.jou
+# Log file: C:/Cpre488/MP-4/MP-4.runs/MP4_design1_rst_ps7_0_100M_2_synth_1/MP4_design1_rst_ps7_0_100M_2.vds
+# Journal file: C:/Cpre488/MP-4/MP-4.runs/MP4_design1_rst_ps7_0_100M_2_synth_1\vivado.jou
 #-----------------------------------------------------------
 source MP4_design1_rst_ps7_0_100M_2.tcl -notrace

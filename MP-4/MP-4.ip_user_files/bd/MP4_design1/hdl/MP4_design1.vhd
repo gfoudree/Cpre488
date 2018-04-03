@@ -1,8 +1,8 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
---Date        : Fri Mar 30 09:20:30 2018
---Host        : CO2041-04 running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+--Date        : Tue Apr  3 11:23:40 2018
+--Host        : CO2041-14 running 64-bit major release  (build 9200)
 --Command     : generate_target MP4_design1.bd
 --Design      : MP4_design1
 --Purpose     : IP block netlist
@@ -2314,6 +2314,8 @@ entity MP4_design1 is
     FIXED_IO_ps_clk : inout STD_LOGIC;
     FIXED_IO_ps_porb : inout STD_LOGIC;
     FIXED_IO_ps_srstb : inout STD_LOGIC;
+    UART0_RX : in STD_LOGIC;
+    UART0_TX : out STD_LOGIC;
     btns_5bits_tri_i : in STD_LOGIC_VECTOR ( 4 downto 0 );
     sws_8bits_tri_i : in STD_LOGIC_VECTOR ( 7 downto 0 )
   );
@@ -2326,6 +2328,8 @@ end MP4_design1;
 architecture STRUCTURE of MP4_design1 is
   component MP4_design1_processing_system7_0_0 is
   port (
+    UART0_TX : out STD_LOGIC;
+    UART0_RX : in STD_LOGIC;
     TTC0_WAVE0_OUT : out STD_LOGIC;
     TTC0_WAVE1_OUT : out STD_LOGIC;
     TTC0_WAVE2_OUT : out STD_LOGIC;
@@ -2499,20 +2503,6 @@ architecture STRUCTURE of MP4_design1 is
     bram_rddata_b : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component MP4_design1_axi_bram_ctrl_0_1;
-  component MP4_design1_rst_ps7_0_100M_2 is
-  port (
-    slowest_sync_clk : in STD_LOGIC;
-    ext_reset_in : in STD_LOGIC;
-    aux_reset_in : in STD_LOGIC;
-    mb_debug_sys_rst : in STD_LOGIC;
-    dcm_locked : in STD_LOGIC;
-    mb_reset : out STD_LOGIC;
-    bus_struct_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
-    peripheral_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
-    interconnect_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 );
-    peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
-  );
-  end component MP4_design1_rst_ps7_0_100M_2;
   component MP4_design1_axi_bram_ctrl_0_bram_2 is
   port (
     clka : in STD_LOGIC;
@@ -2531,6 +2521,21 @@ architecture STRUCTURE of MP4_design1 is
     doutb : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component MP4_design1_axi_bram_ctrl_0_bram_2;
+  component MP4_design1_rst_ps7_0_100M_2 is
+  port (
+    slowest_sync_clk : in STD_LOGIC;
+    ext_reset_in : in STD_LOGIC;
+    aux_reset_in : in STD_LOGIC;
+    mb_debug_sys_rst : in STD_LOGIC;
+    dcm_locked : in STD_LOGIC;
+    mb_reset : out STD_LOGIC;
+    bus_struct_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
+    peripheral_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
+    interconnect_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 );
+    peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
+  );
+  end component MP4_design1_rst_ps7_0_100M_2;
+  signal UART0_RX_1 : STD_LOGIC;
   signal axi_bram_ctrl_0_BRAM_PORTA_ADDR : STD_LOGIC_VECTOR ( 12 downto 0 );
   signal axi_bram_ctrl_0_BRAM_PORTA_CLK : STD_LOGIC;
   signal axi_bram_ctrl_0_BRAM_PORTA_DIN : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -2608,6 +2613,7 @@ architecture STRUCTURE of MP4_design1 is
   signal processing_system7_0_M_AXI_GP0_WREADY : STD_LOGIC;
   signal processing_system7_0_M_AXI_GP0_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal processing_system7_0_M_AXI_GP0_WVALID : STD_LOGIC;
+  signal processing_system7_0_UART0_TX : STD_LOGIC;
   signal ps7_0_axi_periph_M00_AXI_ARADDR : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal ps7_0_axi_periph_M00_AXI_ARREADY : STD_LOGIC;
   signal ps7_0_axi_periph_M00_AXI_ARVALID : STD_LOGIC;
@@ -2695,6 +2701,8 @@ architecture STRUCTURE of MP4_design1 is
   attribute BMM_INFO_PROCESSOR of processing_system7_0 : label is "arm > MP4_design1 axi_bram_ctrl_0";
   attribute KEEP_HIERARCHY of processing_system7_0 : label is "yes";
 begin
+  UART0_RX_1 <= UART0_RX;
+  UART0_TX <= processing_system7_0_UART0_TX;
   axi_gpio_0_GPIO_TRI_I(4 downto 0) <= btns_5bits_tri_i(4 downto 0);
   axi_gpio_1_GPIO_TRI_I(7 downto 0) <= sws_8bits_tri_i(7 downto 0);
 axi_bram_ctrl_0: component MP4_design1_axi_bram_ctrl_0_1
@@ -2883,6 +2891,8 @@ processing_system7_0: component MP4_design1_processing_system7_0_0
       TTC0_WAVE0_OUT => NLW_processing_system7_0_TTC0_WAVE0_OUT_UNCONNECTED,
       TTC0_WAVE1_OUT => NLW_processing_system7_0_TTC0_WAVE1_OUT_UNCONNECTED,
       TTC0_WAVE2_OUT => NLW_processing_system7_0_TTC0_WAVE2_OUT_UNCONNECTED,
+      UART0_RX => UART0_RX_1,
+      UART0_TX => processing_system7_0_UART0_TX,
       USB0_PORT_INDCTL(1 downto 0) => NLW_processing_system7_0_USB0_PORT_INDCTL_UNCONNECTED(1 downto 0),
       USB0_VBUS_PWRFAULT => '0',
       USB0_VBUS_PWRSELECT => NLW_processing_system7_0_USB0_VBUS_PWRSELECT_UNCONNECTED

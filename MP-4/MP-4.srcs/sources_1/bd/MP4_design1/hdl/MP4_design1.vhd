@@ -1,8 +1,8 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
---Date        : Fri Mar 30 10:15:46 2018
---Host        : CO2041-04 running 64-bit major release  (build 9200)
+--Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+--Date        : Tue Apr  3 11:23:40 2018
+--Host        : CO2041-14 running 64-bit major release  (build 9200)
 --Command     : generate_target MP4_design1.bd
 --Design      : MP4_design1
 --Purpose     : IP block netlist
@@ -2503,20 +2503,6 @@ architecture STRUCTURE of MP4_design1 is
     bram_rddata_b : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component MP4_design1_axi_bram_ctrl_0_1;
-  component MP4_design1_rst_ps7_0_100M_2 is
-  port (
-    slowest_sync_clk : in STD_LOGIC;
-    ext_reset_in : in STD_LOGIC;
-    aux_reset_in : in STD_LOGIC;
-    mb_debug_sys_rst : in STD_LOGIC;
-    dcm_locked : in STD_LOGIC;
-    mb_reset : out STD_LOGIC;
-    bus_struct_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
-    peripheral_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
-    interconnect_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 );
-    peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
-  );
-  end component MP4_design1_rst_ps7_0_100M_2;
   component MP4_design1_axi_bram_ctrl_0_bram_2 is
   port (
     clka : in STD_LOGIC;
@@ -2535,6 +2521,20 @@ architecture STRUCTURE of MP4_design1 is
     doutb : out STD_LOGIC_VECTOR ( 31 downto 0 )
   );
   end component MP4_design1_axi_bram_ctrl_0_bram_2;
+  component MP4_design1_rst_ps7_0_100M_2 is
+  port (
+    slowest_sync_clk : in STD_LOGIC;
+    ext_reset_in : in STD_LOGIC;
+    aux_reset_in : in STD_LOGIC;
+    mb_debug_sys_rst : in STD_LOGIC;
+    dcm_locked : in STD_LOGIC;
+    mb_reset : out STD_LOGIC;
+    bus_struct_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
+    peripheral_reset : out STD_LOGIC_VECTOR ( 0 to 0 );
+    interconnect_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 );
+    peripheral_aresetn : out STD_LOGIC_VECTOR ( 0 to 0 )
+  );
+  end component MP4_design1_rst_ps7_0_100M_2;
   signal UART0_RX_1 : STD_LOGIC;
   signal axi_bram_ctrl_0_BRAM_PORTA_ADDR : STD_LOGIC_VECTOR ( 12 downto 0 );
   signal axi_bram_ctrl_0_BRAM_PORTA_CLK : STD_LOGIC;

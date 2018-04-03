@@ -8,34 +8,34 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir U:/Documents/MP-4/MP-4.cache/wt [current_project]
-set_property parent.project_path U:/Documents/MP-4/MP-4.xpr [current_project]
+set_property webtalk.parent_dir C:/Cpre488/MP-4/MP-4.cache/wt [current_project]
+set_property parent.project_path C:/Cpre488/MP-4/MP-4.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part em.avnet.com:zed:part0:1.3 [current_project]
-set_property ip_output_repo u:/Documents/MP-4/MP-4.cache/ip [current_project]
+set_property ip_output_repo c:/Cpre488/MP-4/MP-4.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib U:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/hdl/MP4_design1_wrapper.vhd
-add_files U:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/MP4_design1.bd
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_processing_system7_0_0/MP4_design1_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_bram_ctrl_0_1/MP4_design1_axi_bram_ctrl_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2_board.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_bram_ctrl_0_bram_2/MP4_design1_axi_bram_ctrl_0_bram_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_xbar_0/MP4_design1_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_1/MP4_design1_auto_pc_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_0/MP4_design1_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all u:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_2/MP4_design1_auto_pc_2_ooc.xdc]
-set_property used_in_implementation false [get_files -all U:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/MP4_design1_ooc.xdc]
-set_property is_locked true [get_files U:/Documents/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/MP4_design1.bd]
+read_vhdl -library xil_defaultlib C:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/hdl/MP4_design1_wrapper.vhd
+add_files C:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/MP4_design1.bd
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_processing_system7_0_0/MP4_design1_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_0_1/MP4_design1_axi_gpio_0_1.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_gpio_1_1/MP4_design1_axi_gpio_1_1.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_bram_ctrl_0_1/MP4_design1_axi_bram_ctrl_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_rst_ps7_0_100M_2/MP4_design1_rst_ps7_0_100M_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_axi_bram_ctrl_0_bram_2/MP4_design1_axi_bram_ctrl_0_bram_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_xbar_0/MP4_design1_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_1/MP4_design1_auto_pc_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_0/MP4_design1_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_2/MP4_design1_auto_pc_2_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/MP4_design1_ooc.xdc]
+set_property is_locked true [get_files C:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/MP4_design1.bd]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -45,8 +45,8 @@ set_property is_locked true [get_files U:/Documents/MP-4/MP-4.srcs/sources_1/bd/
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc
-set_property used_in_implementation false [get_files U:/Documents/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc]
+read_xdc C:/Cpre488/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc
+set_property used_in_implementation false [get_files C:/Cpre488/MP-4/MP-4.srcs/constrs_1/new/MP4_constraints.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

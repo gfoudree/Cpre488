@@ -1,10 +1,10 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-// Date        : Fri Mar 30 09:24:48 2018
-// Host        : CO2041-04 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top MP4_design1_auto_pc_2 -prefix
-//               MP4_design1_auto_pc_2_ MP4_design1_auto_pc_2_stub.v
+// Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+// Date        : Tue Apr  3 11:25:15 2018
+// Host        : CO2041-14 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Cpre488/MP-4/MP-4.srcs/sources_1/bd/MP4_design1/ip/MP4_design1_auto_pc_2/MP4_design1_auto_pc_2_stub.v
 // Design      : MP4_design1_auto_pc_2
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg484-1
@@ -13,7 +13,7 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-(* X_CORE_INFO = "axi_protocol_converter_v2_1_12_axi_protocol_converter,Vivado 2017.1" *)
+(* X_CORE_INFO = "axi_protocol_converter_v2_1_12_axi_protocol_converter,Vivado 2017.1_sdx" *)
 module MP4_design1_auto_pc_2(aclk, aresetn, s_axi_awid, s_axi_awaddr, 
   s_axi_awlen, s_axi_awsize, s_axi_awburst, s_axi_awlock, s_axi_awcache, s_axi_awprot, 
   s_axi_awqos, s_axi_awvalid, s_axi_awready, s_axi_wid, s_axi_wdata, s_axi_wstrb, s_axi_wlast, 
