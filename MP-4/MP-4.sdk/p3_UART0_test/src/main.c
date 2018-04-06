@@ -107,8 +107,8 @@ void bt_configure(XUartPs* inst)
 	buff[num] = '\0';
 	xil_printf((char*)buff);
 
-	xil_printf("Send CMD: SR,81ebb68b7913<cr>...\r\n");
-    uart_put(inst, (u8*)"SR,81ebb68b7913\r", 16);
+	xil_printf("Send CMD: SR,81ebb6906a6d<cr>...\r\n");
+    uart_put(inst, (u8*)"SR,81ebb6906a6d\r", 16);
     num = uart_get(inst, buff, 5);
 	buff[num] = '\0';
 	xil_printf((char*)buff);
@@ -146,6 +146,89 @@ void dump_config(XUartPs* inst)
     xil_printf("\r\n");
 }
 
+void uart_clear_rx_fifo(XUartPs* inst)
+{
+	u8 dummy[64];
+	uart_get(inst, dummy, 64);
+}
+
+int quad_put(XUartPs* inst, u8* data, u32 numBytes)
+{
+	u8 msgLength = numBytes + 5;
+	u8 msg[msgLength];
+	u8* msgPtr = msg;
+
+	u8 cs;
+
+	*msgPtr++ = '$';
+	*msgPtr++ = 'M';
+	*msgPtr++ = '<';
+	*msgPtr++ = (numBytes - 1);
+	cs = (numBytes - 1);
+
+	for(int i = 0; i < numBytes; i++)
+	{
+		*msgPtr++ = data[i];
+		cs ^= data[i];
+	}
+
+	*msgPtr++ = cs;
+
+	uart_clear_rx_fifo(inst);
+	if(uart_put(inst, msg, msgLength))
+	{
+		return 1;
+	}
+
+	return 0;
+}
+
+int quad_get(XUartPs* inst, u8* data, u32 numBytes)
+{
+	u8 msgLength = numBytes + 5;
+	u8 msg[msgLength];
+	memset(msg, 0, msgLength * sizeof(u8));
+
+	u8* msgPtr = msg;
+
+	uart_get(inst, msg, msgLength);
+
+	if(*msgPtr++ != '$')
+	{
+		return 1;
+	}
+
+	if(*msgPtr++ != 'M')
+	{
+		return 1;
+	}
+
+	if(*msgPtr++ != '>')
+	{
+		return 1;
+	}
+
+	if(*msgPtr++ != numBytes - 1)
+	{
+		return 1;
+	}
+
+	u8 cs = numBytes - 1;
+
+	for(int i = 0; i < numBytes; i++)
+	{
+		data[i] = *msgPtr++;
+		cs ^= data[i];
+	}
+
+	if(cs != *msgPtr)
+	{
+		return 1;
+	}
+
+	return 0;
+}
+
 int main()
 {
     init_platform();
@@ -155,7 +238,7 @@ int main()
 
     XUartPs_CfgInitialize(&uartInst, config, XPAR_PS7_UART_0_BASEADDR);
 
-    u8 buff[5];
+    u8 buff[20];
 
 	//enter command mode
 	uart_put(&uartInst, (u8*)"$$$", 3);
@@ -163,9 +246,6 @@ int main()
     buff[num] = '\0';
     xil_printf((char*)buff);
     xil_printf("\r\n");
-
-    xil_printf("Before...\r\n");
-    dump_config(&uartInst);
 
     bt_configure(&uartInst);
 
@@ -178,6 +258,16 @@ int main()
     buff[num] = '\0';
     xil_printf((char*)buff);
     xil_printf("\r\n");
+
+//    u8 msg[6] = {0x24, 0x4d, 0x3c, 0x00, 0x6c, 0x6c};
+//    uart_put(&uartInst, msg, 6);
+//    num = uart_get(&uartInst, buff, 20);
+//    u8 cmd = 0x6c;
+//    u8 data[6];
+//    quad_put(&uartInst, &cmd, 1);
+//    int failed = quad_get(&uartInst, data, 7);
+
+
 
     cleanup_platform();
     return 0;
