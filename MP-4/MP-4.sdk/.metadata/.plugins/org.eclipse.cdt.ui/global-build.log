@@ -3783,3 +3783,668 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
+10:48:35 **** Incremental Build of project p3_UART0_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:217:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+10:49:50 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28812	   1188	  22584	  52584	   cd68	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+10:50:44 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+10:52:16 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+10:56:11 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+10:57:23 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:03:21 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28812	   1188	  22584	  52584	   cd68	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:07:44 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:128:12: error: 'uartInst' undeclared (first use in this function)
+  uart_put(&uartInst, (u8*)"$$$", 3);
+            ^~~~~~~~
+../src/main.c:128:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:137:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:147:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:137:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:269:5: error: 'num' undeclared (first use in this function)
+     num = uart_get(&uartInst, buff, 20);
+     ^~~
+../src/main.c:269:31: error: 'buff' undeclared (first use in this function)
+     num = uart_get(&uartInst, buff, 20);
+                               ^~~~
+make: *** [src/main.o] Error 1
+11:07:55 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:128:12: error: 'uartInst' undeclared (first use in this function)
+  uart_put(&uartInst, (u8*)"$$$", 3);
+            ^~~~~~~~
+../src/main.c:128:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:137:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:147:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:137:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:269:35: error: 'buff' undeclared (first use in this function)
+     u32 num = uart_get(&uartInst, buff, 20);
+                                   ^~~~
+../src/main.c:269:9: warning: unused variable 'num' [-Wunused-variable]
+     u32 num = uart_get(&uartInst, buff, 20);
+         ^~~
+make: *** [src/main.o] Error 1
+11:08:19 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:128:12: error: 'uartInst' undeclared (first use in this function)
+  uart_put(&uartInst, (u8*)"$$$", 3);
+            ^~~~~~~~
+../src/main.c:128:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:137:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:147:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:137:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:271:9: warning: unused variable 'num' [-Wunused-variable]
+     u32 num = uart_get(&uartInst, buff, 20);
+         ^~~
+make: *** [src/main.o] Error 1
+11:08:47 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:137:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:147:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:137:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:271:9: warning: unused variable 'num' [-Wunused-variable]
+     u32 num = uart_get(&uartInst, buff, 20);
+         ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28884	   1188	  22584	  52656	   cdb0	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:09:43 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:137:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:147:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:137:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:276:9: warning: unused variable 'failed' [-Wunused-variable]
+     int failed = quad_get(&uartInst, data, 7);
+         ^~~~~~
+../src/main.c:267:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28876	   1188	  22584	  52648	   cda8	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:22:22 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_getAttitude':
+../src/main.c:273:15: error: 'uartInst' undeclared (first use in this function)
+  if(quad_get(&uartInst, data, 7))
+               ^~~~~~~~
+../src/main.c:273:15: note: each undeclared identifier is reported only once for each function it appears in
+../src/main.c:283:11: error: incompatible types when assigning to type 'float *' from type 'float'
+  at->angx = ((float)(((data[2] << 8) | data[1]))) / 10;
+           ^
+../src/main.c:284:11: error: incompatible types when assigning to type 'float *' from type 'float'
+  at->angy = ((float)(((data[4] << 8) | data[3]))) / 10;
+           ^
+../src/main.c:285:14: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  at->heading = ((int)(((data[6] << 8) | data[5])));
+              ^
+../src/main.c: In function 'main':
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+make: *** [src/main.o] Error 1
+11:22:59 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29068	   1188	  22584	  52840	   ce68	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:25:34 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29148	   1188	  22584	  52920	   ceb8	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:28:15 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:312:20: warning: passing argument 1 of 'xil_printf' makes pointer from integer without a cast [-Wint-conversion]
+         xil_printf(sprintf(str, "%3.3f\t%3.3f\t%3d\r\n", at.angx, at.angy, at.heading));
+                    ^~~~~~~
+In file included from ../src/main.c:50:0:
+../../p3_UART0_bsp/ps7_cortexa9_0/include/xil_printf.h:35:6: note: expected 'const char8 * {aka const char *}' but argument is of type 'int'
+ void xil_printf( const char8 *ctrl1, ...);
+      ^~~~~~~~~~
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73104	   2620	  23344	  99068	  182fc	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:28:35 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73104	   2620	  23344	  99068	  182fc	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:30:16 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73104	   2620	  23344	  99068	  182fc	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:31:17 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p3_UART0_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p3_UART0_test.elf  |tee "p3_UART0_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73104	   2620	  23344	  99068	  182fc	p3_UART0_test.elf
+'Finished building: p3_UART0_test.elf.size'
+' '
+11:47:10 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:47:46 **** Build of configuration Debug for project p4_quad_commands ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:159:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:169:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:159:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:349:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: p4_quad_commands.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p4_quad_commands.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p4_quad_commands.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p4_quad_commands.elf  |tee "p4_quad_commands.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  73744	   2620	  23344	  99708	  1857c	p4_quad_commands.elf
+'Finished building: p4_quad_commands.elf.size'
+' '
+11:48:17 **** Incremental Build of configuration Debug for project p4_quad_commands ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:159:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:169:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:159:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:349:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p4_quad_commands.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p4_quad_commands.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p4_quad_commands.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p4_quad_commands.elf  |tee "p4_quad_commands.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29772	   1188	  22584	  53544	   d128	p4_quad_commands.elf
+'Finished building: p4_quad_commands.elf.size'
+' '

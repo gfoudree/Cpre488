@@ -55,6 +55,13 @@
 
 #define TIME_OUT_US (1000000 / 10)
 
+typedef struct _attitude_t
+{
+	float angx;
+	float angy;
+	int heading;
+} attitude_t;
+
 int uart_get(XUartPs* inst, u8* data, u32 numBytes)
 {
 	u32 recBytes = 0;
@@ -107,8 +114,8 @@ void bt_configure(XUartPs* inst)
 	buff[num] = '\0';
 	xil_printf((char*)buff);
 
-	xil_printf("Send CMD: SR,81ebb6906a6d<cr>...\r\n");
-    uart_put(inst, (u8*)"SR,81ebb6906a6d\r", 16);
+	xil_printf("Send CMD: SR,81ebb68b7913<cr>...\r\n");
+    uart_put(inst, (u8*)"SR,81ebb68b7913\r", 16);
     num = uart_get(inst, buff, 5);
 	buff[num] = '\0';
 	xil_printf((char*)buff);
@@ -118,6 +125,30 @@ void bt_configure(XUartPs* inst)
     num = uart_get(inst, buff, 5);
 	buff[num] = '\0';
 	xil_printf((char*)buff);
+}
+
+void bt_init(XUartPs* inst)
+{
+    u8 buff[20];
+
+	//enter command mode
+	uart_put(inst, (u8*)"$$$", 3);
+	u32 num = uart_get(inst, buff, 3);
+    buff[num] = '\0';
+    xil_printf((char*)buff);
+    xil_printf("\r\n");
+
+    bt_configure(inst);
+
+    xil_printf("After...\r\n");
+    dump_config(inst);
+
+	//exit command mode
+	uart_put(inst, (u8*)"---\r", 4);
+	num = uart_get(inst, buff, 4);
+    buff[num] = '\0';
+    xil_printf((char*)buff);
+    xil_printf("\r\n");
 }
 
 void dump_config(XUartPs* inst)
@@ -229,6 +260,33 @@ int quad_get(XUartPs* inst, u8* data, u32 numBytes)
 	return 0;
 }
 
+int quad_getAttitude(XUartPs* inst, attitude_t* at)
+{
+	u8 cmd = 0x6c;
+	u8 data[7];
+
+	if(quad_put(inst, &cmd, 1))
+	{
+		return 1;
+	}
+
+	if(quad_get(inst, data, 7))
+	{
+		return 1;
+	}
+
+	if(cmd != data[0])
+	{
+		return 1;
+	}
+
+	at->angx = ((float)((int16_t)((data[2] << 8) | data[1])) / 10);
+	at->angy = ((float)((int16_t)((data[4] << 8) | data[3])) / 10);
+	at->heading = ((int16_t)(((data[6] << 8) | data[5])));
+
+	return 0;
+}
+
 int main()
 {
     init_platform();
@@ -238,34 +296,25 @@ int main()
 
     XUartPs_CfgInitialize(&uartInst, config, XPAR_PS7_UART_0_BASEADDR);
 
+//    bt_init(&uartInst);
+
     u8 buff[20];
-
-	//enter command mode
-	uart_put(&uartInst, (u8*)"$$$", 3);
-	u32 num = uart_get(&uartInst, buff, 3);
-    buff[num] = '\0';
-    xil_printf((char*)buff);
-    xil_printf("\r\n");
-
-    bt_configure(&uartInst);
-
-    xil_printf("After...\r\n");
-    dump_config(&uartInst);
-
-	//exit command mode
-	uart_put(&uartInst, (u8*)"---\r", 4);
-	num = uart_get(&uartInst, buff, 4);
-    buff[num] = '\0';
-    xil_printf((char*)buff);
-    xil_printf("\r\n");
 
 //    u8 msg[6] = {0x24, 0x4d, 0x3c, 0x00, 0x6c, 0x6c};
 //    uart_put(&uartInst, msg, 6);
-//    num = uart_get(&uartInst, buff, 20);
-//    u8 cmd = 0x6c;
-//    u8 data[6];
-//    quad_put(&uartInst, &cmd, 1);
-//    int failed = quad_get(&uartInst, data, 7);
+//    u32 num = uart_get(&uartInst, buff, 20);
+
+    while(1)
+    {
+        attitude_t at;
+        quad_getIMU(&uartInst, &at);
+        char str[100];
+        sprintf(str, "%3.3f\t\t%3.3f\t\t%3d\r\n", at.angx, at.angy, at.heading);
+        xil_printf(str);
+        usleep(100);
+    }
+
+
 
 
 

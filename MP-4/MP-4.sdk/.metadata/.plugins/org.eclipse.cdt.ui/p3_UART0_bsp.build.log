@@ -1,4 +1,4 @@
-09:12:44 **** Incremental Build of project p3_UART0_bsp ****
+10:48:35 **** Incremental Build of project p3_UART0_bsp ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
 make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
@@ -105,5 +105,5 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm
 "Compiling xadcps"
 'Finished building libraries'
 
-09:14:01 Build Finished (took 1m:16s.427ms)
+10:49:50 Build Finished (took 1m:14s.959ms)
 

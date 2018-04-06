@@ -1,8 +1,8 @@
-10:33:00 **** Incremental Build of configuration Debug for project p3_UART0_test ****
+11:47:10 **** Incremental Build of configuration Debug for project p3_UART0_test ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
 
-10:33:00 Build Finished (took 146ms)
+11:47:10 Build Finished (took 172ms)
 

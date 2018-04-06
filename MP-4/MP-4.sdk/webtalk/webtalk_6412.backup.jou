@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# 
+# Start of session at: Tue Apr  3 12:36:42 2018
+# Process ID: 6412
+# Current directory: C:/Cpre488/MP-4/MP-4.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Cpre488/MP-4/MP-4.sdk/webtalk/webtalk.log
+# Journal file: C:/Cpre488/MP-4/MP-4.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
