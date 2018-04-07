@@ -1,4 +1,4 @@
-11:48:17 **** Incremental Build of configuration Debug for project p4_quad_commands ****
+11:21:33 **** Incremental Build of configuration Debug for project p4_quad_commands ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -16,10 +16,10 @@ arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cort
 ../src/main.c:159:5: note: previous implicit declaration of 'dump_config' was here
      dump_config(inst);
      ^~~~~~~~~~~
-../src/main.c: In function 'main':
-../src/main.c:349:8: warning: unused variable 'buff' [-Wunused-variable]
-     u8 buff[20];
-        ^~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:346:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
 'Finished building: ../src/main.c'
 ' '
 'Building target: p4_quad_commands.elf'
@@ -30,9 +30,9 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size p4_quad_commands.elf  |tee "p4_quad_commands.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  29772	   1188	  22584	  53544	   d128	p4_quad_commands.elf
+  31052	   1188	  22584	  54824	   d628	p4_quad_commands.elf
 'Finished building: p4_quad_commands.elf.size'
 ' '
 
-11:48:18 Build Finished (took 1s.172ms)
+11:21:34 Build Finished (took 1s.251ms)
 
