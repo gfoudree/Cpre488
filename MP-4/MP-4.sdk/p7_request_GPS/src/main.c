@@ -55,7 +55,7 @@
 #include "xuartps.h"
 #include "sleep.h"
 
-#define TIME_OUT_US (1000000 / 10)
+#define TIME_OUT_US (100000 / 10)
 
 typedef struct _attitude_t
 {
@@ -84,6 +84,14 @@ typedef struct _imu_t
 	float magY;
 	float magZ;
 } imu_t;
+
+typedef struct _gps_t
+{
+	float x;
+	float y;
+	float z;
+	float yaw;
+} gps_t;
 
 int uart_get(XUartPs* inst, u8* data, u32 numBytes)
 {
@@ -490,23 +498,87 @@ int quad_calcOrientation(XUartPs* inst, orientation_t* accOr, orientation_t* gyr
 	return 0;
 }
 
+int gps_getGps(XUartPs* inst, gps_t* gps)
+{
+	char in[16];
+
+	uart_clear_rx_fifo(inst);
+	uart_put(inst, (u8*)"S", 1);
+	u8 byteRec = uart_get(inst, (u8*)in, 16);
+
+	if(byteRec != 16)
+	{
+		return 1;
+	}
+
+	uint32_t xAsBinStr = ((in[3] << 24) | (in[2] << 16) | (in[1] << 8) | in[0]);
+	gps->x = *((float*)(void*)&xAsBinStr);
+
+	uint32_t yAsBinStr = ((in[7] << 24) | (in[6] << 16) | (in[5] << 8) | in[4]);
+	gps->y = *((float*)(void*)&yAsBinStr);
+
+	uint32_t zAsBinStr = ((in[11] << 24) | (in[10] << 16) | (in[9] << 8) | in[8]);
+	gps->z = *((float*)(void*)&zAsBinStr);
+
+	uint32_t yawAsBinStr = ((in[15] << 24) | (in[14] << 16) | (in[13] << 8) | in[12]);
+	gps->yaw = *((float*)(void*)&yawAsBinStr);
+
+	return 0;
+}
+
+int gps_gpsDebug(XUartPs* inst, gps_t* gps)
+{
+	char data[1000];
+	memset(data, 0, 1000* sizeof(char));
+
+	sprintf(data, "X = %3.2f, Y = %3.2f, Z = %3.2f, Yaw = %3.2f\r\n", gps->x, gps->y, gps->z, gps->yaw);
+
+	if(uart_put(inst, "D", 1))
+	{
+		return 1;
+	}
+
+	if(uart_put(inst, data, 1000))
+	{
+		return 1;
+	}
+
+	return 0;
+}
+
 int main()
 {
     init_platform();
 
-    XUartPs uartInst;
+    XUartPs uart0Inst;
     XUartPs_Config* config = XUartPs_LookupConfig(XPAR_XUARTPS_0_DEVICE_ID);
 
-    XUartPs_CfgInitialize(&uartInst, config, XPAR_PS7_UART_0_BASEADDR);
+    XUartPs_CfgInitialize(&uart0Inst, config, XPAR_PS7_UART_0_BASEADDR);
 
-  //  bt_init(&uartInst);
+    XUartPs uart1Inst;
+    config = XUartPs_LookupConfig(XPAR_XUARTPS_1_DEVICE_ID);
+
+    XUartPs_CfgInitialize(&uart1Inst, config, XPAR_PS7_UART_1_BASEADDR);
+
+  //  bt_init(&uart0Inst);
+
+    gps_t gps;
+    char str[100];
+    memset(str, 0, 100 * sizeof(char));
 
     while(1)
     {
-    	char str[100];
-    	printf("%c", 'S');
-    	scanf("%s", str);
-    	sleep(1);
+    	if(gps_getGps(&uart1Inst, &gps))
+    	{
+    		for(;;);
+    	}
+//    	usleep(5000);
+
+    	if(gps_gpsDebug(&uart1Inst, &gps))
+    	{
+    		for(;;);
+    	}
+//    	usleep(50000);
     }
 
     cleanup_platform();

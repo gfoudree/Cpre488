@@ -499,7 +499,7 @@ int main()
 
     XUartPs_CfgInitialize(&uartInst, config, XPAR_PS7_UART_0_BASEADDR);
 
-    bt_init(&uartInst);
+//    bt_init(&uartInst);
 
     xil_printf("AngX (Acc)\t AngY (Acc)\t AngX (Gyr)\t AngY (Gyr)\t AngX (At)\t AngY (At)\r\n");
 

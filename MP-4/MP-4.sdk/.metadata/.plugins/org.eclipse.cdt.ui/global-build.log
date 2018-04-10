@@ -566,3 +566,1576 @@ arm-none-eabi-gcc: error: ../src/main.c: No such file or directory
 arm-none-eabi-gcc: fatal error: no input files
 compilation terminated.
 make: *** [src/main.o] Error 1
+09:28:58 **** Clean-only build of project p3_UART0_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+09:28:59 **** Clean-only build of configuration Debug for project p3_UART0_test ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p3_UART0_test.elf.size  p3_UART0_test.elf
+' '
+09:28:59 **** Clean-only build of configuration Debug for project p4_quad_commands ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p4_quad_commands.elf.size  p4_quad_commands.elf
+' '
+09:29:00 **** Clean-only build of configuration Debug for project p6_sensor_analysis ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p6_sensor_analysis.elf.size  p6_sensor_analysis.elf
+' '
+09:29:00 **** Clean-only build of configuration Debug for project p7_request_GPS ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p7_request_GPS.elf.size  p7_request_GPS.elf
+' '
+09:29:00 **** Clean-only build of configuration Debug for project p8_PID_control ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p8_PID_control.elf.size  p8_PID_control.elf
+' '
+09:29:37 **** Build of project p3_UART0_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/bram_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/bram_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling bram"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:217:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+09:30:50 **** Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118804	   2620	  23344	 144768	  23580	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+09:31:49 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+09:32:17 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118804	   2620	  23344	 144768	  23580	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+09:34:45 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+09:38:53 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:513:27: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+      uart_put(&uart1Inst, "HI\r\n", 4);
+                           ^~~~~~~~
+../src/main.c:118:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:509:10: warning: unused variable 'str' [-Wunused-variable]
+     char str[100];
+          ^~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37168	   1188	  22584	  60940	   ee0c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+09:41:36 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37168	   1188	  22584	  60940	   ee0c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+09:42:52 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37232	   1188	  22584	  61004	   ee4c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+09:55:37 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:516:12: warning: unused variable 'x' [-Wunused-variable]
+      float x = (str[3] << 24) | (str[2] << 16) | (str[1] << 8) | str[0];
+            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37296	   1188	  22584	  61068	   ee8c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+09:57:32 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:517:6: error: cannot convert to a pointer type
+      uint32_t xAsBinStr = ((uint32_t)(void *)x);
+      ^~~~~~~~
+../src/main.c:517:15: warning: unused variable 'xAsBinStr' [-Wunused-variable]
+      uint32_t xAsBinStr = ((uint32_t)(void *)x);
+               ^~~~~~~~~
+make: *** [src/main.o] Error 1
+09:57:54 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:517:6: error: invalid use of void expression
+      uint32_t xAsBinStr = ((uint32_t)(void)x);
+      ^~~~~~~~
+../src/main.c:517:15: warning: unused variable 'xAsBinStr' [-Wunused-variable]
+      uint32_t xAsBinStr = ((uint32_t)(void)x);
+               ^~~~~~~~~
+make: *** [src/main.o] Error 1
+09:58:18 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:517:39: warning: dereferencing 'void *' pointer
+      uint32_t xAsBinStr = ((uint32_t)(*(void*)&x));
+                                       ^~~~~~~~~~
+../src/main.c:517:6: error: invalid use of void expression
+      uint32_t xAsBinStr = ((uint32_t)(*(void*)&x));
+      ^~~~~~~~
+../src/main.c:517:15: warning: unused variable 'xAsBinStr' [-Wunused-variable]
+      uint32_t xAsBinStr = ((uint32_t)(*(void*)&x));
+               ^~~~~~~~~
+make: *** [src/main.o] Error 1
+09:58:54 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:517:15: warning: unused variable 'xAsBinStr' [-Wunused-variable]
+      uint32_t xAsBinStr = *((uint32_t*)(void*)&x);
+               ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37296	   1188	  22584	  61068	   ee8c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+10:02:29 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'main':
+../src/main.c:517:12: warning: unused variable 'x' [-Wunused-variable]
+      float x = *((float*)(void*)&xAsBinStr);
+            ^
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37296	   1188	  22584	  61068	   ee8c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+10:11:47 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37552	   1188	  22584	  61324	   ef8c	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+10:20:22 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:534:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:539:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81748	   2620	  23344	 107712	  1a4c0	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+10:22:24 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:534:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:539:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81748	   2620	  23344	 107712	  1a4c0	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+10:23:03 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+10:26:17 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81812	   2620	  23344	 107776	  1a500	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+10:32:52 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+10:58:36 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:00:02 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:00:38 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:01:37 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:02:07 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:02:20 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:03:05 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:03:31 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:04:06 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81748	   2620	  23344	 107712	  1a4c0	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:04:43 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:05:32 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:07:04 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:07:39 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81748	   2620	  23344	 107712	  1a4c0	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:08:11 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:09:15 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:10:01 **** Incremental Build of configuration Debug for project p7_request_GPS ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:175:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:185:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:175:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:364:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:536:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:541:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:126:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p7_request_GPS.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p7_request_GPS.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p7_request_GPS.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p7_request_GPS.elf  |tee "p7_request_GPS.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81684	   2620	  23344	 107648	  1a480	p7_request_GPS.elf
+'Finished building: p7_request_GPS.elf.size'
+' '
+11:11:38 **** Build of configuration Debug for project p8_PID_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:213:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:223:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:213:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:402:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: At top level:
+../src/main.c:510:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ quad_setYaw(XUartPs* inst, uint16_t yaw)
+ ^~~~~~~~~~~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:627:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:632:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:687:18: error: 'inst' undeclared (first use in this function)
+       if(get_yaw(inst, &yaw))
+                  ^~~~
+../src/main.c:687:18: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/main.o] Error 1
+11:12:11 **** Incremental Build of configuration Debug for project p8_PID_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:213:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:223:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:213:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:402:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: At top level:
+../src/main.c:510:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ quad_setYaw(XUartPs* inst, uint16_t yaw)
+ ^~~~~~~~~~~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:627:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:632:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: p8_PID_control.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p8_PID_control.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p8_PID_control.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p8_PID_control.elf  |tee "p8_PID_control.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82836	   2620	  23344	 108800	  1a900	p8_PID_control.elf
+'Finished building: p8_PID_control.elf.size'
+' '
+11:12:33 **** Incremental Build of configuration Debug for project p8_PID_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:13:13 **** Incremental Build of configuration Debug for project p8_PID_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:213:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:223:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:213:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:402:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: At top level:
+../src/main.c:510:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ quad_setYaw(XUartPs* inst, uint16_t yaw)
+ ^~~~~~~~~~~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:627:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:632:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p8_PID_control.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p8_PID_control.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p8_PID_control.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p8_PID_control.elf  |tee "p8_PID_control.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82836	   2620	  23344	 108800	  1a900	p8_PID_control.elf
+'Finished building: p8_PID_control.elf.size'
+' '
+11:13:26 **** Incremental Build of configuration Debug for project p8_PID_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:213:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:223:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:213:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:402:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: At top level:
+../src/main.c:510:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ quad_setYaw(XUartPs* inst, uint16_t yaw)
+ ^~~~~~~~~~~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:627:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:632:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p8_PID_control.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p8_PID_control.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p8_PID_control.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p8_PID_control.elf  |tee "p8_PID_control.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  82836	   2620	  23344	 108800	  1a900	p8_PID_control.elf
+'Finished building: p8_PID_control.elf.size'
+' '
+11:15:08 **** Incremental Build of configuration Debug for project p8_PID_control ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:16:27 **** Build of configuration Debug for project p6_sensor_analysis ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+'Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c'
+' '
+'Building target: p6_sensor_analysis.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p6_sensor_analysis.elf"  ./src/main.o ./src/platform.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p6_sensor_analysis.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p6_sensor_analysis.elf  |tee "p6_sensor_analysis.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81236	   2620	  23344	 107200	  1a2c0	p6_sensor_analysis.elf
+'Finished building: p6_sensor_analysis.elf.size'
+' '
+11:20:01 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:22:42 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:167:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:177:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:167:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:356:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+'Finished building: ../src/main.c'
+' '
+'Building target: p6_sensor_analysis.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p6_sensor_analysis.elf"  ./src/main.o ./src/platform.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p6_sensor_analysis.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p6_sensor_analysis.elf  |tee "p6_sensor_analysis.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  81236	   2620	  23344	 107200	  1a2c0	p6_sensor_analysis.elf
+'Finished building: p6_sensor_analysis.elf.size'
+' '
+11:25:09 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:25:31 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+11:31:02 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

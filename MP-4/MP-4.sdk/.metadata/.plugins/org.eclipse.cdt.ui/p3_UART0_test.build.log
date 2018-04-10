@@ -1,8 +1,7 @@
-11:47:10 **** Incremental Build of configuration Debug for project p3_UART0_test ****
-make pre-build main-build 
-a9-linaro-pre-build-step
+09:28:59 **** Clean-only build of configuration Debug for project p3_UART0_test ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p3_UART0_test.elf.size  p3_UART0_test.elf
 ' '
-make: Nothing to be done for `main-build'.
 
-11:47:10 Build Finished (took 172ms)
+09:28:59 Build Finished (took 140ms)
 

@@ -1,42 +1,8 @@
-13:17:27 **** Incremental Build of configuration Debug for project p8_PID_control ****
+11:15:08 **** Incremental Build of configuration Debug for project p8_PID_control ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/main.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'bt_init':
-../src/main.c:205:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
-     dump_config(inst);
-     ^~~~~~~~~~~
-../src/main.c: At top level:
-../src/main.c:215:6: warning: conflicting types for 'dump_config'
- void dump_config(XUartPs* inst)
-      ^~~~~~~~~~~
-../src/main.c:205:5: note: previous implicit declaration of 'dump_config' was here
-     dump_config(inst);
-     ^~~~~~~~~~~
-../src/main.c: In function 'quad_arm':
-../src/main.c:394:5: warning: unused variable 'in' [-Wunused-variable]
-  u8 in[msgLength];
-     ^~
-../src/main.c: At top level:
-../src/main.c:502:1: warning: return type defaults to 'int' [-Wimplicit-int]
- quad_setYaw(XUartPs* inst, uint16_t yaw)
- ^~~~~~~~~~~
-'Finished building: ../src/main.c'
-' '
-'Building target: p8_PID_control.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p8_PID_control.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: p8_PID_control.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size p8_PID_control.elf  |tee "p8_PID_control.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  38184	   1188	  22584	  61956	   f204	p8_PID_control.elf
-'Finished building: p8_PID_control.elf.size'
-' '
+make: Nothing to be done for `main-build'.
 
-13:17:28 Build Finished (took 1s.246ms)
+11:15:09 Build Finished (took 156ms)
 
