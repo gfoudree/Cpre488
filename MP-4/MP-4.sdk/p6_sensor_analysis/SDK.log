@@ -1,0 +1,5 @@
+18:07:00 INFO  : Registering command handlers for SDK TCF services
+18:07:00 INFO  : Launching XSCT server: xsct.bat -interactive \\MY.FILES.IASTATE.EDU\Users\njknuth\Desktop\MP-4\Cpre488\MP-4\MP-4.sdk\p6_sensor_analysis\temp_xsdb_launch_script.tcl
+18:07:01 INFO  : XSCT server has started successfully.
+18:07:01 INFO  : Successfully done setting XSCT server connection channel  
+18:07:01 INFO  : Successfully done setting SDK workspace  
