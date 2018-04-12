@@ -183,8 +183,8 @@ void bt_configure(XUartPs* inst)
 	buff[num] = '\0';
 	xil_printf((char*)buff);
 
-	xil_printf("Send CMD: SR,81ebb68b7913<cr>...\r\n");
-    uart_put(inst, (u8*)"SR,81ebb68b7913\r", 16);
+	xil_printf("Send CMD: SR,81ebb686e1d4<cr>...\r\n");
+    uart_put(inst, (u8*)"SR,81ebb686e1d4\r", 16);
     num = uart_get(inst, buff, 5);
 	buff[num] = '\0';
 	xil_printf((char*)buff);
@@ -533,8 +533,8 @@ quad_setYaw(XUartPs* inst, uint16_t yaw)
 	*dataPtr++ = (yaw >> 8) & 0xFF;
 
 	// Throttle
-	*dataPtr++ = 1100 & 0xFF;
-	*dataPtr++ = (1100 >> 8) & 0xFF;
+	*dataPtr++ = 1400 & 0xFF;
+	*dataPtr++ = (1400 >> 8) & 0xFF;
 
 	// Aux1
 	*dataPtr++ = 1500 & 0xFF;
@@ -637,6 +637,26 @@ int gps_gpsDebug(XUartPs* inst, gps_t* gps)
 	return 0;
 }
 
+int pid_debug(XUartPs* inst, uint16_t yaw, float change)
+{
+	char data[1000];
+	memset(data, 0, 1000* sizeof(char));
+
+	sprintf(data, "\r\n%d\t%f.2\r\n", yaw, change);
+
+	if(uart_put(inst, "D", 1))
+	{
+		return 1;
+	}
+
+	if(uart_put(inst, data, 1000))
+	{
+		return 1;
+	}
+
+	return 0;
+}
+
 int get_yaw(XUartPs* inst, float* yaw)
 {
 	gps_t gps;
@@ -668,9 +688,9 @@ int main()
 //    bt_init(&uartInst);
 
     pid_wtf_t pid;
-    float kp = 0;
-    float ki = 0;
-    float kd = 0;
+    float kp = 2;
+    float ki = 0.1;
+    float kd = 0.5;
 
     init_pid(&pid, kp, ki, kd);
 
@@ -678,26 +698,54 @@ int main()
 
     uint16_t yawThrottleVal = 1900;
 
+    int isArmed = 0;
+
     while(1)
     {
     	u8 sw = XUartPs_ReadReg(SW_BASE_ADDR, 0);
     	if(sw & 0x01)
     	{
+    		if(!isArmed)
+    		{
+    			for(int i = 0; i < 500; i++)
+    			{
+    				quad_arm(&uartInst);
+    			}
+    			isArmed = 1;
+    		}
+
     		pid.setpoint = 0;
     		if(get_yaw(&uart1Inst, &yaw))
     		{
-    			for(;;);
+    			continue;
     		}
 
     		pid.sensor = yaw;
     		compute_pid(&pid);
 
     		uint16_t newYaw = (uint16_t)(yawThrottleVal + pid.pid_correction);
-//    		quad_setYaw(&uartInst, newYaw);
-    		yaw = newYaw;
+
+    		if(newYaw > 2000)
+    		{
+    			newYaw = 2000;
+    		}
+    		else if(newYaw < 1200)
+    		{
+    			newYaw = 1200;
+    		}
+
+//    		pid_debug(&uart1Inst, newYaw, pid.pid_correction);
+
+    		for(int i = 0; i < 5; i++)
+    		{
+    			quad_setYaw(&uartInst, newYaw);
+    		}
+    		yawThrottleVal = newYaw;
     	}
     	else
     	{
+    		isArmed = 0;
+    		quad_disarm(&uartInst);
     		init_pid(&pid, kp, ki, kd);
     	}
     }

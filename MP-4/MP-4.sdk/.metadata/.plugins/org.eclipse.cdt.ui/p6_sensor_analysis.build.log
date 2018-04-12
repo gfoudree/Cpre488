@@ -1,8 +1,8 @@
-11:31:02 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
+21:28:29 **** Incremental Build of configuration Debug for project p6_sensor_analysis ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
 
-11:31:02 Build Finished (took 157ms)
+21:28:29 Build Finished (took 298ms)
 

@@ -1,8 +1,8 @@
-11:15:08 **** Incremental Build of configuration Debug for project p8_PID_control ****
+23:05:56 **** Incremental Build of configuration Debug for project p8_PID_control ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
 
-11:15:09 Build Finished (took 156ms)
+23:05:56 Build Finished (took 251ms)
 
