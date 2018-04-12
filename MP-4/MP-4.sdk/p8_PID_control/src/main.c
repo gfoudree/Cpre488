@@ -688,15 +688,15 @@ int main()
 //    bt_init(&uartInst);
 
     pid_wtf_t pid;
-    float kp = 2;
+    float kp = 1.5;
     float ki = 0.1;
-    float kd = 0.5;
+    float kd = 5;
 
     init_pid(&pid, kp, ki, kd);
 
     float yaw;
 
-    uint16_t yawThrottleVal = 1900;
+    uint16_t yawThrottleVal = 1600;
 
     int isArmed = 0;
 
@@ -707,7 +707,7 @@ int main()
     	{
     		if(!isArmed)
     		{
-    			for(int i = 0; i < 500; i++)
+    			for(int i = 0; i < 300; i++)
     			{
     				quad_arm(&uartInst);
     			}
@@ -723,7 +723,7 @@ int main()
     		pid.sensor = yaw;
     		compute_pid(&pid);
 
-    		uint16_t newYaw = (uint16_t)(yawThrottleVal + pid.pid_correction);
+    		uint16_t newYaw = (uint16_t)(yawThrottleVal - pid.pid_correction);
 
     		if(newYaw > 2000)
     		{
@@ -736,7 +736,7 @@ int main()
 
 //    		pid_debug(&uart1Inst, newYaw, pid.pid_correction);
 
-    		for(int i = 0; i < 5; i++)
+    		for(int i = 0; i < 1; i++)
     		{
     			quad_setYaw(&uartInst, newYaw);
     		}

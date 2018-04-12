@@ -1,8 +1,68 @@
-23:05:56 **** Incremental Build of configuration Debug for project p8_PID_control ****
+09:31:09 **** Incremental Build of configuration Debug for project p8_PID_control ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for `main-build'.
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:213:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:223:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:213:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'quad_arm':
+../src/main.c:402:5: warning: unused variable 'in' [-Wunused-variable]
+  u8 in[msgLength];
+     ^~
+../src/main.c: At top level:
+../src/main.c:510:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ quad_setYaw(XUartPs* inst, uint16_t yaw)
+ ^~~~~~~~~~~
+../src/main.c: In function 'gps_gpsDebug':
+../src/main.c:627:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:632:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c: In function 'pid_debug':
+../src/main.c:647:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, "D", 1))
+                    ^~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+../src/main.c:652:20: warning: pointer targets in passing argument 2 of 'uart_put' differ in signedness [-Wpointer-sign]
+  if(uart_put(inst, data, 1000))
+                    ^~~~
+../src/main.c:164:5: note: expected 'u8 * {aka unsigned char *}' but argument is of type 'char *'
+ int uart_put(XUartPs* inst, u8* data, u32 numBytes)
+     ^~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: p8_PID_control.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p8_PID_control.elf"  ./src/main.o ./src/platform.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: p8_PID_control.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size p8_PID_control.elf  |tee "p8_PID_control.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  83236	   2620	  23344	 109200	  1aa90	p8_PID_control.elf
+'Finished building: p8_PID_control.elf.size'
+' '
 
-23:05:56 Build Finished (took 251ms)
+09:31:11 Build Finished (took 1s.281ms)
 
