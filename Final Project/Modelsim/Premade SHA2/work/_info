@@ -40,14 +40,14 @@ R3
 R4
 R5
 R6
-DEx4 work 6 sha256 0 22 `iIA6TURVK>moM4ORQbNg2
+Z17 DEx4 work 6 sha256 0 22 `iIA6TURVK>moM4ORQbNg2
+32
+R11
 l55
 L37
 VfYk91WPB[TXE90nD[@zof0
 !s100 TzRAD2T96Jleg4<aL_FS21
 R10
-32
-R11
 !i10b 1
 R12
 R13
@@ -59,6 +59,8 @@ Psha256_constants
 R3
 R5
 R6
+32
+R11
 R0
 R7
 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd
@@ -68,8 +70,6 @@ L9
 VLnAe2nFYnWP[UzRFY90gV2
 !s100 8GPC>2=]gj?b73_ZiE][c2
 R10
-32
-R11
 !i10b 1
 R12
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd|
@@ -83,10 +83,10 @@ R3
 R4
 R5
 R6
-Z17 w1523630511
+Z18 w1523630511
 R7
-Z18 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd
-Z19 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd
+Z19 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd
+Z20 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd
 l0
 L11
 VFQnaiFn0`n7Bn@G?[n]jC3
@@ -97,8 +97,8 @@ b1
 R11
 !i10b 1
 R12
-Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd|
-Z21 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd|
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd|
+Z22 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd|
 !i113 0
 R15
 R16
@@ -109,24 +109,26 @@ R3
 R4
 R5
 R6
+32
+R11
 l0
 L47
 Vfz2m^F628e6H@?oFXzR<@1
 !s100 0j5YE<A5`][=e1XAJ3?`L3
 R10
-32
-R11
 !i10b 1
 R12
-R20
 R21
+R22
 !i113 0
 R15
 R16
 Psha256_types
 R5
 R6
-R17
+32
+R11
+R18
 R7
 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd
 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd
@@ -135,8 +137,6 @@ L7
 Vei9EI70gl:ja`mSPd?9VV2
 !s100 57PY[g=5?bWR49<aHMJZ?0
 R10
-32
-R11
 !i10b 1
 R12
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd|
@@ -145,45 +145,69 @@ R12
 R15
 R16
 Etb_sha256
-R17
+Z23 w1523631526
 R5
 R6
 R7
-8C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd
-FC:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd
+Z24 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd
+Z25 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd
 l0
 L7
 VG;_^LQTeNoC=FcRJlEEBg0
 !s100 :XkXl3QC6^a:?o`9H;leH1
 R10
 32
-R11
+Z26 !s110 1523631530
 !i10b 1
-R12
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd|
-!s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd|
+Z27 !s108 1523631530.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd|
+Z29 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd|
+!i113 0
+R15
+R16
+Atestbench
+Z30 DEx4 work 7 testrom 0 22 ShVI2gzTW:VJMQ_0WM7A83
+R1
+R2
+R3
+R4
+R17
+R5
+R6
+DEx4 work 9 tb_sha256 0 22 G;_^LQTeNoC=FcRJlEEBg0
+32
+R26
+l29
+L10
+VM;KoZ5dW`g:JDTf?`0AC;2
+!s100 F`K3haDFNk25Uk0UU`OkG1
+R10
+!i10b 1
+R27
+R28
+R29
 !i113 0
 R15
 R16
 Etestrom
-R17
+Z31 w1523632310
 R4
 R5
 R6
 R7
-Z22 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd
-Z23 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd
+Z32 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd
+Z33 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd
 l0
 L8
 VShVI2gzTW:VJMQ_0WM7A83
 !s100 XThA_dO@I?jXEeNU_N:<F0
 R10
 32
-R11
+Z34 !s110 1523632314
 !i10b 1
-R12
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd|
-Z25 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd|
+Z35 !s108 1523632314.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd|
+Z37 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd|
 !i113 0
 R15
 R16
@@ -191,18 +215,18 @@ Abehaviour
 R4
 R5
 R6
-Z26 DEx4 work 7 testrom 0 22 ShVI2gzTW:VJMQ_0WM7A83
+R30
+32
+R34
 l24
 L17
-Z27 Vkz:zbReeLJVd[zf7e>Io:1
-Z28 !s100 V5`izYENQHNM=NeI04kJJ1
+V7;>IF]B<T_ln9g<jkz66f3
+!s100 k:UT@T^ORNUecZgZdnP=>3
 R10
-32
-R11
 !i10b 1
-R12
-R24
-R25
+R35
+R36
+R37
 !i113 0
 R15
 R16

@@ -1,0 +1,63 @@
+{C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package sha256_types
+
+} {} {}} {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sha256_types
+-- Loading package sha256_constants
+-- Compiling package sha256_functions
+-- Compiling package body sha256_functions
+-- Loading package sha256_functions
+
+} {} {}} {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package sha256_types
+-- Compiling package sha256_constants
+
+} {} {}} {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package sha256_types
+-- Loading package sha256_constants
+-- Loading package sha256_functions
+-- Compiling entity sha256
+-- Compiling architecture behaviour of sha256
+
+} {} {}} {C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testrom
+-- Compiling architecture behaviour of testrom
+
+} {} {}} {C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tb_sha256
+-- Compiling architecture testbench of tb_sha256
+-- Loading package NUMERIC_STD
+-- Loading package sha256_types
+-- Loading package sha256_constants
+-- Loading package sha256_functions
+-- Loading entity sha256
+-- Loading entity testrom
+
+} {} {}}

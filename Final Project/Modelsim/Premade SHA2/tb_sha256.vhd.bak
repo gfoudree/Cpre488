@@ -33,7 +33,6 @@ begin
 			clk => clk,
 			reset => reset,
 			ready => ready,
-			enable => enable,
 			update => update,
 			word_address => word_address,
 			word_input => word_input,
