@@ -1,0 +1,86 @@
+
+*** Running vivado
+    with args -log design_1_xbar_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_0.tcl
+
+
+
+****** Vivado v2017.1_sdx (64-bit)
+  **** SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+  **** IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-1460] Use of init.tcl in C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/Xilinx/SDx/2017.1/Vivado/scripts/init.tcl'
+16 Beta devices matching pattern found, 0 enabled.
+Loaded SDSoC Platform Tcl Library
+source design_1_xbar_0.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 337.613 ; gain = 81.102
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_axi_crossbar' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_crossbar_sasd' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_addr_decoder' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_carry_and' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_carry_and' (1#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:62]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static' (2#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized0' (2#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized1' (2#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_comparator_static__parameterized2' (2#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2133]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_addr_decoder' (3#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:794]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_decerr_slave' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_decerr_slave' (4#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:3500]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_addr_arbiter_sasd' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_addr_arbiter_sasd' (5#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:65]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_splitter' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_splitter' (6#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'axi_crossbar_v2_1_13_splitter__parameterized0' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_splitter__parameterized0' (6#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4459]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc' (7#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized0' (7#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized1' (7#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-638] synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-256] done synthesizing module 'axi_register_slice_v2_1_12_axic_register_slice' (8#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/0e33/hdl/axi_register_slice_v2_1_vl_rfs.v:85]
+INFO: [Synth 8-638] synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'generic_baseblocks_v2_1_0_mux_enc__parameterized2' (8#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/f9c1/hdl/generic_baseblocks_v2_1_vl_rfs.v:2452]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_crossbar_sasd' (9#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:1240]
+INFO: [Synth 8-256] done synthesizing module 'axi_crossbar_v2_1_13_axi_crossbar' (10#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ipshared/78eb/hdl/axi_crossbar_v2_1_vl_rfs.v:4882]
+INFO: [Synth 8-256] done synthesizing module 'design_1_xbar_0' (11#1) [u:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/synth/design_1_xbar_0.v:59]
+Finished RTL Elaboration : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 457.227 ; gain = 200.715
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:28 . Memory (MB): peak = 457.227 ; gain = 200.715
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.060 . Memory (MB): peak = 702.266 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:44 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:44 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:44 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:44 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:45 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:55 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:56 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:56 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:56 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:56 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 702.266 ; gain = 445.754
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 702.266 ; gain = 445.754
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |    15|
+|3     |LUT3 |    40|
+|4     |LUT4 |    50|
+|5     |LUT5 |    62|
+|6     |LUT6 |    63|
+|7     |FDRE |   133|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:57 . Memory (MB): peak = 702.266 ; gain = 445.754
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:58 . Memory (MB): peak = 702.266 ; gain = 445.754

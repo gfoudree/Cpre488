@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1_sdx (64-bit)
+# SW Build 1915620 on Thu Jun 22 17:54:58 MDT 2017
+# IP Build 1908669 on Thu Jun 22 19:20:41 MDT 2017
+# Start of session at: Wed Apr 25 09:50:55 2018
+# Process ID: 4992
+# Current directory: U:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.runs/design_1_axi_gpio_1_0_synth_1
+# Command line: vivado.exe -log design_1_axi_gpio_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_axi_gpio_1_0.tcl
+# Log file: U:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.runs/design_1_axi_gpio_1_0_synth_1/design_1_axi_gpio_1_0.vds
+# Journal file: U:/Desktop/MP-4/Cpre488/Final Project/Xilinx/premade_sha256.runs/design_1_axi_gpio_1_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_axi_gpio_1_0.tcl -notrace
