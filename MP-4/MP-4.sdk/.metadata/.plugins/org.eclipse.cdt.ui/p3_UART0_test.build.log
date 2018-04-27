@@ -1,7 +1,42 @@
-09:28:59 **** Clean-only build of configuration Debug for project p3_UART0_test ****
-make clean 
-rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  p3_UART0_test.elf.size  p3_UART0_test.elf
+09:55:41 **** Build of configuration Debug for project p3_UART0_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
 ' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'bt_init':
+../src/main.c:144:5: warning: implicit declaration of function 'dump_config' [-Wimplicit-function-declaration]
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:154:6: warning: conflicting types for 'dump_config'
+ void dump_config(XUartPs* inst)
+      ^~~~~~~~~~~
+../src/main.c:144:5: note: previous implicit declaration of 'dump_config' was here
+     dump_config(inst);
+     ^~~~~~~~~~~
+../src/main.c: In function 'main':
+../src/main.c:310:9: warning: implicit declaration of function 'quad_getIMU' [-Wimplicit-function-declaration]
+         quad_getIMU(&uartInst, &at);
+         ^~~~~~~~~~~
+../src/main.c:301:8: warning: unused variable 'buff' [-Wunused-variable]
+     u8 buff[20];
+        ^~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../p3_UART0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: p3_UART0_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../p3_UART0_bsp/ps7_cortexa9_0/lib -o "p3_UART0_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/main.o: In function `main':
+U:\Desktop\MP-4\Cpre488\MP-4\MP-4.sdk\p3_UART0_test\Debug/../src/main.c:310: undefined reference to `quad_getIMU'
+collect2.exe: error: ld returned 1 exit status
+make: *** [p3_UART0_test.elf] Error 1
 
-09:28:59 Build Finished (took 140ms)
+09:55:45 Build Finished (took 3s.196ms)
 
