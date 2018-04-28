@@ -28,7 +28,7 @@ begin
 		if falling_edge(clk) then -- FIXME
 			if word_address(5 downto 4) = b"00" then -- Test set 1, "abc"
 				if word_address = b"000000" then
-					word_output <= x"61626380"; -- "abc" and a 1 bit at the end
+					word_output <= x"63626180"; -- "abc" and a 1 bit at the end
 				elsif word_address = b"001111" then
 					word_output <= x"00000018"; -- message length is 24 bits
 				else

@@ -115,33 +115,43 @@ int main()
     {
 		//Reset IP Core
 		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, SHA_CTL_RESET_MASK);
+		uint32_t ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
 
 		//check status
 		uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
 
-		uint32_t abc[16] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+		uint32_t abc[32] = { 0x61626364, 0x62636465, 0x63646566, 0x64656667, 0x65666768, 0x66676869,
+				0x6768696a, 0x68696a6b, 0x696a6b6c, 0x6a6b6c6d, 0x6b6c6d6e, 0x6c6d6e6f, 0x6d6e6f70,
+				0x6e6f7071, 0x80000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
 				0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
-				0x00000000, 0x00000000, 0x00000018 };
+				0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x000001c0 };
 
 		// indicate length of data
-		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET) & ~SHA_CTL_RESET_MASK);
+		ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
+		uint32_t val = ctl | SHA_CTL_SIZE_MASK;
+
+		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, val);
 
 		//load string
-		write_input(abc, 16);
+		write_input(abc, 32);
 
-		uint32_t check[16];
-		read_input(check , 16);
+		uint32_t check[32];
+		read_input(check , 32);
 
-		uint32_t ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
-
+		status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
 		//enable ip initiate calculation
-		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, SHA_CTL_ENABLE_MASK | SHA_CTL_UPDATE_MASK);
+		val  = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET) | SHA_CTL_ENABLE_MASK | SHA_CTL_UPDATE_MASK;
+		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, val);
+
+		ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
+		status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
 
 		while(!(Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET) & SHA_STATUS_FINISHED_MASK))
 		{
 			xil_printf("waiting\r\n");
 		}
 
+		ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
 		uint32_t h[8];
 		read_sha256(h);
 		print_hash(h);

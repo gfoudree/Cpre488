@@ -7,226 +7,331 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/modeltech64_10.5b/examples
+Z0 dC:/modeltech64_10.5b/examples
+T_opt
+!s110 1524955742
+VkcHa^ML<nDZe6CXQ1^djC1
+04 2 8 work tb arch_imp 1
+=1-1866da19cd92-5ae4fa5e-242-3104
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5b;63
+R0
+Eaxi_sha256
+Z1 w1524956020
+Z2 DPx4 work 16 sha256_functions 0 22 FQnaiFn0`n7Bn@G?[n]jC3
+Z3 DPx4 work 16 sha256_constants 0 22 LnAe2nFYnWP[UzRFY90gV2
+Z4 DPx4 work 12 sha256_types 0 22 ei9EI70gl:ja`mSPd?9VV2
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 d//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2
+Z9 8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_sha256.vhd
+Z10 F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_sha256.vhd
+l0
+L16
+V?n0Q1L5J4SC[2SmGi6`zP0
+!s100 n;_8<E?W]D]6eQBbIFE3A1
+Z11 OL;C;10.5b;63
+32
+Z12 !s110 1524956025
+!i10b 1
+Z13 !s108 1524956025.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_sha256.vhd|
+Z15 !s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_sha256.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Abehaviour
+R2
+R3
+R4
+R5
+R6
+R7
+Z18 DEx4 work 10 axi_sha256 0 22 ?n0Q1L5J4SC[2SmGi6`zP0
+32
+R12
+l60
+L40
+VEDfKdWbnEZ5:6R29oB2[31
+!s100 g1_2Pe5^Z3A;aKIAZZU1h0
+R11
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
 Esha256
-Z0 w1523630510
-Z1 DPx4 work 16 sha256_functions 0 22 FQnaiFn0`n7Bn@G?[n]jC3
-Z2 DPx4 work 16 sha256_constants 0 22 LnAe2nFYnWP[UzRFY90gV2
-Z3 DPx4 work 12 sha256_types 0 22 ei9EI70gl:ja`mSPd?9VV2
-Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
-Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-Z7 dC:/Cpre488/Final Project/Modelsim/Premade SHA2
-Z8 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256.vhd
-Z9 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256.vhd
+Z19 w1524942778
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z20 8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256.vhd
+Z21 F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256.vhd
 l0
 L15
 V`iIA6TURVK>moM4ORQbNg2
 !s100 mYPO1BT^dSW^jfiLYzeUc0
-Z10 OL;C;10.5b;63
+R11
 32
-Z11 !s110 1523630811
+Z22 !s110 1524956024
 !i10b 1
-Z12 !s108 1523630811.000000
-Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256.vhd|
-Z14 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256.vhd|
+Z23 !s108 1524956024.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256.vhd|
+Z25 !s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256.vhd|
 !i113 0
-Z15 o-work work -2002 -explicit
-Z16 tExplicit 1 CvgOpt 0
+R16
+R17
 Abehaviour
-R1
 R2
 R3
 R4
 R5
 R6
-Z17 DEx4 work 6 sha256 0 22 `iIA6TURVK>moM4ORQbNg2
-32
-R11
+R7
+Z26 DEx4 work 6 sha256 0 22 `iIA6TURVK>moM4ORQbNg2
 l55
 L37
 VfYk91WPB[TXE90nD[@zof0
 !s100 TzRAD2T96Jleg4<aL_FS21
-R10
-!i10b 1
-R12
-R13
-R14
-!i113 0
-R15
-R16
-Psha256_constants
-R3
-R5
-R6
-32
 R11
-R0
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R16
+R17
+Psha256_constants
+R4
+R6
 R7
-8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd
-FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd
+32
+R22
+Z27 w1524233500
+R8
+8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_constants.vhd
+F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_constants.vhd
 l0
 L9
 VLnAe2nFYnWP[UzRFY90gV2
 !s100 8GPC>2=]gj?b73_ZiE][c2
-R10
+R11
 !i10b 1
-R12
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd|
-!s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_constants.vhd|
+R23
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_constants.vhd|
+!s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_constants.vhd|
 !i113 0
-R15
 R16
+R17
 Psha256_functions
-R2
 R3
 R4
 R5
 R6
-Z18 w1523630511
 R7
-Z19 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd
-Z20 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd
+R27
+R8
+Z28 8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_functions.vhd
+Z29 F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_functions.vhd
 l0
 L11
 VFQnaiFn0`n7Bn@G?[n]jC3
 !s100 ^g?Yeg2>4[EPUP<hZMleM1
-R10
+R11
 32
 b1
-R11
+R22
 !i10b 1
-R12
-Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd|
-Z22 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_functions.vhd|
+R23
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_functions.vhd|
+Z31 !s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_functions.vhd|
 !i113 0
-R15
 R16
+R17
 Bbody
-R1
 R2
 R3
 R4
 R5
 R6
+R7
 32
-R11
+R22
 l0
 L47
 Vfz2m^F628e6H@?oFXzR<@1
 !s100 0j5YE<A5`][=e1XAJ3?`L3
-R10
-!i10b 1
-R12
-R21
-R22
-!i113 0
-R15
-R16
-Psha256_types
-R5
-R6
-32
 R11
-R18
+!i10b 1
+R23
+R30
+R31
+!i113 0
+R16
+R17
+Psha256_types
+R6
 R7
-8C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd
-FC:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd
+32
+R22
+R27
+R8
+8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_types.vhd
+F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_types.vhd
 l0
 L7
 Vei9EI70gl:ja`mSPd?9VV2
 !s100 57PY[g=5?bWR49<aHMJZ?0
-R10
+R11
 !i10b 1
-R12
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd|
-!s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/sha256_types.vhd|
+R23
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_types.vhd|
+!s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/sha256_types.vhd|
 !i113 0
-R15
 R16
-Etb_sha256
-Z23 w1523631526
+R17
+Etb
+Z32 w1524955371
+R2
+R3
+R4
 R5
 R6
 R7
-Z24 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd
-Z25 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd
+R8
+Z33 8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_test.vhd
+Z34 F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_test.vhd
+l0
+L9
+V>BPLNhFU_LWIK?2`YZFfQ2
+!s100 <J9=I<gE4=KeKkJiJiVg61
+R11
+32
+Z35 !s110 1524956023
+!i10b 1
+Z36 !s108 1524956023.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_test.vhd|
+Z38 !s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/AXI_test.vhd|
+!i113 0
+R16
+R17
+Aarch_imp
+R18
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 2 tb 0 22 >BPLNhFU_LWIK?2`YZFfQ2
+32
+R35
+l94
+L18
+V^4IL[FLUL0k0z?0gfl5Y>1
+!s100 NnMN9gIj>K]V8Qb`R@6cT2
+R11
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R16
+R17
+Etb_sha256
+R27
+R6
+R7
+R8
+Z39 8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/tb_sha256.vhd
+Z40 F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/tb_sha256.vhd
 l0
 L7
 VG;_^LQTeNoC=FcRJlEEBg0
 !s100 :XkXl3QC6^a:?o`9H;leH1
-R10
+R11
 32
-Z26 !s110 1523631530
+R22
 !i10b 1
-Z27 !s108 1523631530.000000
-Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd|
-Z29 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/tb_sha256.vhd|
+R23
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/tb_sha256.vhd|
+Z42 !s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/tb_sha256.vhd|
 !i113 0
-R15
 R16
+R17
 Atestbench
-Z30 DEx4 work 7 testrom 0 22 ShVI2gzTW:VJMQ_0WM7A83
-R1
+Z43 DEx4 work 7 testrom 0 22 ShVI2gzTW:VJMQ_0WM7A83
 R2
 R3
 R4
-R17
 R5
-R6
-DEx4 work 9 tb_sha256 0 22 G;_^LQTeNoC=FcRJlEEBg0
-32
 R26
+R6
+R7
+DEx4 work 9 tb_sha256 0 22 G;_^LQTeNoC=FcRJlEEBg0
 l29
 L10
 VM;KoZ5dW`g:JDTf?`0AC;2
 !s100 F`K3haDFNk25Uk0UU`OkG1
-R10
+R11
+32
+R22
 !i10b 1
-R27
-R28
-R29
+R23
+R41
+R42
 !i113 0
-R15
 R16
+R17
 Etestrom
-Z31 w1523632310
-R4
+Z44 w1524937421
 R5
 R6
 R7
-Z32 8C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd
-Z33 FC:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd
+R8
+Z45 8//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/testrom.vhd
+Z46 F//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/testrom.vhd
 l0
 L8
 VShVI2gzTW:VJMQ_0WM7A83
 !s100 XThA_dO@I?jXEeNU_N:<F0
-R10
+R11
 32
-Z34 !s110 1523632314
+R12
 !i10b 1
-Z35 !s108 1523632314.000000
-Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd|
-Z37 !s107 C:/Cpre488/Final Project/Modelsim/Premade SHA2/testrom.vhd|
+R23
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/testrom.vhd|
+Z48 !s107 //my.files.iastate.edu/Users/njknuth/Desktop/MP-4/Cpre488/Final_Project/Modelsim/Premade SHA2/testrom.vhd|
 !i113 0
-R15
 R16
+R17
 Abehaviour
-R4
 R5
 R6
-R30
-32
-R34
+R7
+R43
 l24
 L17
-V7;>IF]B<T_ln9g<jkz66f3
-!s100 k:UT@T^ORNUecZgZdnP=>3
-R10
+Vkz:zbReeLJVd[zf7e>Io:1
+!s100 V5`izYENQHNM=NeI04kJJ1
+R11
+32
+R12
 !i10b 1
-R35
-R36
-R37
+R23
+R47
+R48
 !i113 0
-R15
 R16
+R17

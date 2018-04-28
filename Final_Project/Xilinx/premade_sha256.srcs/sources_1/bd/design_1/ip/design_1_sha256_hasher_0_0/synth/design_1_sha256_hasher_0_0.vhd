@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: iastate.edu:user:sha256_hasher:1.0
--- IP Revision: 10
+-- IP Revision: 19
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
@@ -112,7 +112,7 @@ ARCHITECTURE design_1_sha256_hasher_0_0_arch OF design_1_sha256_hasher_0_0 IS
     );
   END COMPONENT sha256_hasher_v1_0;
   ATTRIBUTE X_CORE_INFO : STRING;
-  ATTRIBUTE X_CORE_INFO OF design_1_sha256_hasher_0_0_arch: ARCHITECTURE IS "sha256_hasher_v1_0,Vivado 2017.1_sdx";
+  ATTRIBUTE X_CORE_INFO OF design_1_sha256_hasher_0_0_arch: ARCHITECTURE IS "sha256_hasher_v1_0,Vivado 2017.1";
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF design_1_sha256_hasher_0_0_arch : ARCHITECTURE IS "design_1_sha256_hasher_0_0,sha256_hasher_v1_0,{}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
