@@ -49,6 +49,7 @@
 #include "platform.h"
 #include "xil_printf.h"
 #include "xil_io.h"
+#include "sha256.h"
 
 #define SHA_BASE_ADDR 			0x43C00000
 #define SHA_STATUS_OFFSET		0x00
@@ -64,6 +65,10 @@
 
 //Status Reg mask
 #define SHA_STATUS_FINISHED_MASK	(1 << 0)
+
+#define SHA_BENCHMARK_NUM_CALC	50000
+
+uint32_t seed;
 
 void write_input(uint32_t* data, uint32_t length)
 {
@@ -106,45 +111,24 @@ void print_hash(uint32_t* h)
 	xil_printf("%8x\n\r", h[7]);
 }
 
-int main()
+void sha256_benchmark_hw(void)
 {
-    init_platform();
-
-
-    while(1)
+    for(int i = 0; i < SHA_BENCHMARK_NUM_CALC; i++)
     {
 		//Reset IP Core
 		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, SHA_CTL_RESET_MASK);
-		uint32_t ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
-
-		//check status
-		uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
-
-		// two block sha256
-		// "abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq"
-		// output: 0x248d6a61d20638b8e5c026930c3e6039a33ce45964ff2167f6ecedd419db06c1
-#define SIZE 32
-		uint32_t abc[SIZE] = { 0x61626364, 0x62636465, 0x63646566, 0x64656667, 0x65666768, 0x66676869,
-				0x6768696a, 0x68696a6b, 0x696a6b6c, 0x6a6b6c6d, 0x6b6c6d6e, 0x6c6d6e6f, 0x6d6e6f70,
-				0x6e6f7071, 0x80000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
-				0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
-				0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x000001c0 };
-
-		// indicate length of data
-		ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
-		uint32_t val = ctl | SHA_CTL_SIZE_MASK;
 
 		// one block sha256
 		// "abc"
 		// output: 0xba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
-//#define SIZE 16
-//		uint32_t abc[SIZE] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
-//				0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
-//				0x00000000, 0x00000000, 0x00000018 };
-//
-//		// indicate length of data
-//		ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
-//		uint32_t val = ctl & ~SHA_CTL_SIZE_MASK;
+#define SIZE 16
+		uint32_t abc[SIZE] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+				0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+				0x00000000, 0x00000000, 0x00000018 };
+
+		// indicate length of data
+		uint32_t ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
+		uint32_t val = ctl & ~SHA_CTL_SIZE_MASK;
 
 		Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, val);
 
@@ -157,14 +141,142 @@ int main()
 
 		while(!(Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET) & SHA_STATUS_FINISHED_MASK))
 		{
-			xil_printf("waiting\r\n");
+//			xil_printf("waiting\r\n");
 		}
 
 		ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
 		uint32_t h[8];
 		read_sha256(h);
-		print_hash(h);
+//		print_hash(h);
     }
+
+    xil_printf("HW Benchmark Done.\r\n");
+}
+
+void sha256_benchmark_sw(void)
+{
+	for(int i = 0; i < SHA_BENCHMARK_NUM_CALC; i++)
+	{
+		BYTE text1[] = {"abc"};
+
+		BYTE buf[SHA256_BLOCK_SIZE];
+		SHA256_CTX ctx;
+
+		sha256_init(&ctx);
+		sha256_update(&ctx, text1, 3);
+		sha256_final(&ctx, buf);
+	}
+
+	xil_printf("SW Benchmark Done.\r\n");
+}
+
+void sha256_demo_hw(void)
+{
+	//Reset IP Core
+	Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, SHA_CTL_RESET_MASK);
+
+	// one block sha256
+	// "abc"
+	// output: 0xba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad
+#define SIZE 16
+	uint32_t abc[SIZE] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+			0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+			0x00000000, 0x00000000, 0x00000018 };
+
+	abc[0] = ( 0xFFFFFF00 & (seed << 8)) | 0x80;
+
+	// indicate length of data
+	uint32_t ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
+	uint32_t val = ctl & ~SHA_CTL_SIZE_MASK;
+
+	Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, val);
+
+	//load string
+	write_input(abc, SIZE);
+
+	//enable ip initiate calculation
+	val  = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET) | SHA_CTL_ENABLE_MASK | SHA_CTL_UPDATE_MASK;
+	Xil_Out32(SHA_BASE_ADDR + SHA_CTL_OFFSET, val);
+
+	while(!(Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET) & SHA_STATUS_FINISHED_MASK))
+	{
+//			xil_printf("waiting\r\n");
+	}
+
+	ctl = Xil_In32(SHA_BASE_ADDR + SHA_CTL_OFFSET);
+	uint32_t h[8];
+	read_sha256(h);
+	print_hash(h);
+}
+
+void sha256_demo_sw(void)
+{
+	BYTE text1[4];
+
+	text1[0] = (seed >> 16) & 0xFF;
+	text1[1] = (seed >> 8)  & 0xFF;
+	text1[2] = (seed >> 0)  & 0xFF;
+	text1[3] = '\0';
+
+	BYTE buf[SHA256_BLOCK_SIZE];
+	SHA256_CTX ctx;
+
+	sha256_init(&ctx);
+	sha256_update(&ctx, text1, 3);
+	sha256_final(&ctx, buf);
+
+	xil_printf("0x");
+	for(int i = 0; i < SHA256_BLOCK_SIZE; i++)
+	{
+		xil_printf("%2x", buf[i]);
+	}
+	xil_printf("\r\n");
+}
+
+int main()
+{
+    init_platform();
+    seed = 0;
+
+    uint32_t* sw = (uint32_t*)0x41210000;
+
+    while(1)
+    {
+    	//sw1 is low
+    	if(!((*sw >> 1) & 0x01))
+		{
+			// speed comparison
+
+    		// sw0 is high
+			if(*sw & 0x01)
+			{
+				//hw
+				sha256_demo_hw();
+			}
+			else
+			{
+				//sw
+				sha256_demo_sw();
+			}
+    	}
+    	else
+    	{
+    		// sw0 is high
+			if(*sw & 0x01)
+			{
+				//hw
+				sha256_benchmark_hw();
+			}
+			else
+			{
+				//sw
+				sha256_benchmark_sw();
+			}
+    	}
+    	++seed;
+    }
+
+
 
     cleanup_platform();
     return 0;

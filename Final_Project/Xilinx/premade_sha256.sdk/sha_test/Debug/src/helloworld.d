@@ -8,7 +8,8 @@ src/helloworld.o src/helloworld.o: ../src/helloworld.c ../src/platform.h \
  ../../sha_test_bsp/ps7_cortexa9_0/include/xil_printf.h \
  ../../sha_test_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
  ../../sha_test_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
- ../../sha_test_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h
+ ../../sha_test_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h \
+ ../src/sha256.h
 
 ../src/platform.h:
 
@@ -31,3 +32,5 @@ src/helloworld.o src/helloworld.o: ../src/helloworld.c ../src/platform.h \
 ../../sha_test_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h:
 
 ../../sha_test_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:
+
+../src/sha256.h:
