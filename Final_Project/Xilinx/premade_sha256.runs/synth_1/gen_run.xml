@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1525030562">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg484-1" LaunchTime="1525034281">
   <File Type="RDS-PROPCONSTRS" Name="design_1_wrapper_drc_synth.rpt"/>
   <File Type="PA-TCL" Name="design_1_wrapper.tcl"/>
   <File Type="RDS-RDS" Name="design_1_wrapper.vds"/>
@@ -40,9 +40,18 @@
     <Step Id="synth_design"/>
   </Strategy>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_7_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_processing_system7_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_axi_gpio_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_5_0"/>
   <BlockFileSet Type="BlockSrcs" Name="design_1_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_8_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="design_1_sha256_hasher_9_0"/>
 </GenRun>

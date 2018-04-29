@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# 
+# Start of session at: Sun Apr 29 14:35:50 2018
+# Process ID: 9136
+# Current directory: U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/webtalk/webtalk.log
+# Journal file: U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

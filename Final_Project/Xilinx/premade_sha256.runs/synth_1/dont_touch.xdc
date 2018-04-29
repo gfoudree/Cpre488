@@ -28,6 +28,33 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_xbar_0
 # IP: bd/design_1/ip/design_1_sha256_hasher_0_0/design_1_sha256_hasher_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_0_0 || ORIG_REF_NAME==design_1_sha256_hasher_0_0}]
 
+# IP: bd/design_1/ip/design_1_sha256_hasher_1_0/design_1_sha256_hasher_1_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_1_0 || ORIG_REF_NAME==design_1_sha256_hasher_1_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_2_0/design_1_sha256_hasher_2_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_2_0 || ORIG_REF_NAME==design_1_sha256_hasher_2_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_3_0/design_1_sha256_hasher_3_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_3_0 || ORIG_REF_NAME==design_1_sha256_hasher_3_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_4_0/design_1_sha256_hasher_4_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_4_0 || ORIG_REF_NAME==design_1_sha256_hasher_4_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_5_0/design_1_sha256_hasher_5_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_5_0 || ORIG_REF_NAME==design_1_sha256_hasher_5_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_6_0/design_1_sha256_hasher_6_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_6_0 || ORIG_REF_NAME==design_1_sha256_hasher_6_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_7_0/design_1_sha256_hasher_7_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_7_0 || ORIG_REF_NAME==design_1_sha256_hasher_7_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_8_0/design_1_sha256_hasher_8_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_8_0 || ORIG_REF_NAME==design_1_sha256_hasher_8_0}]
+
+# IP: bd/design_1/ip/design_1_sha256_hasher_9_0/design_1_sha256_hasher_9_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_sha256_hasher_9_0 || ORIG_REF_NAME==design_1_sha256_hasher_9_0}]
+
 # IP: bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==design_1_auto_pc_0 || ORIG_REF_NAME==design_1_auto_pc_0}]
 

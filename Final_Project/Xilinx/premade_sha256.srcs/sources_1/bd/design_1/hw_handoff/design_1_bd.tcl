@@ -199,7 +199,7 @@ CONFIG.preset {ZedBoard} \
   # Create instance: ps7_0_axi_periph, and set properties
   set ps7_0_axi_periph [ create_bd_cell -type ip -vlnv xilinx.com:ip:axi_interconnect:2.1 ps7_0_axi_periph ]
   set_property -dict [ list \
-CONFIG.NUM_MI {4} \
+CONFIG.NUM_MI {13} \
  ] $ps7_0_axi_periph
 
   # Create instance: rst_ps7_0_100M, and set properties
@@ -207,6 +207,33 @@ CONFIG.NUM_MI {4} \
 
   # Create instance: sha256_hasher_0, and set properties
   set sha256_hasher_0 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_0 ]
+
+  # Create instance: sha256_hasher_1, and set properties
+  set sha256_hasher_1 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_1 ]
+
+  # Create instance: sha256_hasher_2, and set properties
+  set sha256_hasher_2 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_2 ]
+
+  # Create instance: sha256_hasher_3, and set properties
+  set sha256_hasher_3 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_3 ]
+
+  # Create instance: sha256_hasher_4, and set properties
+  set sha256_hasher_4 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_4 ]
+
+  # Create instance: sha256_hasher_5, and set properties
+  set sha256_hasher_5 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_5 ]
+
+  # Create instance: sha256_hasher_6, and set properties
+  set sha256_hasher_6 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_6 ]
+
+  # Create instance: sha256_hasher_7, and set properties
+  set sha256_hasher_7 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_7 ]
+
+  # Create instance: sha256_hasher_8, and set properties
+  set sha256_hasher_8 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_8 ]
+
+  # Create instance: sha256_hasher_9, and set properties
+  set sha256_hasher_9 [ create_bd_cell -type ip -vlnv iastate.edu:user:sha256_hasher:1.0 sha256_hasher_9 ]
 
   # Create interface connections
   connect_bd_intf_net -intf_net axi_gpio_0_GPIO [get_bd_intf_ports btns_5bits] [get_bd_intf_pins axi_gpio_0/GPIO]
@@ -219,18 +246,36 @@ CONFIG.NUM_MI {4} \
   connect_bd_intf_net -intf_net ps7_0_axi_periph_M01_AXI [get_bd_intf_pins axi_gpio_1/S_AXI] [get_bd_intf_pins ps7_0_axi_periph/M01_AXI]
   connect_bd_intf_net -intf_net ps7_0_axi_periph_M02_AXI [get_bd_intf_pins axi_gpio_2/S_AXI] [get_bd_intf_pins ps7_0_axi_periph/M02_AXI]
   connect_bd_intf_net -intf_net ps7_0_axi_periph_M03_AXI [get_bd_intf_pins ps7_0_axi_periph/M03_AXI] [get_bd_intf_pins sha256_hasher_0/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M04_AXI [get_bd_intf_pins ps7_0_axi_periph/M04_AXI] [get_bd_intf_pins sha256_hasher_1/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M05_AXI [get_bd_intf_pins ps7_0_axi_periph/M05_AXI] [get_bd_intf_pins sha256_hasher_2/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M06_AXI [get_bd_intf_pins ps7_0_axi_periph/M06_AXI] [get_bd_intf_pins sha256_hasher_3/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M07_AXI [get_bd_intf_pins ps7_0_axi_periph/M07_AXI] [get_bd_intf_pins sha256_hasher_4/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M08_AXI [get_bd_intf_pins ps7_0_axi_periph/M08_AXI] [get_bd_intf_pins sha256_hasher_5/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M09_AXI [get_bd_intf_pins ps7_0_axi_periph/M09_AXI] [get_bd_intf_pins sha256_hasher_6/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M10_AXI [get_bd_intf_pins ps7_0_axi_periph/M10_AXI] [get_bd_intf_pins sha256_hasher_7/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M11_AXI [get_bd_intf_pins ps7_0_axi_periph/M11_AXI] [get_bd_intf_pins sha256_hasher_8/S00_AXI]
+  connect_bd_intf_net -intf_net ps7_0_axi_periph_M12_AXI [get_bd_intf_pins ps7_0_axi_periph/M12_AXI] [get_bd_intf_pins sha256_hasher_9/S00_AXI]
 
   # Create port connections
-  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins axi_gpio_1/s_axi_aclk] [get_bd_pins axi_gpio_2/s_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/M02_ACLK] [get_bd_pins ps7_0_axi_periph/M03_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_100M/slowest_sync_clk] [get_bd_pins sha256_hasher_0/s00_axi_aclk]
+  connect_bd_net -net processing_system7_0_FCLK_CLK0 [get_bd_pins axi_gpio_0/s_axi_aclk] [get_bd_pins axi_gpio_1/s_axi_aclk] [get_bd_pins axi_gpio_2/s_axi_aclk] [get_bd_pins processing_system7_0/FCLK_CLK0] [get_bd_pins processing_system7_0/M_AXI_GP0_ACLK] [get_bd_pins ps7_0_axi_periph/ACLK] [get_bd_pins ps7_0_axi_periph/M00_ACLK] [get_bd_pins ps7_0_axi_periph/M01_ACLK] [get_bd_pins ps7_0_axi_periph/M02_ACLK] [get_bd_pins ps7_0_axi_periph/M03_ACLK] [get_bd_pins ps7_0_axi_periph/M04_ACLK] [get_bd_pins ps7_0_axi_periph/M05_ACLK] [get_bd_pins ps7_0_axi_periph/M06_ACLK] [get_bd_pins ps7_0_axi_periph/M07_ACLK] [get_bd_pins ps7_0_axi_periph/M08_ACLK] [get_bd_pins ps7_0_axi_periph/M09_ACLK] [get_bd_pins ps7_0_axi_periph/M10_ACLK] [get_bd_pins ps7_0_axi_periph/M11_ACLK] [get_bd_pins ps7_0_axi_periph/M12_ACLK] [get_bd_pins ps7_0_axi_periph/S00_ACLK] [get_bd_pins rst_ps7_0_100M/slowest_sync_clk] [get_bd_pins sha256_hasher_0/s00_axi_aclk] [get_bd_pins sha256_hasher_1/s00_axi_aclk] [get_bd_pins sha256_hasher_2/s00_axi_aclk] [get_bd_pins sha256_hasher_3/s00_axi_aclk] [get_bd_pins sha256_hasher_4/s00_axi_aclk] [get_bd_pins sha256_hasher_5/s00_axi_aclk] [get_bd_pins sha256_hasher_6/s00_axi_aclk] [get_bd_pins sha256_hasher_7/s00_axi_aclk] [get_bd_pins sha256_hasher_8/s00_axi_aclk] [get_bd_pins sha256_hasher_9/s00_axi_aclk]
   connect_bd_net -net processing_system7_0_FCLK_RESET0_N [get_bd_pins processing_system7_0/FCLK_RESET0_N] [get_bd_pins rst_ps7_0_100M/ext_reset_in]
   connect_bd_net -net rst_ps7_0_100M_interconnect_aresetn [get_bd_pins ps7_0_axi_periph/ARESETN] [get_bd_pins rst_ps7_0_100M/interconnect_aresetn]
-  connect_bd_net -net rst_ps7_0_100M_peripheral_aresetn [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins axi_gpio_1/s_axi_aresetn] [get_bd_pins axi_gpio_2/s_axi_aresetn] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/M02_ARESETN] [get_bd_pins ps7_0_axi_periph/M03_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn] [get_bd_pins sha256_hasher_0/s00_axi_aresetn]
+  connect_bd_net -net rst_ps7_0_100M_peripheral_aresetn [get_bd_pins axi_gpio_0/s_axi_aresetn] [get_bd_pins axi_gpio_1/s_axi_aresetn] [get_bd_pins axi_gpio_2/s_axi_aresetn] [get_bd_pins ps7_0_axi_periph/M00_ARESETN] [get_bd_pins ps7_0_axi_periph/M01_ARESETN] [get_bd_pins ps7_0_axi_periph/M02_ARESETN] [get_bd_pins ps7_0_axi_periph/M03_ARESETN] [get_bd_pins ps7_0_axi_periph/M04_ARESETN] [get_bd_pins ps7_0_axi_periph/M05_ARESETN] [get_bd_pins ps7_0_axi_periph/M06_ARESETN] [get_bd_pins ps7_0_axi_periph/M07_ARESETN] [get_bd_pins ps7_0_axi_periph/M08_ARESETN] [get_bd_pins ps7_0_axi_periph/M09_ARESETN] [get_bd_pins ps7_0_axi_periph/M10_ARESETN] [get_bd_pins ps7_0_axi_periph/M11_ARESETN] [get_bd_pins ps7_0_axi_periph/M12_ARESETN] [get_bd_pins ps7_0_axi_periph/S00_ARESETN] [get_bd_pins rst_ps7_0_100M/peripheral_aresetn] [get_bd_pins sha256_hasher_0/s00_axi_aresetn] [get_bd_pins sha256_hasher_1/s00_axi_aresetn] [get_bd_pins sha256_hasher_2/s00_axi_aresetn] [get_bd_pins sha256_hasher_3/s00_axi_aresetn] [get_bd_pins sha256_hasher_4/s00_axi_aresetn] [get_bd_pins sha256_hasher_5/s00_axi_aresetn] [get_bd_pins sha256_hasher_6/s00_axi_aresetn] [get_bd_pins sha256_hasher_7/s00_axi_aresetn] [get_bd_pins sha256_hasher_8/s00_axi_aresetn] [get_bd_pins sha256_hasher_9/s00_axi_aresetn]
 
   # Create address segments
   create_bd_addr_seg -range 0x00010000 -offset 0x41200000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs axi_gpio_0/S_AXI/Reg] SEG_axi_gpio_0_Reg
   create_bd_addr_seg -range 0x00010000 -offset 0x41210000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs axi_gpio_1/S_AXI/Reg] SEG_axi_gpio_1_Reg
   create_bd_addr_seg -range 0x00010000 -offset 0x41220000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs axi_gpio_2/S_AXI/Reg] SEG_axi_gpio_2_Reg
   create_bd_addr_seg -range 0x00010000 -offset 0x43C00000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_0/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_0_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C10000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_1/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_1_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C20000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_2/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_2_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C30000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_3/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_3_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C40000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_4/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_4_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C50000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_5/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_5_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C60000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_6/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_6_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C70000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_7/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_7_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C80000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_8/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_8_S00_AXI_reg
+  create_bd_addr_seg -range 0x00010000 -offset 0x43C90000 [get_bd_addr_spaces processing_system7_0/Data] [get_bd_addr_segs sha256_hasher_9/S00_AXI/S00_AXI_reg] SEG_sha256_hasher_9_S00_AXI_reg
 
 
   # Restore current instance

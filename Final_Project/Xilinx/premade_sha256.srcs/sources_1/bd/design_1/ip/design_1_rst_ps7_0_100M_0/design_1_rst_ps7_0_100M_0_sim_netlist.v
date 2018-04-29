@@ -1,8 +1,8 @@
 // Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
-// Date        : Wed Apr 25 09:51:54 2018
-// Host        : CO2041-10 running 64-bit major release  (build 9200)
+// Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+// Date        : Sat Apr 28 14:53:48 2018
+// Host        : CO2041-14 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim -rename_top design_1_rst_ps7_0_100M_0 -prefix
 //               design_1_rst_ps7_0_100M_0_ design_1_rst_ps7_0_100M_0_sim_netlist.v
 // Design      : design_1_rst_ps7_0_100M_0
@@ -193,7 +193,7 @@ module design_1_rst_ps7_0_100M_0_cdc_sync_0
         .O(lpf_exr_reg));
 endmodule
 
-(* CHECK_LICENSE_TYPE = "design_1_rst_ps7_0_100M_0,proc_sys_reset,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "proc_sys_reset,Vivado 2017.1_sdx" *) 
+(* CHECK_LICENSE_TYPE = "design_1_rst_ps7_0_100M_0,proc_sys_reset,{}" *) (* downgradeipidentifiedwarnings = "yes" *) (* x_core_info = "proc_sys_reset,Vivado 2017.1" *) 
 (* NotValidForBitStream *)
 module design_1_rst_ps7_0_100M_0
    (slowest_sync_clk,

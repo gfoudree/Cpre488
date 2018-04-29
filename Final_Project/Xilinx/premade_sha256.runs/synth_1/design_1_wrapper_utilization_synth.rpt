@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
-| Date         : Sun Apr 29 14:37:01 2018
+| Date         : Sun Apr 29 15:41:52 2018
 | Host         : CO2041-14 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -177,6 +177,15 @@ Table of Contents
 |             Ref Name            | Used |
 +---------------------------------+------+
 | design_1_xbar_0                 |    1 |
+| design_1_sha256_hasher_9_0      |    1 |
+| design_1_sha256_hasher_8_0      |    1 |
+| design_1_sha256_hasher_7_0      |    1 |
+| design_1_sha256_hasher_6_0      |    1 |
+| design_1_sha256_hasher_5_0      |    1 |
+| design_1_sha256_hasher_4_0      |    1 |
+| design_1_sha256_hasher_3_0      |    1 |
+| design_1_sha256_hasher_2_0      |    1 |
+| design_1_sha256_hasher_1_0      |    1 |
 | design_1_sha256_hasher_0_0      |    1 |
 | design_1_rst_ps7_0_100M_0       |    1 |
 | design_1_processing_system7_0_0 |    1 |

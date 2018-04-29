@@ -11208,3 +11208,2778 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 1 0 2018-04-29 15:01:48.627
 !MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-04-29 15:31:24.576
+!MESSAGE Executed Webtalk command
+!SESSION 2018-04-29 16:39:24.296 -----------------------------------------------
+eclipse.buildId=2017.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-04-29 16:39:26.263
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-29 16:39:26.263
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.433
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.437
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.439
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.441
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.444
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.446
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.448
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.450
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.453
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.455
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.458
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.460
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.462
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.465
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.467
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.469
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.ui.comment/com.xilinx.sdx.ui.comment.handler.ShowInCommentViewHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.472
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.474
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.476
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.478
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.481
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.483
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.485
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.487
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.490
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.492
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.495
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.497
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.499
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.502
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.504
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.506
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.509
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.511
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.514
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.516
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.518
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.520
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.523
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.525
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.527
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.529
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.532
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.534
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.536
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.538
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.540
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.544
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.546
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.549
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.551
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.553
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.556
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.558
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.561
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.563
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.566
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.568
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.570
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.572
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.575
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.577
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.579
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.581
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.584
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.586
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.589
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.591
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.593
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.596
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.598
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.600
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.603
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.605
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.607
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.609
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.611
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.613
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.616
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.618
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.620
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.623
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.624
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.626
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.628
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.631
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.632
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.635
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.638
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.640
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.642
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.858
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.861
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.864
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.870
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.874
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:39:26.877
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.ui 2 0 2018-04-29 16:39:26.998
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-29 16:39:26.998
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.476
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.478
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.484
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.487
+!MESSAGE XSCT Command: [setws U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.776
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.781
+!MESSAGE XSCT command with result: [setws U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:32.798
+!MESSAGE XSCT Command: [::hsi::utils::openhw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:39:36.716
+!MESSAGE XSCT command with result: [::hsi::utils::openhw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:03.196
+!MESSAGE XSCT Command: [::hsi::utils::closehw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:03.245
+!MESSAGE XSCT command with result: [::hsi::utils::closehw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:03.252
+!MESSAGE XSCT Command: [::hsi::utils::openhw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:06.936
+!MESSAGE XSCT command with result: [::hsi::utils::openhw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: ModalContext
+
+!ENTRY org.eclipse.core.resources 4 2 2018-04-29 16:40:07.318
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.xilinx.sdk.hw.HwProjectUtil.unsetProjectHwSpec(HwProjectUtil.java:590)
+	at com.xilinx.sdk.hw.HwProjectUtil.disposeHwPlatform(HwProjectUtil.java:309)
+	at com.xilinx.sdk.hw.internal.HwProjectDeletionHandler.handleProjectDeleted(HwProjectDeletionHandler.java:39)
+	at com.xilinx.sdk.hw.internal.HwProjectDeletionHandler.resourceChanged(HwProjectDeletionHandler.java:31)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:265)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:369)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1885)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:767)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:318)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:155)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SESSION 2018-04-29 16:40:33.174 -----------------------------------------------
+eclipse.buildId=2017.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk
+
+!ENTRY org.eclipse.ui 2 0 2018-04-29 16:40:34.909
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-29 16:40:34.909
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.065
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.068
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.071
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.074
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.076
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.079
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.082
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.084
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.087
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.090
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.092
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.095
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.098
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.101
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.103
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.106
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.ui.comment/com.xilinx.sdx.ui.comment.handler.ShowInCommentViewHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.109
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.111
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.114
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.117
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.120
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.123
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.125
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.128
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.131
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.133
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.135
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.138
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.140
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.143
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.145
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.148
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.150
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.153
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.156
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.158
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.161
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.164
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.166
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.169
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.171
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.174
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.177
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.179
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.182
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.185
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.188
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.191
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.193
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.196
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.198
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.201
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.203
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.206
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.209
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.211
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.213
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.216
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.218
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.221
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.223
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.226
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.228
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.231
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.233
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.235
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.238
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.240
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.243
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.245
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.247
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.250
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.253
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.255
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.258
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.261
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.263
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FindHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.266
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ExpandSectionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.268
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomInHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.271
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomOutHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.273
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.ZoomFitHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.275
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToCursorHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.278
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToTimeZeroHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.280
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.GoToLastTimeHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.284
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.286
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextTransitionHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.288
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.AddMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.291
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.DeleteMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.293
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.PreviousMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.296
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.NextMarkerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.298
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.handler.FloatingRulerHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.506
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.510
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.513
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.518
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.521
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-04-29 16:40:35.524
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.xilinx.sdx.reports.timeline/com.xilinx.sdx.reports.viewer.toolbar.SDXTimelineEditorToolbarAddon
+
+!ENTRY org.eclipse.ui 2 0 2018-04-29 16:40:35.719
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-04-29 16:40:35.719
+!MESSAGE Commands should really have a category: plug-in='com.xilinx.sdk.appwiz', id='com.xilinx.sdk.app.commands.ChangeAtfBuiltReferences', categoryId='com.xilinx.sdk.app.commands.category'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:40.845
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:40.848
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:40.853
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:40.856
+!MESSAGE XSCT Command: [setws U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:41.149
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-7
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:41.153
+!MESSAGE XSCT command with result: [setws U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:41.693
+!MESSAGE XSCT Command: [::hsi::utils::openhw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.404
+!MESSAGE XSCT command with result: [::hsi::utils::openhw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.453
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.461
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Sun Apr 29 15:36:51 2018",
+"vivado_version": "2017.1",
+"part": "xc7z020clg484-1",
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.464
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.484
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"processing_system7_0": {"hier_name": "processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"ps7_0_axi_periph": {"hier_name": "ps7_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"rst_ps7_0_100M": {"hier_name": "rst_ps7_0_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_0": {"hier_name": "sha256_hasher_0",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_1": {"hier_name": "sha256_hasher_1",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_2": {"hier_name": "sha256_hasher_2",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_3": {"hier_name": "sha256_hasher_3",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_4": {"hier_name": "sha256_hasher_4",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_5": {"hier_name": "sha256_hasher_5",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_6": {"hier_name": "sha256_hasher_6",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_7": {"hier_name": "sha256_hasher_7",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_8": {"hier_name": "sha256_hasher_8",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"sha256_hasher_9": {"hier_name": "sha256_hasher_9",
+"type": "sha256_hasher",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_1": {"hier_name": "ps7_uart_1",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ttc_0": {"hier_name": "ps7_ttc_0",
+"type": "ps7_ttc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.589
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.613
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x41200000",
+"high": "0x4120FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x41210000",
+"high": "0x4121FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x41220000",
+"high": "0x4122FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_0_S00_AXI": {"name": "sha256_hasher_0",
+"base": "0x43C00000",
+"high": "0x43C0FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_1_S00_AXI": {"name": "sha256_hasher_1",
+"base": "0x43C10000",
+"high": "0x43C1FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_2_S00_AXI": {"name": "sha256_hasher_2",
+"base": "0x43C20000",
+"high": "0x43C2FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_3_S00_AXI": {"name": "sha256_hasher_3",
+"base": "0x43C30000",
+"high": "0x43C3FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_4_S00_AXI": {"name": "sha256_hasher_4",
+"base": "0x43C40000",
+"high": "0x43C4FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_5_S00_AXI": {"name": "sha256_hasher_5",
+"base": "0x43C50000",
+"high": "0x43C5FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_6_S00_AXI": {"name": "sha256_hasher_6",
+"base": "0x43C60000",
+"high": "0x43C6FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_7_S00_AXI": {"name": "sha256_hasher_7",
+"base": "0x43C70000",
+"high": "0x43C7FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_8_S00_AXI": {"name": "sha256_hasher_8",
+"base": "0x43C80000",
+"high": "0x43C8FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"sha256_hasher_9_S00_AXI": {"name": "sha256_hasher_9",
+"base": "0x43C90000",
+"high": "0x43C9FFFF",
+"size": "65536",
+"slaveintf": "S00_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ttc_0": {"name": "ps7_ttc_0",
+"base": "0xF8001000",
+"high": "0xF8001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.659
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.688
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "5",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_ttc_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+"sha256_hasher_0": {},
+"sha256_hasher_1": {},
+"sha256_hasher_2": {},
+"sha256_hasher_3": {},
+"sha256_hasher_4": {},
+"sha256_hasher_5": {},
+"sha256_hasher_6": {},
+"sha256_hasher_7": {},
+"sha256_hasher_8": {},
+"sha256_hasher_9": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.693
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:40:49.720
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"axi_gpio_0": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "5",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "5",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "5",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_1": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"axi_gpio_2": {"GPIO_DATA": {"description": "Channel-1 AXI GPIO Data register",
+"address_offset": "0x0",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO_TRI": {"description": "Channel-1 AXI GPIO 3-State Control register",
+"address_offset": "0x4",
+"access": "read-write",
+"size": "8",
+"fields": {"Channel-1 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "8",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_DATA": {"description": "Channel-2 AXI GPIO Data register",
+"address_offset": "0x8",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO DATA": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO Data Register.
+For each I/O bit programmed as input
+  R - Reads value on the input pin.
+  W - No effect.
+For each I/O bit programmed as output
+  R - Reads value on GPIO_O pins
+  W - Writes value to the corresponding AXI GPIO 
+      data register bit and output pin
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GPIO2_TRI": {"description": "Channel-2 AXI GPIO 3-State Control register",
+"address_offset": "0xC",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-2 GPIO TRI": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "32",
+"desc": "AXI GPIO 3-State Control Register
+Each I/O pin of the AXI GPIO is individually programmable as an input or output   For each of the bits     0 - I/O pin configured as output     1 - I/O pin configured as input
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"GIER": {"description": "Global Interrupt Enable register",
+"address_offset": "0x11C",
+"access": "read-write",
+"size": "32",
+"fields": {"Global Interrupt Enable": {"access": "read-write",
+"bit_offset": "31",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Master enable for the device interrupt output
+  0 - Disabled
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_IER": {"description": "IP Interrupt Enable register",
+"address_offset": "0x128",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Enable": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 1 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Enable": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Enable Channel 2 Interrupt
+  0 - Disabled (masked)
+  1 - Enabled
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+"IP_ISR": {"description": "IP Interrupt Status register",
+"address_offset": "0x120",
+"access": "read-write",
+"size": "32",
+"fields": {"Channel-1 Interrupt Status": {"access": "read-write",
+"bit_offset": "0",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 1 Interrupt Status
+  0 - No Channel 1 input interrupt
+  1 - Channel 1 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+"Channel-2 Interrupt Status": {"access": "read-write",
+"bit_offset": "1",
+"bit_range": "",
+"bit_width": "1",
+"desc": "Channel 2 Interrupt Status
+  0 - No Channel 2 input interrupt
+  1 - Channel 2 input interrupt
+",
+"enum_values": "",
+"lsb": "",
+"mod_write_val": "",
+"msb": "",
+"read_action": "",
+},
+},
+},
+},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_ttc_0": {},
+"ps7_uart_1": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+"sha256_hasher_0": {},
+"sha256_hasher_1": {},
+"sha256_hasher_2": {},
+"sha256_hasher_3": {},
+"sha256_hasher_4": {},
+"sha256_hasher_5": {},
+"sha256_hasher_6": {},
+"sha256_hasher_7": {},
+"sha256_hasher_8": {},
+"sha256_hasher_9": {},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:42:58.218
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/sha_test_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:42:58.248
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/sha_test_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:42:58.251
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/sha_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:42:58.258
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/design_1_wrapper_hw_platform_0/system.hdf U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/sha_test_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.2",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:42:58.261
+!MESSAGE XSCT Command: [::hsi::utils::closesw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/sha_test_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-04-29 16:42:58.264
+!MESSAGE XSCT command with result: [::hsi::utils::closesw U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.sdk/sha_test_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.debug.ui 4 0 2018-04-29 16:43:00.372
+!MESSAGE Launch shortcut 'com.xilinx.sdk.launch.remote.shortcut' enablement expression caused exception. Shortcut was removed.
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:127)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:97)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:31)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.IterateExpression.evaluate(IterateExpression.java:160)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.WithExpression.evaluate(WithExpression.java:75)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.EnablementExpression.evaluate(EnablementExpression.java:55)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.evalEnablementExpression(LaunchShortcutExtension.java:281)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.isApplicable(ContextualLaunchAction.java:287)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction.fillMenu(ContextualLaunchAction.java:218)
+	at org.eclipse.debug.ui.actions.ContextualLaunchAction$1.menuShown(ContextualLaunchAction.java:141)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
+	at org.eclipse.jface.action.ActionContributionItem.copyMenu(ActionContributionItem.java:1243)
+	at org.eclipse.jface.action.ActionContributionItem.handleShowProxy(ActionContributionItem.java:1223)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$7(ActionContributionItem.java:1186)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4410)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5152)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4820)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5115)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4269)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3810)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:687)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:604)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2018-04-29 16:43:00.373
+!MESSAGE No property tester contributes a property org.eclipse.jdt.launching.isContainer to type class org.eclipse.core.internal.resources.Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-04-29 16:43:37.484
+!MESSAGE Executed Webtalk command
