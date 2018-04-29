@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
-  27128	   1148	  22568	  50844	   c69c	sha_test.elf
+  27064	   1148	  22568	  50780	   c65c	sha_test.elf
