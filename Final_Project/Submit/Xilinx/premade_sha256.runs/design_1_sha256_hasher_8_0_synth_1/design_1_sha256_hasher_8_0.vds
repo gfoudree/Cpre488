@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Apr 29 15:39:43 2018
+# Process ID: 12664
+# Current directory: U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.runs/design_1_sha256_hasher_8_0_synth_1
+# Command line: vivado.exe -log design_1_sha256_hasher_8_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_sha256_hasher_8_0.tcl
+# Log file: U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.runs/design_1_sha256_hasher_8_0_synth_1/design_1_sha256_hasher_8_0.vds
+# Journal file: U:/Desktop/MP-4/Cpre488/Final_Project/Xilinx/premade_sha256.runs/design_1_sha256_hasher_8_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_sha256_hasher_8_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_sha256_hasher_8_0, cache-ID = 5c487561edc1c11f.
+config_ip_cache: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 284.535 ; gain = 6.078
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 29 15:39:58 2018...
