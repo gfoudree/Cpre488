@@ -47,7 +47,7 @@
 -- DO NOT MODIFY THIS FILE.
 
 -- IP VLNV: iastate.edu:user:sha256_hasher:1.0
--- IP Revision: 19
+-- IP Revision: 24
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

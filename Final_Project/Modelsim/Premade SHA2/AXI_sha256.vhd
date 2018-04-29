@@ -22,7 +22,7 @@ entity AXI_sha256 is
 		ready  : out std_logic; -- Ready to process the next block
 		update : in  std_logic; -- Start processing the next block
 
-		cur_block : out std_logic;
+		cur_block : out std_logic_vector(1 downto 0);
 
 		-- Connections to the input buffer; we assume block RAM that presents
 		-- valid data the cycle after the address has changed:
@@ -56,7 +56,7 @@ architecture behaviour of AXI_sha256 is
 	-- Current iteration:
 	signal current_iteration : std_logic_vector(5 downto 0);
 
-	signal cur_block_sig : std_logic;
+	signal cur_block_sig : std_logic_vector(1 downto 0);
 begin
 	
 	cur_block <= cur_block_sig;
@@ -73,7 +73,7 @@ begin
 		if reset = '0' then
 			reset_intermediate(h0, h1, h2, h3, h4, h5, h6, h7);
 			current_iteration <= (others => '0');
-			cur_block_sig <= '0';
+			cur_block_sig <= (others => '0');
 			state <= IDLE;
 		elsif rising_edge(clk) and enable = '1' then
 
@@ -116,11 +116,7 @@ begin
 					h6 <= std_logic_vector(unsigned(g) + unsigned(h6));
 					h7 <= std_logic_vector(unsigned(h) + unsigned(h7));
 					
-					if cur_block_sig = '0' then
-						cur_block_sig <= '1';
-					else
-						cur_block_sig <= '0';
-					end if;
+					cur_block_sig <= std_logic_vector(unsigned(cur_block_sig) + 1);
 					state <= IDLE;
 			end case;
 		end if;

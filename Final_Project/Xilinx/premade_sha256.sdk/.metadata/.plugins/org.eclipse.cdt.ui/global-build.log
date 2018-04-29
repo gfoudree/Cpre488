@@ -809,3 +809,569 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
+12:18:10 **** Build of project sha_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:217:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sha256_hasher..."
+sha256_hasher_selftest.c: In function 'SHA256_HASHER_Reg_SelfTest':
+sha256_hasher_selftest.c:52:62: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( SHA256_HASHER_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                              ^~
+sha256_hasher_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+12:18:24 **** Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: sha_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sha_test_bsp/ps7_cortexa9_0/lib -o "sha_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sha_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sha_test.elf  |tee "sha_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27128	   1148	  22568	  50844	   c69c	sha_test.elf
+'Finished building: sha_test.elf.size'
+' '
+12:26:09 **** Incremental Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:3: error: variable-sized object may not be initialized
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+   ^~~~~~~~
+../src/helloworld.c:131:26: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                          ^~~~~~~~~~
+../src/helloworld.c:131:26: note: (near initialization for 'abc')
+../src/helloworld.c:131:38: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                      ^~~~~~~~~~
+../src/helloworld.c:131:38: note: (near initialization for 'abc')
+../src/helloworld.c:131:50: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                  ^~~~~~~~~~
+../src/helloworld.c:131:50: note: (near initialization for 'abc')
+../src/helloworld.c:131:62: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                              ^~~~~~~~~~
+../src/helloworld.c:131:62: note: (near initialization for 'abc')
+../src/helloworld.c:131:74: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                          ^~~~~~~~~~
+../src/helloworld.c:131:74: note: (near initialization for 'abc')
+../src/helloworld.c:131:86: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                                      ^~~~~~~~~~
+../src/helloworld.c:131:86: note: (near initialization for 'abc')
+../src/helloworld.c:132:5: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+     ^~~~~~~~~~
+../src/helloworld.c:132:5: note: (near initialization for 'abc')
+../src/helloworld.c:132:17: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                 ^~~~~~~~~~
+../src/helloworld.c:132:17: note: (near initialization for 'abc')
+../src/helloworld.c:132:29: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                             ^~~~~~~~~~
+../src/helloworld.c:132:29: note: (near initialization for 'abc')
+../src/helloworld.c:132:41: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                         ^~~~~~~~~~
+../src/helloworld.c:132:41: note: (near initialization for 'abc')
+../src/helloworld.c:132:53: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                     ^~~~~~~~~~
+../src/helloworld.c:132:53: note: (near initialization for 'abc')
+../src/helloworld.c:132:65: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                 ^~~~~~~~~~
+../src/helloworld.c:132:65: note: (near initialization for 'abc')
+../src/helloworld.c:132:77: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                             ^~~~~~~~~~
+../src/helloworld.c:132:77: note: (near initialization for 'abc')
+../src/helloworld.c:133:5: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000018 };
+     ^~~~~~~~~~
+../src/helloworld.c:133:5: note: (near initialization for 'abc')
+../src/helloworld.c:133:17: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000018 };
+                 ^~~~~~~~~~
+../src/helloworld.c:133:17: note: (near initialization for 'abc')
+../src/helloworld.c:133:29: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000018 };
+                             ^~~~~~~~~~
+../src/helloworld.c:133:29: note: (near initialization for 'abc')
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+make: *** [src/helloworld.o] Error 1
+12:26:29 **** Incremental Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:131:3: error: variable-sized object may not be initialized
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+   ^~~~~~~~
+../src/helloworld.c:131:26: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                          ^~~~~~~~~~
+../src/helloworld.c:131:26: note: (near initialization for 'abc')
+../src/helloworld.c:131:38: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                      ^~~~~~~~~~
+../src/helloworld.c:131:38: note: (near initialization for 'abc')
+../src/helloworld.c:131:50: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                  ^~~~~~~~~~
+../src/helloworld.c:131:50: note: (near initialization for 'abc')
+../src/helloworld.c:131:62: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                              ^~~~~~~~~~
+../src/helloworld.c:131:62: note: (near initialization for 'abc')
+../src/helloworld.c:131:74: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                          ^~~~~~~~~~
+../src/helloworld.c:131:74: note: (near initialization for 'abc')
+../src/helloworld.c:131:86: warning: excess elements in array initializer
+   uint32_t abc[size] = { 0x61626380, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                                      ^~~~~~~~~~
+../src/helloworld.c:131:86: note: (near initialization for 'abc')
+../src/helloworld.c:132:5: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+     ^~~~~~~~~~
+../src/helloworld.c:132:5: note: (near initialization for 'abc')
+../src/helloworld.c:132:17: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                 ^~~~~~~~~~
+../src/helloworld.c:132:17: note: (near initialization for 'abc')
+../src/helloworld.c:132:29: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                             ^~~~~~~~~~
+../src/helloworld.c:132:29: note: (near initialization for 'abc')
+../src/helloworld.c:132:41: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                         ^~~~~~~~~~
+../src/helloworld.c:132:41: note: (near initialization for 'abc')
+../src/helloworld.c:132:53: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                     ^~~~~~~~~~
+../src/helloworld.c:132:53: note: (near initialization for 'abc')
+../src/helloworld.c:132:65: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                 ^~~~~~~~~~
+../src/helloworld.c:132:65: note: (near initialization for 'abc')
+../src/helloworld.c:132:77: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                                                                             ^~~~~~~~~~
+../src/helloworld.c:132:77: note: (near initialization for 'abc')
+../src/helloworld.c:133:5: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000018 };
+     ^~~~~~~~~~
+../src/helloworld.c:133:5: note: (near initialization for 'abc')
+../src/helloworld.c:133:17: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000018 };
+                 ^~~~~~~~~~
+../src/helloworld.c:133:17: note: (near initialization for 'abc')
+../src/helloworld.c:133:29: warning: excess elements in array initializer
+     0x00000000, 0x00000000, 0x00000018 };
+                             ^~~~~~~~~~
+../src/helloworld.c:133:29: note: (near initialization for 'abc')
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+make: *** [src/helloworld.o] Error 1
+12:27:23 **** Incremental Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: sha_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sha_test_bsp/ps7_cortexa9_0/lib -o "sha_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sha_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sha_test.elf  |tee "sha_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25720	   1148	  22568	  49436	   c11c	sha_test.elf
+'Finished building: sha_test.elf.size'
+' '
+13:48:36 **** Clean-only build of project sha_test_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src -s clean 
+rm: cannot lstat `*.o': Invalid argument
+make[1]: *** [clean] Error 1
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s clean 
+make: *** [ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src/make.clean] Error 2
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s clean 
+make: Target `clean' not remade because of errors.
+13:48:37 **** Clean-only build of configuration Debug for project sha_test ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  sha_test.elf.size  sha_test.elf
+' '
+13:49:33 **** Build of project sha_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpio_v4_3/src"
+make -C ps7_cortexa9_0/libsrc/gpio_v4_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpio"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:217:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/sha256_hasher_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sha256_hasher..."
+sha256_hasher_selftest.c: In function 'SHA256_HASHER_Reg_SelfTest':
+sha256_hasher_selftest.c:52:62: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( SHA256_HASHER_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                              ^~
+sha256_hasher_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_2/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+13:49:46 **** Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: sha_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sha_test_bsp/ps7_cortexa9_0/lib -o "sha_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sha_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sha_test.elf  |tee "sha_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27128	   1148	  22568	  50844	   c69c	sha_test.elf
+'Finished building: sha_test.elf.size'
+' '
+13:52:18 **** Incremental Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: sha_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sha_test_bsp/ps7_cortexa9_0/lib -o "sha_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sha_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sha_test.elf  |tee "sha_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25720	   1148	  22568	  49436	   c11c	sha_test.elf
+'Finished building: sha_test.elf.size'
+' '
+13:53:12 **** Incremental Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: sha_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sha_test_bsp/ps7_cortexa9_0/lib -o "sha_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sha_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sha_test.elf  |tee "sha_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25720	   1148	  22568	  49436	   c11c	sha_test.elf
+'Finished building: sha_test.elf.size'
+' '
+13:57:30 **** Incremental Build of configuration Debug for project sha_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../sha_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:121:12: warning: variable 'status' set but not used [-Wunused-but-set-variable]
+   uint32_t status = Xil_In32(SHA_BASE_ADDR + SHA_STATUS_OFFSET);
+            ^~~~~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: sha_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../sha_test_bsp/ps7_cortexa9_0/lib -o "sha_test.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: sha_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size sha_test.elf  |tee "sha_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  27128	   1148	  22568	  50844	   c69c	sha_test.elf
+'Finished building: sha_test.elf.size'
+' '

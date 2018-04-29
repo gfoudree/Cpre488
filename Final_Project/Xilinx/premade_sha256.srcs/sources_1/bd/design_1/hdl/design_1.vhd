@@ -1,7 +1,7 @@
 --Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
---Tool Version: Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
---Date        : Sat Apr 28 18:00:32 2018
+--Tool Version: Vivado v.2017.1_sdx (win64) Build 1915620 Thu Jun 22 17:54:58 MDT 2017
+--Date        : Sun Apr 29 13:41:29 2018
 --Host        : CO2041-14 running 64-bit major release  (build 9200)
 --Command     : generate_target design_1.bd
 --Design      : design_1

@@ -1,3 +1,5 @@
+-- Created by Eric Joyce and Nick Knuth
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -16,7 +18,8 @@ entity tb is
 end entity tb;
 
 architecture arch_imp of tb is
-    signal update, enable, ready, reset, cur_block, finished : std_logic;
+    signal update, enable, ready, reset, finished : std_logic;
+    signal cur_block : std_logic_vector(1 downto 0);
     signal word_input : std_logic_vector(31 downto 0);
     signal word_address : std_logic_vector(3 downto 0);
     signal debug_port : std_logic_vector(31 downto 0);
@@ -220,7 +223,7 @@ tb_proc: process (reset, update)
 		slv_reg60 <= x"00000000";
 		slv_reg61 <= x"00000000";
 		slv_reg62 <= x"00000000";
-		slv_reg63 <= x"000001c0";
+		slv_reg63 <= x"00000000";
 	end if;
 end process tb_proc;
 
@@ -246,13 +249,13 @@ end process resetproc;
     
                 if slv_reg9(0) = '1' then
                     reset <= '0';
-                    finished <= '0';
                 else
                     reset <= '1';
                 end if;
                 
 		if slv_reg9(1) = '1' then
                     update <= '1';
+		    finished <= '0';
                 else
                     update <= '0';
                 end if;
@@ -265,9 +268,9 @@ end process resetproc;
                 
             if ready = '1' and update = '0' then
                     if slv_reg9(3) = '1' then
-                        if cur_block = '1' then
+                        if cur_block = b"01" then
                             update <= '1';
-                        else
+                        elsif cur_block = b"10" then
                             finished <= '1';
                         end if;
                     else
@@ -292,17 +295,13 @@ end process resetproc;
                 else
                     slv_reg0(0) <= '0';
                 end if;
-
-		if slv_reg9(1) = '1' then
-		    finished <= '0';
-                end if;
             end if;
         end process;
 
 readproc: process(S_AXI_ACLK)
     begin
         if falling_edge(S_AXI_ACLK) then
-            if cur_block /= '1' then
+            if cur_block /= b"01" then
                 case word_address is
                     when b"0000" =>
                         word_input <= slv_reg10;
